@@ -8,7 +8,8 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       'Cinzel': [300, 400, 500, 600, 700],
-      'Zen Old Mincho':  [300, 400, 500, 600, 700]// 使いたいフォントの太さを指定
-    },
+      'Zen Old Mincho':  [300, 400, 500, 600, 700],
+      'Amiri':  [300, 400, 500, 600, 700]
+    }
   }
 })
