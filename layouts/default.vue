@@ -23,8 +23,8 @@ body {
 <style lang="scss" scoped>
 @use '@/assets/scss/_breakpoint.scss' as *;
 .layout-root {
-  font-family: 'Inter', sans-serif;
-  color: #000000;
+  font-family: 'Zen Old Mincho', sans-serif;
+  color: #eee;
   position: relative;
   font-size: 24px;
   @include lg {
