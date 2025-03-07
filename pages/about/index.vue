@@ -11,16 +11,16 @@ useHead({
 <div class="page-root">
     <div class="page-container">
         <PageTitle :title="'ABOUT'" :sub-title="'清陵祭について'" />
-        <div class="flames">
-            <div class="flame_1">
-                <img class="white-flame" src="/assets/images/white-flame-upper.png">
-            </div>
-            <div class="flame_2">
-                <img class="white-flame" src="/assets/images/white-flame-under.png">
-            </div>
-        </div>
         <div class="box">
             <div class="content">
+                <div class="flames">
+                    <div class="flame_1">
+                        <img class="white-flame" src="/assets/images/white-flame-upper.png">
+                    </div>
+                    <div class="flame_2">
+                        <img class="white-flame" src="/assets/images/white-flame-under.png">
+                    </div>
+                </div>
                 <div class="explain1">
                     <div class="theme1">
                         <h3>新しい想い出を紡ぐ。</h3>
@@ -93,27 +93,44 @@ useHead({
   padding-bottom: 10vh;
 }
 
+.flames {
+    position: absolute;
+    transform: translateY(100px);
+}
+
+.flame_1 {
+    margin: -10vh 0;
+    @media (max-width: 860px) {
+        margin: -25vh -5vw;
+    }
+}
+
 .flame_1 img {
     position: absolute;
-    margin: 21vh 10vw;
     width: 8vw;
     z-index: 900;
 }
 
-.flame_2 img {
+.flame_2 {
     position: absolute;
-    margin: 160vh 80vw;
-    width: 8vw;
-    z-index: 900;
+    margin: 100vh 70vw;
+    @media (max-width: 860px) {
+        margin: 120vh 70vw;
+    }
     @include md {
-        margin: 160vh 80vw;
+        margin: 144vh 65vw;
     }
     @include sm {
-        margin: 175vh 80vw;
+        margin: 162vh 65vw;
     }
-    @media (max-width: 430px) {
-        margin: 190vh 80vw;
+    @media (max-width: 428px) {
+        margin: 183vh 65vw;
     }
+}
+
+.flame_2 img {
+    width: 8vw;
+    z-index: 900;
 }
 
 .box {
@@ -159,6 +176,7 @@ useHead({
 }
 
 .content {
+    position: relative;
     justify-content: center;
     color: #FFFFFF;
 }
@@ -201,7 +219,7 @@ useHead({
 
 .theme2 {
     position: absolute;
-    margin: 4.5vh 63vw;
+    margin: 4.5vh 58vw;
     margin-right: 5vw;
     h3{
         font-weight:lighter;
