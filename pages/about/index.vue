@@ -54,8 +54,8 @@ useHead({
                 </div>
             </div>
         </div>
-        <div class="date-box">
-            <div class="inner-date-box">
+        <div class="hold-box">
+            <div class="inner-hold-box">
                 <div class="info">
                     <div class="info-label">
                         <p>開催日時</p>
@@ -93,38 +93,36 @@ useHead({
   padding-bottom: 10vh;
 }
 
-.flames {
-    position: absolute;
-    transform: translateY(100px);
-}
-
 .flame_1 {
-    margin: -10vh 0;
+    position: absolute;
+    top: 0;
+    left: 0;
     @media (max-width: 860px) {
-        margin: -25vh -5vw;
+        top: -5%;
+        left: -4%;
     }
 }
 
 .flame_1 img {
-    position: absolute;
     width: 8vw;
     z-index: 900;
 }
 
 .flame_2 {
     position: absolute;
-    margin: 100vh 70vw;
+    bottom: -18%;
+    right: 0;
     @media (max-width: 860px) {
-        margin: 120vh 70vw;
+        bottom: -14%;
+        right: 0;
     }
     @include md {
-        margin: 144vh 65vw;
+        bottom: -8%;
+        right: 0;
     }
     @include sm {
-        margin: 162vh 65vw;
-    }
-    @media (max-width: 428px) {
-        margin: 183vh 65vw;
+        bottom: -8%;
+        right: 0;
     }
 }
 
@@ -151,7 +149,7 @@ useHead({
   }
 }
 
-.date-box {
+.hold-box {
   display: flex;
   justify-content: center;
   backdrop-filter: blur(10px);
@@ -230,7 +228,7 @@ useHead({
     }
 }
 
-.inner-date-box {
+.inner-hold-box {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -247,9 +245,10 @@ useHead({
 }
 
 .info-label {
+    line-height: 3;
     white-space: nowrap;
     min-width: 8rem;
-    padding-right: 8vw;
+    padding-right: 2vw;
     border-right: 1px solid rgba(255, 255, 255, 0.7);
     @include md {
         display: flex;
@@ -264,17 +263,19 @@ useHead({
     flex: 1;
     display: flex;
     justify-content: flex-start;
-    margin-left: 10vw;
+    margin-left: 5vw;
     @include md {
         display: flex;
         margin: 0;
         justify-content: center;
         border-right: 0;
+        max-width: 100%;
     }
 }
 
 .info-content p {
   line-height: 3;
+  white-space: nowrap;
 }
 
 
