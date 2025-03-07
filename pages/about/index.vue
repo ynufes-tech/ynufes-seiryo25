@@ -13,12 +13,12 @@ useHead({
         <PageTitle :title="'ABOUT'" :sub-title="'清陵祭について'" />
         <div class="box">
             <div class="content">
-                <div class="flames">
-                    <div class="flame_1">
-                        <img class="white-flame" src="/assets/images/white-flame-upper.png">
+                <div class="frames">
+                    <div class="frame_1">
+                        <img class="white-frame" src="/assets/images/white-frame-upper.png">
                     </div>
-                    <div class="flame_2">
-                        <img class="white-flame" src="/assets/images/white-flame-under.png">
+                    <div class="frame_2">
+                        <img class="white-frame" src="/assets/images/white-frame-under.png">
                     </div>
                 </div>
                 <div class="explain1">
@@ -93,7 +93,7 @@ useHead({
   padding-bottom: 10vh;
 }
 
-.flame_1 {
+.frame_1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -103,12 +103,12 @@ useHead({
     }
 }
 
-.flame_1 img {
+.frame_1 img {
     width: 8vw;
     z-index: 900;
 }
 
-.flame_2 {
+.frame_2 {
     position: absolute;
     bottom: -18%;
     right: 0;
@@ -126,7 +126,7 @@ useHead({
     }
 }
 
-.flame_2 img {
+.frame_2 img {
     width: 8vw;
     z-index: 900;
 }
