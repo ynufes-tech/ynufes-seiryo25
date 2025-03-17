@@ -61,7 +61,7 @@ p {
   overflow: hidden;
 }
 .background-img {
-  background-image: url(@/assets/images/home-background-img.png);
+  background-image: url(@/assets/images/home-background-img.webp);
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -72,7 +72,7 @@ p {
   right: 0;
   z-index: -100;
   @include sm {
-    background-image: url(@/assets/images/mobile-background-img.png);
+    background-image: url(@/assets/images/mobile-background-img.webp);
   }
 }
 </style>

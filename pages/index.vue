@@ -14,19 +14,19 @@ useHead({
   <div class="page-root">
     <div class="shooting-stars">
       <div class="shooting-star-mini">
-        <img class="shooting-star-mini-img" src="@/assets/images/shooting-star_mini.png" />
+        <img class="shooting-star-mini-img" src="@/assets/images/shooting-star_mini.webp" />
       </div>
       <div class="shooting-star-big">
-          <img class="shooting-star-big-img" src="@/assets/images/shooting-star_big.png" />
+          <img class="shooting-star-big-img" src="@/assets/images/shooting-star_big.webp" />
       </div>
     </div>
     <div class="page-container">
       <div class="content">
         <div class="title-container">
-          <img id="top-title" src="@/assets/images/title_suisei-image.png" />
+          <img id="top-title" src="@/assets/images/title_suisei-image.webp" />
         </div>
         <div class="seiryo-logo">
-          <img class="seiryo-logo-image" src="@/assets/images/seiryo-logo.png" />
+          <img class="seiryo-logo-image" src="@/assets/images/seiryo-logo.webp" />
         </div>
         <div class="date">
           <p>5/17 <span class="weekday">Sat.</span>  13:00 - 20:30</p>
