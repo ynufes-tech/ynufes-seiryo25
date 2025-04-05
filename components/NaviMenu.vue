@@ -32,8 +32,11 @@ const toggle = () => {
             <NuxtLink to="/access" @click="toggle">ACCESS</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/access" @click="toggle">FAQ</NuxtLink>
+            <NuxtLink to="/staff" @click="toggle">STAFF</NuxtLink>
           </li>
+          <!-- <li> -->
+            <!-- <NuxtLink to="/faq" @click="toggle">FAQ</NuxtLink> -->
+          <!-- </li> -->
         </ul>
       </nav>
     </div>
