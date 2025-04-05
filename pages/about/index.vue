@@ -11,16 +11,16 @@ useHead({
 <div class="page-root">
     <div class="page-container">
         <PageTitle :title="'ABOUT'" :sub-title="'清陵祭について'" />
+        <div class="flames">
+            <div class="flame_1">
+                <img class="white-flame" src="/assets/images/white-flame-upper.png">
+            </div>
+            <div class="flame_2">
+                <img class="white-flame" src="/assets/images/white-flame-under.png">
+            </div>
+        </div>
         <div class="box">
             <div class="content">
-                <div class="frames">
-                    <div class="frame_1">
-                        <img class="white-frame" src="/assets/images/white-frame-upper.png">
-                    </div>
-                    <div class="frame_2">
-                        <img class="white-frame" src="/assets/images/white-frame-under.png">
-                    </div>
-                </div>
                 <div class="explain1">
                     <div class="theme1">
                         <h3>新しい想い出を紡ぐ。</h3>
@@ -54,8 +54,8 @@ useHead({
                 </div>
             </div>
         </div>
-        <div class="hold-box">
-            <div class="inner-hold-box">
+        <div class="date-box">
+            <div class="inner-date-box">
                 <div class="info">
                     <div class="info-label">
                         <p>開催日時</p>
@@ -93,42 +93,27 @@ useHead({
   padding-bottom: 10vh;
 }
 
-.frame_1 {
+.flame_1 img {
     position: absolute;
-    top: 0;
-    left: 0;
-    @media (max-width: 860px) {
-        top: -5%;
-        left: -4%;
-    }
-}
-
-.frame_1 img {
+    margin: 21vh 10vw;
     width: 8vw;
     z-index: 900;
 }
 
-.frame_2 {
+.flame_2 img {
     position: absolute;
-    bottom: -18%;
-    right: 0;
-    @media (max-width: 860px) {
-        bottom: -14%;
-        right: 0;
-    }
+    margin: 160vh 80vw;
+    width: 8vw;
+    z-index: 900;
     @include md {
-        bottom: -8%;
-        right: 0;
+        margin: 160vh 80vw;
     }
     @include sm {
-        bottom: -8%;
-        right: 0;
+        margin: 175vh 80vw;
     }
-}
-
-.frame_2 img {
-    width: 8vw;
-    z-index: 900;
+    @media (max-width: 430px) {
+        margin: 190vh 80vw;
+    }
 }
 
 .box {
@@ -149,7 +134,7 @@ useHead({
   }
 }
 
-.hold-box {
+.date-box {
   display: flex;
   justify-content: center;
   backdrop-filter: blur(10px);
@@ -174,7 +159,6 @@ useHead({
 }
 
 .content {
-    position: relative;
     justify-content: center;
     color: #FFFFFF;
 }
@@ -217,7 +201,7 @@ useHead({
 
 .theme2 {
     position: absolute;
-    margin: 4.5vh 58vw;
+    margin: 4.5vh 63vw;
     margin-right: 5vw;
     h3{
         font-weight:lighter;
@@ -228,7 +212,7 @@ useHead({
     }
 }
 
-.inner-hold-box {
+.inner-date-box {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -245,10 +229,9 @@ useHead({
 }
 
 .info-label {
-    line-height: 3;
     white-space: nowrap;
     min-width: 8rem;
-    padding-right: 2vw;
+    padding-right: 8vw;
     border-right: 1px solid rgba(255, 255, 255, 0.7);
     @include md {
         display: flex;
@@ -263,19 +246,18 @@ useHead({
     flex: 1;
     display: flex;
     justify-content: flex-start;
-    margin-left: 5vw;
+    margin-left: 10vw;
     @include md {
         display: flex;
         margin: 0;
         justify-content: center;
         border-right: 0;
-        max-width: 100%;
     }
 }
 
 .info-content p {
   line-height: 3;
-  white-space: nowrap;
+
 }
 
 
