@@ -257,6 +257,7 @@ useHead({
 
 .info-content p {
   line-height: 3;
+
 }
 
 
