@@ -34,11 +34,11 @@ useHead({
         </div>
       </div>
     </div>
-    <div class="preparing">
-      <div class="pre-message">
-        <p>準備中</p>
-      </div>
-    </div>
+    <!-- <div class="preparing"> -->
+      <!-- <div class="pre-message"> -->
+        <!-- <p>準備中</p> -->
+      <!-- </div> -->
+    <!-- </div> -->
   </div>
 </template>
 
@@ -154,8 +154,8 @@ useHead({
   margin: 30vh 0;
 }
 
-.pre-message{
-  font-size: 40px;
-  color: #eee;
-}
+// .pre-message{
+  // font-size: 40px;
+  // color: #eee;
+// }
 </style>
