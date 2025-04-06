@@ -32,6 +32,7 @@ useHead({
           <p>5/17 <span class="weekday">Sat.</span>  13:00 - 20:30</p>
           <p>5/18 <span class="weekday">Sun.</span>  9:00 - 15:00</p>
         </div>
+        <SNS />
       </div>
     </div>
     <div class="preparing">
@@ -52,7 +53,7 @@ useHead({
 .page-container {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 115vh;
   overflow: hidden;
   background-size: cover;
   background-position: center;
@@ -60,7 +61,7 @@ useHead({
 
 .content {
   position: absolute;
-  top: 50%;
+  top: 70vh;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;

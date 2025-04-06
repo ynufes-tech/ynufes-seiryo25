@@ -34,7 +34,7 @@
 <style lang="scss" scoped>
 .sns-area {
   width: 320px;
-  margin: 0 auto;
+  margin: 5rem auto;
   border-radius: 50%;
   display: flex;
   flex-direction: column;
