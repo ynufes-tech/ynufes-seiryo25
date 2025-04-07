@@ -129,6 +129,9 @@ useHead({
 }
 
 .date {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-size: min(1.5rem, 3.5vw);
   color: #eee;
   box-sizing: border-box;
