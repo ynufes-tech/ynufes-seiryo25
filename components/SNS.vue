@@ -17,7 +17,7 @@
         rel="noopener noreferrer"
         target="_blank"
       >
-        <img alt="instagram" src="~/assets/images/instagram-logo.webp" />
+        <img alt="instagram" src="~/assets/images/Instagram-logo.webp" />
       </a>
       <a
         id="sns-f"
