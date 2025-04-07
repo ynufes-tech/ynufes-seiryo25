@@ -61,9 +61,11 @@ const props = defineProps({
     z-index: 1000;
     @include md {
       font-size: 18px;
+      white-space: nowrap;
     }
     @include sm {
       font-size: 18px;
+      white-space: nowrap;
     }
   }
 }
