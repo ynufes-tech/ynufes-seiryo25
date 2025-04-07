@@ -32,6 +32,8 @@
 </template>
 
 <style lang="scss" scoped>
+@use '@/assets/scss/_breakpoint.scss' as *;
+
 .sns-area {
   width: 320px;
   margin: 5rem auto;
@@ -60,6 +62,9 @@
     }
     #sns-f img {
       width: 55px;
+      @include md {
+        width: 40px;
+      }
     }
     #sns-x {
       width: 55px;
@@ -67,9 +72,16 @@
       margin: 2.5px;
       border-radius: 50%;
       background: black;
+      @include md {
+        width: 45px;
+        height: 45px;
+      }
       img {
         width: 35px;
         padding: 10px;
+        @include md {
+          width: 20px;
+        }
       }
     }
     #sns-ins {
@@ -77,6 +89,9 @@
       img {
         width: 50px;
         padding: 5px;
+        @include md {
+          width: 35px;
+        }
       }
     }
   }
