@@ -137,7 +137,7 @@ useHead({
   color: #eee;
   box-sizing: border-box;
   text-shadow: 0 0 10px #05E6FF, 0 0 10px #65FBC2;
-  margin: 0;
+  margin: 0 auto;
   width: min(65vw, 28em);
   letter-spacing: 0.1em;
   text-align: center;
