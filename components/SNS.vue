@@ -67,20 +67,18 @@
       }
     }
     #sns-x {
-      width: 55px;
-      height: 55px;
+      width: 60px;
+      height: 65px;
       margin: 2.5px;
-      border-radius: 50%;
-      background: black;
       @include md {
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 55px;
       }
       img {
-        width: 35px;
+        width: 45px;
         padding: 10px;
         @include md {
-          width: 20px;
+          width: 35px;
         }
       }
     }
