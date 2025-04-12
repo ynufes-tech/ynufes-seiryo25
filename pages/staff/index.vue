@@ -13,7 +13,7 @@ useHead({
         <PageTitle :title="'STAFF'" :sub-title="'大学祭に関するお問い合わせ'" />
         <div class="box">
             <div class="explanation">
-                <p>常盤祭に興味を持っていただきありがとうございます。</p>
+                <p>清陵祭に興味を持っていただきありがとうございます。</p>
                 <p>お問い合わせに関しましては、メールにてお願いします。</p>
             </div>
             <div class="content">
