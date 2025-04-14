@@ -17,12 +17,12 @@ const props = defineProps({
 
 <template>
   <div class="pop">
-    <a class="news-button" :href="link" target="_blank" rel="noopener noreferrer">
+    <NuxtLink class="color-button" :to="link">
       <div class="content">
         <p class="now">{{ date }}</p>
         <p class="news-title">{{ text }}</p>
       </div>
-    </a>
+    </NuxtLink>
   </div>
 </template>
 
@@ -34,7 +34,7 @@ const props = defineProps({
   justify-content: center;
 }
 
-.news-button {
+.color-button {
   position: relative;
   display: inline-flex;
   align-items: center;

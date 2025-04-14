@@ -15,25 +15,25 @@ useHead({
                     <ColorButton
                         date="2025.00.00"
                         text="ニュース題名ニュース題名ニュース題名"
-                        link="latest-info"
+                        link="/latest-info"
                         class="news-title"
                     />
                     <ColorButton
                         date="2025.00.00"
                         text="ニュース題名ニュース題名ニュース題名"
-                        link="latest-info"
+                        link="/latest-info"
                         class="news-title"
                     />
                     <ColorButton
                         date="2025.00.00"
                         text="ニュース題名ニュース題名ニュース題名"
-                        link="latest-info"
+                        link="/latest-info"
                         class="news-title"
                     />
                     <ColorButton
                         date="2025.00.00"
                         text="ニュース題名ニュース題名ニュース題名"
-                        link="latest-info"
+                        link="/latest-info"
                         class="news-title"
                     />
                 </div>
