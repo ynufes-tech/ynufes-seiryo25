@@ -31,7 +31,9 @@
   width:30vw;
   height:25vw;
   background-image: url(~/assets/images/event-card.webp);
-  backgroud-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .card-title{
   color: #EDEBA9BF;
