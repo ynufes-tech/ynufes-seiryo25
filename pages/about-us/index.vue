@@ -335,6 +335,10 @@ const hideDropdown = () => {
     }
 }
 
+.rounded-button {
+    border-radius: 50px;
+}
+
 .buttons {
     display: flex;
     margin-top: 10vh;

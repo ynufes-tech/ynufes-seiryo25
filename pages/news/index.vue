@@ -51,6 +51,7 @@ useHead({
 
 .news-title {
     margin: 6vh 0 3rem;
+    border-radius: 15px;
     @include md {
         margin: 3vh 0 3rem;
     }
