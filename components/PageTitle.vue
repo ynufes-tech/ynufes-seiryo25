@@ -22,20 +22,23 @@ const props = defineProps({
   margin: 0 auto;
   position: absolute;
   top: 125px;
-  left: 15%;
+  left: 13%;
+  white-space: nowrap;
   z-index: 1000;
   @include md {
     top: 100px;
+    left: 7%;
   }
   @include sm {
     top: 90px;
+    left: 3%;
   }
   > h1 {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     margin: 0 5vw;
-    font-size: 120px;
+    font-size: 95px;
     letter-spacing: 0.1em;
     width: fit-content;
     color: transparent;
@@ -44,10 +47,10 @@ const props = defineProps({
     font-weight: 400;
     z-index: 1000;
     @include md {
-      font-size: 74px;
+      font-size: 65px;
     }
     @include sm {
-      font-size: 54px;
+      font-size: 45px;
     }
   }
   > h2 {
