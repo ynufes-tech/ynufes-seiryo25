@@ -1,14 +1,16 @@
 <script lang="ts" setup>
-// const props = defineProps<{
-//   eventData: {
-//     id: number
-//     e_name: string
-//     // e_genre: Genre;
-//     o_name: string
-//     // area: Area;
-//     // p_name: string;
-//   }
-// }>()
+const props = defineProps<{
+  eventData: {
+    id: number
+    e_name: string
+    // e_genre: Genre;
+    o_name: string
+    // area: Area;
+    // p_name: string;
+    place: string
+  }
+}>()
+const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.eventData.id}.webp`
 </script>
 <template>
 <div class="event-card">
@@ -16,12 +18,16 @@
     <p class="card-genre">Dance</p>
   </div>
   <div class="icon-holder">
-    <img class="icon-image" src="~/assets/images/dummy-icon.webp" alt="event-icon"/>
+    <img
+      :src="iconURL"
+      alt="project-icon"
+      class="icon-image"
+    />
   </div>
   <div class="card-contents">
-    <p class="e-name">企画名</p>
-    <p class="o-name">団体名</p>
-    <p class="place">場所</p>
+    <p class="e-name">{{ props.eventData.e_name}}</p>
+    <p class="o-name">{{ props.eventData.o_name}}</p>
+    <p class="place">{{ props.eventData.place}}</p>
   </div>
 </div>
 </template>
@@ -36,15 +42,30 @@
   background-repeat: no-repeat;
 }
 .card-title{
-  color: #EDEBA9BF;
-  font-size: 30px;
-  padding-left: 7px;
+  color: transparent;
+  font-size: 50px;
+  padding-left: 15px;
+  margin-top: 5px;
+  position: relative;
+  top: -10px;
 }
 .icon-holder{
-  padding-left: 43px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  padding: 0 23%;
+  position: relative;
+  top: -60px
+}
+.icon-image{
+  width: 220px;
+  height: auto;
+}
+.card-contents{
+  position: relative;
+  top: -80px;
+  line-height: 15px;
+  padding-left: 20%;
+  color: #170634
+}
+.e-name{
+  font-size: 30px;
 }
 </style>
