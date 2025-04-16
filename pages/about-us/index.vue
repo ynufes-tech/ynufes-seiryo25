@@ -337,6 +337,7 @@ const hideDropdown = () => {
 
 .buttons {
     display: flex;
+    justify-content: flex-start;
     margin-top: 10vh;
 }
 
