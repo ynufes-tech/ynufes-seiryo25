@@ -39,7 +39,7 @@ const props = defineProps({
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: inherit;
   padding: 2px; // 枠線として使う余白
   background: linear-gradient(
     90deg, 
@@ -61,7 +61,7 @@ const props = defineProps({
     content: '';
     position: absolute;
     inset: 4px;
-    border-radius: 10px;
+    border-radius: inherit;
     background: #fff;
     transition: all 0.4s ease;
     z-index: 1;
