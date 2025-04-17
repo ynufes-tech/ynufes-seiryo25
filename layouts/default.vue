@@ -130,5 +130,11 @@ p {
     transform: scale(1.1); // 少し拡大
     cursor: pointer;       // マウスカーソルをポインターに
   }
+  @include sm {
+    width: 60px;
+    height: 60px;
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
 }
 </style>
