@@ -78,7 +78,7 @@ const hideDropdown = () => {
                     </div>
                     <div class="picture">
                         <img
-                        class="chairman-picture-img"
+                        class="chairman-img"
                         src="/assets/images/no-image.png"
                         >
                     </div>
@@ -99,19 +99,23 @@ const hideDropdown = () => {
                             </div>
                         </div>                        
                         <div class="message">
-                            <p>メッセージメッセージメッセージメッセージメッセージメッセージ</p>
+                            <p>
+                                会場部は、来場者の皆さまに安心して大学祭を楽しんでいただけるよう、
+                                会場の設営や、当日の巡回・パトロールなどを行っています。<br/>
+                                当日、何かお困りのことがありましたら、どうぞお気軽にお声がけください！！
+                            </p>
                         </div>
                     </div>
                         <div class="picture">
                             <img
                             id="lt-img"
-                            class="member-picture-img"
-                            src="/assets/images/no-image.png"
+                            class="member-img"
+                            src="/assets/images/about-us_pictures/peacepreservation/peacepreservation1.webp"
                             >
                             <img
                             id="rt-img"
-                            class="member-picture-img"
-                            src="/assets/images/no-image.png"
+                            class="member-img"
+                            src="/assets/images/about-us_pictures/peacepreservation/peacepreservation2.webp"
                             >
                         </div>
                 </div>
@@ -121,13 +125,13 @@ const hideDropdown = () => {
                     <div class="picture">
                         <img
                         id="lt-img"
-                        class="member-picture-img"
-                        src="/assets/images/no-image.png"
+                        class="member-img"
+                        src="/assets/images/about-us_pictures/planning/planning1.webp"
                         >
                         <img
                         id="rt-img"
-                        class="member-picture-img"
-                        src="/assets/images/no-image.png"
+                        class="member-img"
+                        src="/assets/images/about-us_pictures/planning/planning2.webp"
                         >
                     </div>
                     <div class="set">
@@ -143,7 +147,11 @@ const hideDropdown = () => {
                             </div>
                         </div>
                         <div class="message">
-                            <p>メッセージメッセージメッセージメッセージメッセージメッセージ</p>
+                            <p>
+                                企画部は学祭で何をするかをゼロから考え、実施する部局です。<br/>
+                                毎週の会議で来場者が楽しめる企画を練り、花火の打ち上げや外部ゲストの招待など、
+                                本部企画全体に関わる業務を担っています。
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -163,19 +171,23 @@ const hideDropdown = () => {
                             </div>
                         </div>
                         <div class="message">
-                            <p>メッセージメッセージメッセージメッセージメッセージメッセージ</p>
+                            <p>
+                                技術部は、今皆さんが見ているこのホームページを作成している部局です。<br/>
+                                見やすく使いやすいホームページを作成するために、各大学祭ごとに１からデザインを考え、
+                                プログラミングを行っています。様々なコンテンツを載せておりますので、ぜひご覧ください！
+                            </p>
                         </div>
                     </div>
                     <div class="picture">
                         <img
                         id="lt-img"
-                        class="member-picture-img"
-                        src="/assets/images/no-image.png"
+                        class="member-img"
+                        src="/assets/images/about-us_pictures/technology/technology1.webp"
                         >
                         <img
                         id="rt-img"
-                        class="member-picture-img"
-                        src="/assets/images/no-image.png"
+                        class="member-img"
+                        src="/assets/images/about-us_pictures/technology/technology2.webp"
                         >
                     </div>
                 </div>
@@ -185,13 +197,13 @@ const hideDropdown = () => {
                     <div class="picture">
                         <img
                         id="lt-img"
-                        class="member-picture-img"
-                        src="/assets/images/no-image.png"
+                        class="member-img"
+                        src="/assets/images/about-us_pictures/accounting/accounting1.webp"
                         >
                         <img
                         id="rt-img"
-                        class="member-picture-img"
-                        src="/assets/images/no-image.png"
+                        class="member-img"
+                        src="/assets/images/about-us_pictures/accounting/accounting2.webp"
                         >
                     </div>
                     <div class="set">
@@ -207,7 +219,12 @@ const hideDropdown = () => {
                             </div>
                         </div>
                         <div class="message">
-                            <p>メッセージメッセージメッセージメッセージメッセージメッセージ</p>
+                            <p>
+                                こんにちは！経理部です！<br/>
+                                経理部は大学祭のお金の管理を担う重要な部局です💰<br/>
+                                私たちは予算案の作成、団体の受付といったお金に関する仕事を通して、大学祭が円滑に運営されるように支えております。<br/>
+                                当日は来場者の方々とは直接関わる機会は少ないと思いますが、楽しんでいただけたら幸いです！
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -227,19 +244,24 @@ const hideDropdown = () => {
                             </div>
                         </div>
                         <div class="message">
-                            <p>メッセージメッセージメッセージメッセージメッセージメッセージ</p>
+                            <p>
+                                総務部は、企画団体の皆様との窓口となる部局です。<br/>
+                                説明会や企画受付、提出書類の確認など、その活動は多岐にわたります。
+                                また、大学祭に関する規定を定めたり、食品や企画の安全面を考慮したり、当日の見回りをしたりなど、
+                                デスクワークから現場仕事まで幅広く活動しております。
+                            </p>
                         </div>
                     </div>
                     <div class="picture">
                         <img
                         id="lt-img"
-                        class="member-picture-img"
-                        src="/assets/images/no-image.png"
+                        class="member-img"
+                        src="/assets/images/about-us_pictures/generalaffair/generalaffair1.webp"
                         >
                         <img
                         id="rt-img"
-                        class="member-picture-img"
-                        src="/assets/images/no-image.png"
+                        class="member-img"
+                        src="/assets/images/about-us_pictures/accounting/accounting2.webp"
                         >
                     </div>
                 </div>
@@ -249,13 +271,13 @@ const hideDropdown = () => {
                     <div class="picture">
                         <img
                         id="lt-img"
-                        class="member-picture-img"
-                        src="/assets/images/no-image.png"
+                        class="member-img"
+                        src="/assets/images/about-us_pictures/equipment/equipment1.webp"
                         >
                         <img
                         id="rt-img"
-                        class="member-picture-img"
-                        src="/assets/images/no-image.png"
+                        class="member-img"
+                        src="/assets/images/about-us_pictures/equipment/equipment2.webp"
                         >
                     </div>
                     <div class="set">
@@ -271,7 +293,12 @@ const hideDropdown = () => {
                             </div>
                         </div>
                         <div class="message">
-                            <p>メッセージメッセージメッセージメッセージメッセージメッセージ</p>
+                            <p>
+                                物品部は大学祭当日に団体の企画で必要な物品の管理、貸出、企業との仲介を行う部局です。<br/>
+                                直前期以外は団体に貸し出すテントの天幕を洗う活動をしています。<br/>
+                                学祭の裏方的な仕事ではありますが、
+                                企画をするためになくてはならない存在として学祭を支えています。
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -291,19 +318,23 @@ const hideDropdown = () => {
                             </div>
                         </div>
                         <div class="message">
-                            <p>メッセージメッセージメッセージメッセージメッセージメッセージ</p>
+                            <p>編集部では、大学祭期間中に構内を彩る装飾や、
+                                大学祭をわかりやすく解説するパンフレット・リーフレットの製作を行っています！<br/>
+                                当日は案内所でパンフレットを配布し、皆さんをご案内します🙌
+                                パンフレットや装飾などと共に記憶に残る大学祭をお楽しみください。
+                            </p>
                         </div>
                     </div>
                     <div class="picture">
                         <img
                         id="lt-img"
-                        class="member-picture-img"
-                        src="/assets/images/no-image.png"
+                        class="member-img"
+                        src="/assets/images/about-us_pictures/editional/editional1.webp"
                         >
                         <img
                         id="rt-img"
-                        class="member-picture-img"
-                        src="/assets/images/no-image.png"
+                        class="member-img"
+                        src="/assets/images/about-us_pictures/editional/editional2.webp"
                         >
                     </div>
                 </div>
@@ -426,7 +457,7 @@ const hideDropdown = () => {
 .about-nm {
     display: flex;
     justify-content: flex-start;
-    @include md {
+    @media (max-width: 1000px) {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -436,7 +467,7 @@ const hideDropdown = () => {
 .about-re {
     display: flex;
     justify-content: flex-end;
-    @include md {
+    @media (max-width: 1000px) {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
@@ -451,7 +482,7 @@ const hideDropdown = () => {
     }
 }
 
-.chairman-picture-img {
+.chairman-img {
     width: 200px;
     height: auto;
     margin-left: 5rem;
@@ -460,8 +491,8 @@ const hideDropdown = () => {
     }
 }
 
-.member-picture-img {
-    width: 200px;
+.member-img {
+    width: 220px;
     height: auto;
     @include md {
         width: 200px;
@@ -469,8 +500,7 @@ const hideDropdown = () => {
 }
 
 #rt-img {
-  margin-left: 1vw;
-  margin-top: 18vh;
+  margin: 18vh 1.2rem 0 1.2rem;
   @include md {
     margin-left: 5vw;
   }
@@ -480,6 +510,7 @@ const hideDropdown = () => {
 }
 
 #lt-img {
+    margin: 0 1.2rem;
     @media (max-width: 545px){
        margin: 3rem 20vw 0 0;
     }
@@ -508,7 +539,7 @@ const hideDropdown = () => {
   width: 30vw;
   filter: drop-shadow(5px 3px 10px  rgba(255, 255, 255, 0.9));
 
-  @include md {
+  @media (max-width: 1000px) {
     width: fit-content;
   }
 
