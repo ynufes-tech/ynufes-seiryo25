@@ -27,4 +27,7 @@ import EventCard from "~/components/EventCard.vue";
   flex-direction: row;
 }
 
+.events-elements{
+  text-decoration: none;
+}
 </style>
