@@ -25,8 +25,12 @@ const toggle = () => {
         class="background-image"
       />
       <!-- メニュー右上にバツ印ボタン -->
-      <button class="close-button" @click="toggle">×</button>
-      <nav>
+      <img
+        src="~/assets/images/ShrinkButton.webp"
+        alt="Close Menu"
+        class="close-button"
+        @click="toggle"
+      />      <nav>
         <ul class="nav-list">
           <li>
             <NuxtLink to="/" @click="toggle">TOP</NuxtLink>
@@ -117,17 +121,20 @@ const toggle = () => {
   }
 }
 
-/* メニュー右上のバツ印ボタン */
+/* 縮小ボタンのスタイル */
 .close-button {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: none;
-  border: none;
-  font-size: 2rem;
-  font-weight: bold;
+  top: 2rem; /* 上端からの余白を増やす */
+  right: 4rem; /* 右端からの余白を増やす */
+  width: 70px; /* ボタンの幅を増やして横長にする */
+  height: 40px; /* ボタンの高さを90%に調整 */
+  @include md {
+    top: 1.5rem; /* 上端からの余白を増やす */
+  right: 2.5rem; /* 右端からの余白を増やす */
+  width: 42px; /* ボタンの幅を増やして横長にする */
+  height: 24px; /* ボタンの高さを90%に調整 */
+    }
   cursor: pointer;
-  color: #333333;
   transition: transform 0.3s ease;
 
   &:hover {
