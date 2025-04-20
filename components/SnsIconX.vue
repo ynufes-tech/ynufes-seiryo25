@@ -19,7 +19,6 @@ const props = defineProps({
 .x-icon-holder {
   width: 3em;
   height: 3em;
-  background-color: black;
   border-radius: 50%;
   display: flex;
   justify-content: center;
