@@ -57,15 +57,20 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
 .icon-image{
   width: 220px;
   height: auto;
+  max-height: 180px;
+  min-height: 180px;
 }
 .card-contents{
   position: relative;
   top: -80px;
   line-height: 15px;
-  padding-left: 20%;
+  padding-left: 5%;
   color: #170634
 }
 .e-name{
-  font-size: 30px;
+  font-size: 26px;
+}
+.o-name{
+  font-size:22px;
 }
 </style>

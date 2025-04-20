@@ -6,12 +6,11 @@ import MoonLogo from '~/components/MoonLogo.vue'
 import ColorBox from '~/components/ColorBox.vue'
 import SnsIconX from "~/components/SnsIconX.vue";
 import SnsIconIns from "~/components/SnsIconIns.vue";
-import SnsIconFac from "~/components/SnsIconFac.vue";
 
 const id = parseInt(route.params.id)
 const event = events.find((e) => e.id === id)
 const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
-  e.target.src = './assts/images/dummy-icon.webp'
+  e.target.src = './assets/images/dummy-icon.webp'
   e.target.onerror = null
 }
 </script>
@@ -49,7 +48,6 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
       <div class="sns-icon">
         <SnsIconX v-if="event?.x_id" :link="event.x_id" />
         <SnsIconIns v-if="event?.ins_id" :link="event.ins_id"/>
-        <SnsIconFac v-if="event?.fac_id" :link="event.fac_id" />
       </div>
       <a class="homepage-link" v-if="event?.hp_id" :href="event?.hp_id ">
         <p>HOME</p>
