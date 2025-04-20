@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
-const showMenu = ref(false)
+const showMenu = ref(false);
 const toggle = () => {
-  showMenu.value = !showMenu.value
-}
+  showMenu.value = !showMenu.value;
+};
 </script>
 
 <template>
@@ -18,6 +18,12 @@ const toggle = () => {
       @click="toggle"
     />
     <div v-show="showMenu" class="nav-list-wrapper">
+      <!-- 背景画像 -->
+      <img
+        src="~/assets/images/NaviBack.webp"
+        alt="Menu Background"
+        class="background-image"
+      />
       <!-- メニュー右上にバツ印ボタン -->
       <button class="close-button" @click="toggle">×</button>
       <nav>
@@ -29,14 +35,17 @@ const toggle = () => {
             <NuxtLink to="/about" @click="toggle">ABOUT</NuxtLink>
           </li>
           <li>
+            <NuxtLink to="/news" @click="toggle">NEWS</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/event" @click="toggle">EVENT</NuxtLink>
+          </li>
+          <li>
             <NuxtLink to="/access" @click="toggle">ACCESS</NuxtLink>
           </li>
           <li>
             <NuxtLink to="/staff" @click="toggle">STAFF</NuxtLink>
           </li>
-          <!-- <li> -->
-            <!-- <NuxtLink to="/faq" @click="toggle">FAQ</NuxtLink> -->
-          <!-- </li> -->
         </ul>
       </nav>
     </div>
@@ -44,7 +53,7 @@ const toggle = () => {
 </template>
 
 <style lang="scss" scoped>
-@use '@/assets/scss/_breakpoint.scss' as *;
+@use "@/assets/scss/_breakpoint.scss" as *;
 
 .navi-menu {
   z-index: 10000;
@@ -68,32 +77,55 @@ const toggle = () => {
 }
 
 .nav-list-wrapper {
-  position: absolute;
-  top: calc(100% + 10px);
-  right: 0;
-  width: 350px;
-  padding: 1rem;
-  background: linear-gradient(
-    to bottom,
-    rgba(180, 180, 180, 0.85),
-    rgba(235, 235, 235, 0.85)
-  );
-  border-radius: 15px;
+  position: fixed; /* 固定位置に変更 */
+  top: 0; /* 上部を最上部に固定 */
+  left: 0; /* 左端を固定 */
+  width: 100%; /* 幅を画面幅に対応 */
+  height: 100vh; /* 高さを画面全体に */
   z-index: 10000;
-  @include md {
-    width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* 背景画像がはみ出さないようにする */
+}
+
+/* 背景画像のスタイル */
+.background-image {
+  position: absolute;
+  top: 0; /* 上部を画面上端に固定 */
+  left: 0;
+  width: 100%; /* 幅を画面幅に合わせる */
+  height: 100%; /* 高さを画面全体に合わせる */
+  object-fit: fill; /* デフォルトでは画面幅にぴったり合わせる */
+  z-index: -1; /* 背景として配置 */
+}
+
+/* 画面幅700px以下で別の背景画像を適用 */
+@media (max-width: 700px) {
+  .background-image {
+    content: url("~/assets/images/NaviBackMB.webp"); /* 別の画像を適用 */
   }
 }
 
-/* メニュー右上のバツ印ボタン - 線を細くする */
+/* 画面幅480px以下で縦横比を維持し、上部を画面上端に固定 */
+@media (max-width: 480px) {
+  .background-image {
+    object-fit: contain; /* 縦横比を維持して画像を表示 */
+    object-position: top; /* 画像の上部を画面上端に固定 */
+    top: 0; /* 上部を画面上端に固定 */
+  }
+}
+
+/* メニュー右上のバツ印ボタン */
 .close-button {
   position: absolute;
-  top: -8px;
-  right: 5px;
+  top: 1rem;
+  right: 1rem;
   background: none;
   border: none;
-  font-size: 5rem;
-  font-weight: 100;
+  font-size: 2rem;
+  font-weight: bold;
   cursor: pointer;
   color: #333333;
   transition: transform 0.3s ease;
@@ -103,52 +135,43 @@ const toggle = () => {
   }
 }
 
-/* リストの上部に余白を追加 */
+/* リストのスタイル */
 .nav-list {
   list-style-type: none;
-  padding: 2rem 1rem 0 1.5rem; /* 上部余白を追加し、左右の余白を調整 */
+  padding: 0;
   margin: 0;
+  text-align: center;
+
   @include md {
-    padding: 2rem 0 0 0;
+    padding: 0;
   }
 }
 
 .nav-list li {
-  margin-bottom: 3px;
-  padding-right: 10px;
-  padding-left: 20px;
-
-  @include md {
-    margin-bottom: 5px;
-    padding-right: 0;
-    padding-left: 5px;
-  }
+  margin-bottom: 1rem;
 
   &:hover {
-    transform: translateY(-2px) scale(1.1); /* ホバー時に文字が大きくなる */
+    transform: translateY(-2px) scale(1.1);
     color: #666666;
     transition: transform 0.3s ease;
   }
 }
 
-/* メニュー内の文字のホバーアクションで文字が大きくなる */
 .nav-list li a {
   color: #333333;
   text-decoration: none;
   font-weight: 300;
   letter-spacing: 2px;
-  transition:
-    transform 0.3s ease,
-    color 0.3s ease;
-  line-height: 2.8rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+  font-size: 1.5rem;
 
   @include md {
-    line-height: 2rem;
+    font-size: 1.2rem;
   }
 }
 
 .nav-list li a:hover {
-  transform: scale(1.2); /* ホバー時に文字が大きくなる */
+  transform: scale(1.2);
   color: #666666;
 }
 
