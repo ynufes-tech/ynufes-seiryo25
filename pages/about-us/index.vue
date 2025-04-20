@@ -72,15 +72,29 @@ const hideDropdown = () => {
                         <p>委員長挨拶</p>
                     </div>
                 </div>
-                <div class="about-nm">
-                    <div class="message">
-                        <p>メッセージメッセージメッセージメッセージメッセージメッセージ</p>
-                    </div>
-                    <div class="picture">
-                        <img
-                        class="chairman-img"
-                        src="/assets/images/no-image.png"
-                        >
+                <div class="pre-message">
+                    <p>
+                        2025年度清陵祭にお越しいただき、また公式ホームページをご覧いただき誠にありがとうございます。
+                    </p>
+                    <p>
+                        はじめに、25清陵祭の開催に伴い、企画団体の皆様には新歓の時期にご協力いただく場面も多くありましたが、ご尽力を賜りありがとうございました。<br/>
+                        また、地域の皆様や大学関係者の皆様、ご協賛いただいた企業の皆様、並びにご来場いただいた皆様のお力添えのお陰もあり、無事に開催できましたこと、この場をお借りして厚く御礼申し上げます。
+                    </p>
+                    <p>さて、今年度の清陵祭のテーマは『翠星(スイセイ)』です。<br/>
+                        爽やかな希望が”翠星”のように輝く清陵祭となるように願いを込めたテーマになっています。
+                        大学構内各所では、テーマに沿った工夫が随所に施されておりますので、ご注目ください。
+                    </p>
+                    <p>
+                        清陵祭は、新入生歓迎の意味が込められた大学祭でもあります。<br/>
+                        お越しいただいた皆様に限らず、清陵祭に参加される新入生を含めた全ての方々にとって素敵な思い出作りの場となる、そんな２日間を提供いたします。<br/>
+                        ぜひ最後までお楽しみください。
+                    </p>
+                    <div class="profile">
+                        <p>
+                            <span class="hold-year">2025年度</span>
+                            <span class="position">清陵祭実行委員会 委員長</span>
+                            <span class="chairman-name">續木颯</span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -514,6 +528,84 @@ const hideDropdown = () => {
     @media (max-width: 545px){
        margin: 3rem 20vw 0 0;
     }
+}
+
+.pre-message {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 28px; // 枠線として使う余白
+  margin: 5vh 1vw;
+  background: #fff;
+  background: linear-gradient(
+    90deg, 
+    rgba(44,163,255,1) 0%, 
+    rgba(113,255,210,1) 0%, 
+    rgba(129,240,255,1) 17%, 
+    rgba(58,215,181,1) 44%, 
+    rgba(162,240,254,1) 67%, 
+    rgba(157,255,209,1) 91%
+  );
+  background-size: 200% 200%;
+  overflow: hidden;
+  width: fit-content;
+  filter: drop-shadow(5px 3px 10px  rgba(255, 255, 255, 0.9));
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border-radius: 10px;
+    background: #fff;
+    z-index: 1;
+  }
+
+  p {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 15px 40px;
+    font-size: 23px;
+    color: #222;
+    @include md {
+      font-size: 18px;
+      padding: 12px 15px;
+    }
+    @include sm {
+      font-size: 15px;
+      padding: 15px 15px;
+    }
+  }
+
+  .profile {
+    margin-top: 3vh;
+  }
+}
+
+.hold-year {
+    @include sm {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.position {
+    @include sm {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.chairman-name {
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1vh 0 0;
 }
 
 .message {
