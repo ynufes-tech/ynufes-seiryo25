@@ -44,10 +44,14 @@ const props = defineProps({
   transition: all 0.4s ease;
   text-decoration: none;
   overflow: hidden;
-  width: 60svw;
+  width: 70vw;
   border-radius: 2rem;
 
   filter: drop-shadow(5px 3px 10px rgba(255, 255, 255, 0.9));
+  
+  @include md {
+    width: 85vw;
+  }
 
   &::before {
     content: '';
@@ -63,18 +67,18 @@ const props = defineProps({
     position: relative;
     z-index: 2;
     margin: 0;
-    padding: 25px 60px;
-    font-size: 25px;
+    padding: 22px 40px;
+    font-size: 24px;
     color: #222;
     transition: color 0.4s ease;
 
     @include md {
-      padding: 18px 13px;
-      font-size: 20px;
+      padding: 20px 25px;
+      font-size: 19px;
     }
     @include sm {
-      padding: 15px 9px;
-      font-size: 18px;
+      padding: 19px 20px;
+      font-size: 17px;
     }
   }
 

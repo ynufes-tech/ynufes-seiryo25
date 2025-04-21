@@ -50,7 +50,7 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
         <SnsIconIns v-if="event?.ins_id" :link="event.ins_id"/>
       </div>
       <a class="homepage-link" v-if="event?.hp_id" :href="event?.hp_id ">
-        <p>HOME</p>
+        <p>ホームページ</p>
       </a>
     </div>
   </div>
@@ -58,6 +58,10 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
 
 <style lang="scss" scoped>
 @use "@/assets/scss/_breakpoint.scss" as *;
+
+.page-root {
+  padding-bottom: 10vh;
+}
 
 .event-top {
   display: flex;
@@ -77,10 +81,16 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 20svh;
-  margin-top: 40svh;
-  width: 60svw;
+  height: 20vh;
+  margin-top: 30vh;
+  width: 60vw;
   border-radius: 2rem;
+  @include md {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    margin: 20vh 2rem 0;
+  }
 }
 
 .icon-holder {
@@ -89,8 +99,11 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
 }
 
 .icon {
-  width: 40svw;
-  margin-top: 5svh;
+  width: 40vw;
+  margin-top: 5vh;
+  @include md {
+    width: 80%;
+  }
 }
 
 .event-title {
@@ -99,8 +112,15 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
   height: fit-content;
 
   p {
-    font-size: 40px;
+    font-size: 33px;
     margin: 0;
+    @include md {
+    font-size: 23px;
+    text-align: center;
+    }
+    @include sm {
+    font-size: 20px;
+    }
   }
 }
 
@@ -117,21 +137,30 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
 .moon {
   position: relative;
   top: 30px;
-  left: 15%;
+  left: 0;
+  @include md {
+    left: 0;
+  }
 }
 
 .star {
   position: relative;
-  left: 20%;
+  left: 0;
   margin-top: 20px;
+  @include md {
+    left: 0;
+  }
 }
 
 .sns-icon {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-top: 5svh;
-  width: 30svw;
+  justify-content: center;
+  margin-top: 10vh;
+  gap: 5rem;
+  @include md {
+    flex-wrap: wrap;
+  }
 }
 .homepage-link{
   background-color: rgba(0,0,0,0.3);

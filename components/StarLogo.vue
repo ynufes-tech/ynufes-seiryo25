@@ -26,18 +26,32 @@ const props = defineProps({
 .star{
   display: flex;
   flex-direction: row;
+  position: relative;
+  right: 0;
+  left: 20vw;
+  bottom: 0;
 }
 .content {
   display: flex;
   flex-direction: column-reverse;
   align-items: start;
-  font-size: 32px;
+  font-size: 25px;
   position: relative;
-  top: 20px;
-  left: 90px;
+  top: 0;
+  left: auto;
   @include md{
-    font-size: 25px;
-    left: 8svw
+    font-size: 22px;
+  }
+  @include sm{
+    font-size: 18px;
   }
 }
+
+.star-icon {
+  @include md {
+    width: 5vw;
+    height: auto;
+  }
+}
+
 </style>

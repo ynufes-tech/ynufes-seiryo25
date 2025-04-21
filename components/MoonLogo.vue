@@ -22,15 +22,13 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 @use "@/assets/scss/_breakpoint.scss" as *;
-
 .moon{
   display: flex;
   flex-direction: row;
-  @include md{
-    position: relative;
-    right: 20px;
-    bottom: 20px;
-  }
+  position: relative;
+  right: 0;
+  left: 15vw;
+  bottom: 20px;
 }
 .content {
   display: flex;
@@ -38,16 +36,21 @@ const props = defineProps({
   align-items: start;
   position: relative;
   top: -10px;
-  font-size: 32px;
+  font-size: 25px;
   @include md{
-    font-size: 25px;
-    right: 4svw;
+    font-size: 22px;
+  }
+  @include sm{
+    font-size: 18px;
   }
 }
 .moon-icon{
+  width: 10vw; 
+  max-width: 80px;
+  height: auto;
   @include md{
-    width: 30vw;
-    height: auto;
+    width: 18vw;
+    max-width: 100px;
   }
 }
 </style>
