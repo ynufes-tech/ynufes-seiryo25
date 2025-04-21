@@ -30,7 +30,8 @@ const toggle = () => {
         alt="Close Menu"
         class="close-button"
         @click="toggle"
-      />      <nav>
+      />
+      <nav>
         <ul class="nav-list">
           <li>
             <NuxtLink to="/" @click="toggle">TOP</NuxtLink>
@@ -106,7 +107,7 @@ const toggle = () => {
 }
 
 /* 画面幅700px以下で別の背景画像を適用 */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .background-image {
     content: url("~/assets/images/NaviBackMB.webp"); /* 別の画像を適用 */
   }
@@ -130,10 +131,10 @@ const toggle = () => {
   height: 40px; /* ボタンの高さを90%に調整 */
   @include md {
     top: 1.5rem; /* 上端からの余白を増やす */
-  right: 2.5rem; /* 右端からの余白を増やす */
-  width: 42px; /* ボタンの幅を増やして横長にする */
-  height: 24px; /* ボタンの高さを90%に調整 */
-    }
+    right: 2.5rem; /* 右端からの余白を増やす */
+    width: 42px; /* ボタンの幅を増やして横長にする */
+    height: 24px; /* ボタンの高さを90%に調整 */
+  }
   cursor: pointer;
   transition: transform 0.3s ease;
 
@@ -161,6 +162,66 @@ const toggle = () => {
     transform: translateY(-2px) scale(1.1);
     color: #666666;
     transition: transform 0.3s ease;
+  }
+  &:nth-child(1) {
+    top: 10%; /* 最初の項目 */
+    transform: translateX(-350%) translateY(-650%);
+    @include lg {
+      transform: translateX(-270%) translateY(-650%);
+    }
+    @include md {
+      transform: translateX(-85%) translateY(-900%);
+    }
+  }
+  &:nth-child(2) {
+    top: 10%; /* 最初の項目 */
+    transform: translateX(-325%) translateY(-650%);
+    @include lg {
+      transform: translateX(-245%) translateY(-650%);
+    }
+    @include md {
+      transform: translateX(-45%) translateY(-900%);
+    }
+  }
+  &:nth-child(3) {
+    top: 10%; /* 最初の項目 */
+    transform: translateX(-320%) translateY(-650%);
+    @include lg {
+      transform: translateX(-245%) translateY(-650%);
+    }
+    @include md {
+      transform: translateX(-45%) translateY(-900%);
+    }
+  }
+  &:nth-child(4) {
+    top: 10%; /* 最初の項目 */
+    transform: translateX(-295%) translateY(-650%);
+    @include lg {
+      transform: translateX(-230%) translateY(-650%);
+    }
+    @include md {
+      transform: translateX(-40%) translateY(-900%);
+    }
+  }
+  &:nth-child(5) {
+    top: 10%; /* 最初の項目 */
+    transform: translateX(-265%) translateY(-650%);
+    @include lg {
+      transform: translateX(-210%) translateY(-650%);
+    }
+    @include md {
+      transform: translateX(-40%) translateY(-900%);
+    }
+  }
+  &:nth-child(6) {
+    top: 10%; /* 最初の項目 */
+    transform: translateX(-245%) translateY(-650%);
+    @include lg {
+      transform: translateX(-200%) translateY(-650%);
+    }
+    @include md {
+      transform: translateX(-60%) translateY(-900%);
+    }
   }
 }
 
