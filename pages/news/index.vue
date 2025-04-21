@@ -12,7 +12,7 @@ useHead({
             <PageTitle :title="'NEWS'" :sub-title="'最新情報'" />
             <div class="box">
                 <div class="pops">
-                    <ColorButton
+                    <!-- <ColorButton
                         date="2025.00.00"
                         text="ニュース題名ニュース題名ニュース題名"
                         link="/latest-info"
@@ -29,11 +29,10 @@ useHead({
                         text="ニュース題名ニュース題名ニュース題名"
                         link="/latest-info"
                         class="news-title"
-                    />
+                    /> -->
                     <ColorButton
-                        date="2025.00.00"
-                        text="ニュース題名ニュース題名ニュース題名"
-                        link="/latest-info"
+                        date="2025.04.21"
+                        text="現在新着情報はありません"
                         class="news-title"
                     />
                 </div>
