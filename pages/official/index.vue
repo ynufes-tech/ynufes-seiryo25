@@ -268,7 +268,7 @@ useHead({
                     </div>
                     <div class="event-nm">
                         <img 
-                        src="/assets/images/official-events/colorfulmsg.webp" -->
+                        src="/assets/images/official-events/colorfulmsg.webp"
                         class="event_icon"
                         >
                         <div class="text-box">
