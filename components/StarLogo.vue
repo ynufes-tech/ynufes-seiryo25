@@ -11,7 +11,7 @@ const props = defineProps({
   <div class="pop">
     <div class="star">
       <div class="moon-logo">
-        <img src="~/assets/images/star-logo.webp" alt="moon">
+        <img src="~/assets/images/star-logo.webp" alt="moon" class="star-icon">
       </div>
       <div class="content">
         <p class="title">{{ text }}</p>
@@ -35,5 +35,9 @@ const props = defineProps({
   position: relative;
   top: 20px;
   left: 90px;
+  @include md{
+    font-size: 25px;
+    left: 8svw
+  }
 }
 </style>
