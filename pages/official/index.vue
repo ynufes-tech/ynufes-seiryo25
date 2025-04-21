@@ -40,10 +40,10 @@ useHead({
                         </div>
                     </div>
                     <div class="event-re">
-                        <!-- <img  -->
-                        <!-- src="/assets/images/official-events/" -->
-                        <!-- class="event_icon" -->
-                        <!-- > -->
+                        <img 
+                        src="/assets/images/official-events/clubvs.webp"
+                        class="event_icon"
+                        >
                         <div class="text-box">
                             <div class="event_name">
                                 <h3>横国一のサークルはどこだ⁉<br/>サークル対抗ミニゲーム対決</h3>
@@ -267,10 +267,10 @@ useHead({
                         </div>
                     </div>
                     <div class="event-nm">
-                        <!-- <img  -->
-                        <!-- src="/assets/images/official-events/" -->
-                        <!-- class="event_icon" -->
-                        <!-- > -->
+                        <img 
+                        src="/assets/images/official-events/colorfulmsg.webp" -->
+                        class="event_icon"
+                        >
                         <div class="text-box">
                             <div class="event_name">
                                 <h3>カラフルメッセージ</h3>
