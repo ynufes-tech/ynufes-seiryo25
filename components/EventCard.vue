@@ -40,6 +40,24 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  @include xl{
+    width: 45svw;
+    height: auto;
+  }
+  @include lg{
+    width: 45svw;
+    height: auto;
+  }
+  @include md{
+    width: 45svw;
+    height: auto;
+    max-height: 256px;
+    min-height: 160px;
+  }
+  @include sm{
+    width: 90svw;
+    height: auto;
+  }
 }
 .card-title{
   color: transparent;
@@ -52,25 +70,81 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
 .icon-holder{
   padding: 0 23%;
   position: relative;
-  top: -60px
+  top: -60px;
+  text-align: center;
+  @include lg{
+    position: relative;
+    top: -40px;
+    right: 20px;
+  }
+  @include md{
+    position: relative;
+    top: -8vh;
+  }
+  @include sm{
+    position: relative;
+    top: -70px;
+    right: 20px;
+
+  }
 }
 .icon-image{
-  width: 220px;
+  width: 200px;
   height: auto;
-  max-height: 180px;
-  min-height: 180px;
+  max-height: 160px;
+  min-height: 160px;
+  @include xl{
+    width: 160px;
+    height: auto;
+    max-height: 150px;
+    min-height: 150px;
+  }
+  @include lg{
+    width: 140px;
+    height: auto;
+    max-height: 140px;
+    min-height: 140px;
+  }
+  @include md {
+    width: 110px;
+    height: 90px;
+    max-height: 90px;
+    min-height: 90px;
+  }
+  @include sm{
+    width: 150px;
+    height: 120px;
+    max-height: 120px;
+    min-height: 120px;
+  }
 }
 .card-contents{
   position: relative;
-  top: -80px;
-  line-height: 15px;
+  top: -60px;
+  line-height: 1svh;
   padding-left: 5%;
-  color: #170634
+  color: #170634;
+  font-size: 1.5svw;
+  @include xl{
+    font-size: 2.5svw;
+    top: -50px;
+  }
+  @include lg{
+    font-size: 2.5svw;
+    line-height: 5px;
+    top: -60px;
+  }
+  @include md {
+    font-size: 2.8svw;
+    line-height: 5px;
+    top: -65px;
+  }
+  @include sm{
+    top: -85px;
+    line-height: 3px;
+    font-size: 5.5svw;
+
+  }
 }
-.e-name{
-  font-size: 26px;
-}
-.o-name{
-  font-size:22px;
-}
+
 </style>

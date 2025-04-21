@@ -10,7 +10,7 @@ import SnsIconIns from "~/components/SnsIconIns.vue";
 const id = parseInt(route.params.id)
 const event = events.find((e) => e.id === id)
 const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
-  e.target.src = './assets/images/dummy-icon.webp'
+  e.target.src = './public/images/dummy-icon.webp'
   e.target.onerror = null
 }
 </script>
