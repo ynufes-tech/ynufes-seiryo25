@@ -58,12 +58,6 @@ const toggle = () => {
             <NuxtLink to="/staff" @click="toggle">STAFF</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/events" @click="toggle">EVENTS</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/official" @click="toggle">OFFICIAL-EVENTS</NuxtLink>
-          </li>
-          <li>
             <NuxtLink to="/about-us" @click="toggle">ABOUT-US</NuxtLink>
           </li>
           <!-- <li> -->
@@ -235,6 +229,13 @@ const toggle = () => {
     margin: 0 0 1rem 35.5vw;
     @include md {
       margin: 1.5rem 0 1rem 32vw;
+    }
+  }
+  &:nth-child(9) {
+    top: 10%; /* 最初の項目 */
+    margin: 0 0 1rem 39.5vw;
+    @include md {
+      margin: 1.5rem 0 1rem 28vw;
     }
   }
 }
