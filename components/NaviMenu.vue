@@ -37,6 +37,9 @@ const toggle = () => {
             <NuxtLink to="/" @click="toggle">TOP</NuxtLink>
           </li>
           <li>
+            <NuxtLink to="/news" @click="toggle">NEWS</NuxtLink>
+          </li>
+          <li>
             <NuxtLink to="/about" @click="toggle">ABOUT</NuxtLink>
           </li>
           <li>
@@ -55,8 +58,17 @@ const toggle = () => {
             <NuxtLink to="/staff" @click="toggle">STAFF</NuxtLink>
           </li>
           <li>
+            <NuxtLink to="/events" @click="toggle">EVENTS</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/official" @click="toggle">OFFICIAL-EVENTS</NuxtLink>
+          </li>
+          <li>
             <NuxtLink to="/about-us" @click="toggle">ABOUT-US</NuxtLink>
           </li>
+          <!-- <li> -->
+            <!-- <NuxtLink to="/faq" @click="toggle">FAQ</NuxtLink> -->
+          <!-- </li> -->
         </ul>
       </nav>
     </div>

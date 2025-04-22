@@ -25,6 +25,7 @@ import EventCard from "~/components/EventCard.vue";
   padding-left: 5vw;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .events-elements{
