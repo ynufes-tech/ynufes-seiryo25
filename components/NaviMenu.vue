@@ -96,8 +96,8 @@ const toggle = () => {
   z-index: 10000;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  //align-items: center;
+  //justify-content: center;
   overflow: hidden; /* 背景画像がはみ出さないようにする */
 }
 
@@ -119,8 +119,8 @@ const toggle = () => {
   }
 }
 
-/* 画面幅480px以下で縦横比を維持し、上部を画面上端に固定 */
-@media (max-width: 480px) {
+/* 画面幅380px以下で縦横比を維持し、上部を画面上端に固定 */
+@media (max-width: 380px) {
   .background-image {
     object-fit: contain; /* 縦横比を維持して画像を表示 */
     object-position: top; /* 画像の上部を画面上端に固定 */
@@ -154,7 +154,7 @@ const toggle = () => {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  text-align: center;
+  //text-align: center;
 
   @include md {
     padding: 0;
@@ -162,7 +162,7 @@ const toggle = () => {
 }
 
 .nav-list li {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 
   &:hover {
     transform: translateY(-2px) scale(1.1);
@@ -171,82 +171,58 @@ const toggle = () => {
   }
   &:nth-child(1) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-150%) translateY(-650%);
-    @include lg {
-      transform: translateX(-100%) translateY(-650%);
-    }
+    margin: 2rem 0 1rem 22vw;
     @include md {
-      transform: translateX(-25%) translateY(-530);
+      margin: 1.5rem 0 1rem 30vw;
     }
   }
   &:nth-child(2) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-125%) translateY(-650%);
-    @include lg {
-      transform: translateX(-75%) translateY(-650%);
-    }
+    margin: 0 0 1rem 22.5vw;
     @include md {
-      transform: translateX(-25%) translateY(-900%);
+      margin: 1.5rem 0 1rem 37vw;
     }
   }
   &:nth-child(3) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-120%) translateY(-650%);
-    @include lg {
-      transform: translateX(-75%) translateY(-650%);
-    }
+    margin: 0 0 1rem 23.5vw;
     @include md {
-      transform: translateX(-25%) translateY(-900%);
+      margin: 1.5rem 0 1rem 40vw;
     }
   }
   &:nth-child(4) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-65%) translateY(-650%);
-    @include lg {
-      transform: translateX(-30%) translateY(-650%);
-    }
+    margin: 0 0 1rem 24.7vw;
     @include md {
-      transform: translateX(20%) translateY(-900%);
+      margin: 1.5rem 0 1rem 41vw;
     }
   }
   &:nth-child(5) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-65%) translateY(-650%);
-    @include lg {
-      transform: translateX(-60%) translateY(-650%);
-    }
+    margin: 0 0 1rem 26.7vw;
     @include md {
-      transform: translateX(-20%) translateY(-900%);
+      margin: 1.5rem 0 1rem 41vw;
     }
   }
   &:nth-child(6) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-45%) translateY(-650%);
-    @include lg {
-      transform: translateX(-50%) translateY(-650%);
-    }
+    margin: 0 0 1rem 28.5vw;
     @include md {
-      transform: translateX(-20%) translateY(-900%);
+      margin: 1.5rem 0 1rem 38vw;
     }
   }
   &:nth-child(7) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-45%) translateY(-650%);
-    @include lg {
-      transform: translateX(-40%) translateY(-650%);
-    }
+    margin: 0 0 1rem 31.5vw;
     @include md {
-      transform: translateX(-20%) translateY(-900%);
+      margin: 1.5rem 0 1rem 35.5vw;
     }
   }
   &:nth-child(8) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-25%) translateY(-650%);
-    @include lg {
-      transform: translateX(-30%) translateY(-650%);
-    }
+    margin: 0 0 1rem 35.5vw;
     @include md {
-      transform: translateX(-20%) translateY(-900%);
+      margin: 1.5rem 0 1rem 32vw;
     }
   }
 }
