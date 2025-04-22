@@ -43,13 +43,19 @@ const toggle = () => {
             <NuxtLink to="/news" @click="toggle">NEWS</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/event" @click="toggle">EVENT</NuxtLink>
+            <NuxtLink to="/official" @click="toggle">OFFICIAL-EVENTS</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/events" @click="toggle">EVENTS</NuxtLink>
           </li>
           <li>
             <NuxtLink to="/access" @click="toggle">ACCESS</NuxtLink>
           </li>
           <li>
             <NuxtLink to="/staff" @click="toggle">STAFF</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/about-us" @click="toggle">ABOUT-US</NuxtLink>
           </li>
         </ul>
       </nav>
@@ -165,62 +171,82 @@ const toggle = () => {
   }
   &:nth-child(1) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-350%) translateY(-650%);
+    transform: translateX(-150%) translateY(-650%);
     @include lg {
-      transform: translateX(-270%) translateY(-650%);
+      transform: translateX(-100%) translateY(-650%);
     }
     @include md {
-      transform: translateX(-85%) translateY(-900%);
+      transform: translateX(-25%) translateY(-530);
     }
   }
   &:nth-child(2) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-325%) translateY(-650%);
+    transform: translateX(-125%) translateY(-650%);
     @include lg {
-      transform: translateX(-245%) translateY(-650%);
+      transform: translateX(-75%) translateY(-650%);
     }
     @include md {
-      transform: translateX(-45%) translateY(-900%);
+      transform: translateX(-25%) translateY(-900%);
     }
   }
   &:nth-child(3) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-320%) translateY(-650%);
+    transform: translateX(-120%) translateY(-650%);
     @include lg {
-      transform: translateX(-245%) translateY(-650%);
+      transform: translateX(-75%) translateY(-650%);
     }
     @include md {
-      transform: translateX(-45%) translateY(-900%);
+      transform: translateX(-25%) translateY(-900%);
     }
   }
   &:nth-child(4) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-295%) translateY(-650%);
+    transform: translateX(-65%) translateY(-650%);
     @include lg {
-      transform: translateX(-230%) translateY(-650%);
+      transform: translateX(-30%) translateY(-650%);
     }
     @include md {
-      transform: translateX(-40%) translateY(-900%);
+      transform: translateX(20%) translateY(-900%);
     }
   }
   &:nth-child(5) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-265%) translateY(-650%);
+    transform: translateX(-65%) translateY(-650%);
     @include lg {
-      transform: translateX(-210%) translateY(-650%);
+      transform: translateX(-60%) translateY(-650%);
     }
     @include md {
-      transform: translateX(-40%) translateY(-900%);
+      transform: translateX(-20%) translateY(-900%);
     }
   }
   &:nth-child(6) {
     top: 10%; /* 最初の項目 */
-    transform: translateX(-245%) translateY(-650%);
+    transform: translateX(-45%) translateY(-650%);
     @include lg {
-      transform: translateX(-200%) translateY(-650%);
+      transform: translateX(-50%) translateY(-650%);
     }
     @include md {
-      transform: translateX(-60%) translateY(-900%);
+      transform: translateX(-20%) translateY(-900%);
+    }
+  }
+  &:nth-child(7) {
+    top: 10%; /* 最初の項目 */
+    transform: translateX(-45%) translateY(-650%);
+    @include lg {
+      transform: translateX(-40%) translateY(-650%);
+    }
+    @include md {
+      transform: translateX(-20%) translateY(-900%);
+    }
+  }
+  &:nth-child(8) {
+    top: 10%; /* 最初の項目 */
+    transform: translateX(-25%) translateY(-650%);
+    @include lg {
+      transform: translateX(-30%) translateY(-650%);
+    }
+    @include md {
+      transform: translateX(-20%) translateY(-900%);
     }
   }
 }
