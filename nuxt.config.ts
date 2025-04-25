@@ -18,7 +18,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ['@nuxtjs/google-fonts'],
+  modules: ['@nuxtjs/google-fonts', '@nuxt/eslint'],
   googleFonts: {
     families: {
       'Cinzel': [300, 400, 500, 600, 700],
