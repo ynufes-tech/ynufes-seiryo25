@@ -78,6 +78,16 @@ useHead({
           >
         </div>
       </div>
+      <div class="top-buttons">
+        <div class="light-title_nm">
+          <p>ABOUT</p>
+        </div>
+        <TopButton title="清陵祭を知る" page-link="/about-us" class="button1"/>
+        <div class="light-title_re">
+          <p>NEWS</p>
+        </div>
+        <TopButton title="最新情報を見る" page-link="/news" class="button2"/>
+      </div>
     </div>
     <!-- <div class="preparing"> -->
       <!-- <div class="pre-message"> -->
@@ -229,11 +239,75 @@ useHead({
   }
 }
 
-.preparing{
+.light-title_nm {
   display: flex;
-  justify-content: center;
-  margin: 30vh 0;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0 5vw;
+  font-size: 90px;
+  letter-spacing: 0.1em;
+  width: fit-content;
+  color: transparent;
+  -webkit-text-stroke: 1px #21FCE3; 
+  text-shadow: 10px 10px 35px #65FBC2;
+  font-weight: 300;
+  z-index: 1000;
+  @include md {
+    font-size: 74px;
+  }
+  @include sm {
+    font-size: 54px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
+
+.light-title_re {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-left: 55vw;
+  font-size: 90px;
+  letter-spacing: 0.1em;
+  width: fit-content;
+  color: transparent;
+  -webkit-text-stroke: 1px #21FCE3; 
+  text-shadow: 10px 10px 35px #65FBC2;
+  font-weight: 300;
+  z-index: 1000;
+  @include md {
+    font-size: 74px;
+  }
+  @include sm {
+    font-size: 54px;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.top-buttons {
+  margin-top: 20vh;
+}
+
+.button1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0;
+}
+
+.button2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+// .preparing{
+//   display: flex;
+//   justify-content: center;
+//   margin: 30vh 0;
+// }
 
 // .pre-message{
   // font-size: 40px;
