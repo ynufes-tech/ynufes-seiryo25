@@ -21,7 +21,7 @@ useHead({
       </div>
     </div>
     <div class="page-container">
-      <div class="content">
+      <div class="upper-box">
         <div class="title-container">
           <img id="top-title" src="@/assets/images/title_suisei-image.webp" />
         </div>
@@ -33,6 +33,50 @@ useHead({
           <p>5/18 <span class="weekday">Sun.</span>  9:00 - 15:00</p>
         </div>
         <SNS />
+      </div>
+      <div class="top-pictures-wrapper">
+        <div class="top-pictures">
+          <img 
+          class="top-img_nm"
+          src="/assets/images/top1-img.webp"
+          >
+          <img 
+          class="top-img_re"
+          src="/assets/images/top2-img.webp"
+          >
+          <img 
+          class="top-img_nm"
+          src="/assets/images/top3-img.webp"
+          >
+          <img 
+          class="top-img_re"
+          src="/assets/images/top4-img.webp"
+          >
+          <img 
+          class="top-img_nm"
+          src="/assets/images/top5-img.webp"
+          >
+          <img 
+          class="top-img_re"
+          src="/assets/images/top6-img.webp"
+          >
+          <img 
+          class="top-img_nm"
+          src="/assets/images/top7-img.webp"
+          >
+          <img 
+          class="top-img_re"
+          src="/assets/images/top8-img.webp"
+          >
+          <img 
+          class="top-img_nm"
+          src="/assets/images/top9-img.webp"
+          >
+          <img 
+          class="top-img_re"
+          src="/assets/images/top10-img.webp"
+          >
+        </div>
       </div>
     </div>
     <!-- <div class="preparing"> -->
@@ -53,14 +97,14 @@ useHead({
 .page-container {
   position: relative;
   width: 100%;
-  height: 115vh;
+  height: 500vh;
   overflow: hidden;
   background-size: cover;
   background-position: center;
 }
 
-.content {
-  position: absolute;
+.upper-box {
+  position: relative;
   top: 70vh;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -150,6 +194,39 @@ useHead({
 
 .weekday{
   font-family: 'Amiri', sans-serif;
+}
+
+.top-pictures-wrapper {
+  margin-top: 30vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.top-pictures {
+  display: flex;
+  width: max-content;
+  animation: scrollLeft 50s linear infinite; // 遅めが自然です
+}
+
+.top-img_nm {
+  height: 200px;
+  flex-shrink: 0; // 縮まないように
+}
+
+.top-img_re {
+  height: 200px;
+  margin: 4rem 5rem 0; // 間隔調整
+  flex-shrink: 0; // 縮まないように
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .preparing{
