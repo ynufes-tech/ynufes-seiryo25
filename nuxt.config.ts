@@ -1,10 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-04-01',
+  modules: ['@nuxtjs/google-fonts', '@nuxt/eslint'],
   devtools: { enabled: true },
-  runtimeConfig: {
-    baseURL: '/', // NUXT_PUBLIC_BASE_URL によって上書きされる 公式ドキュメント参照
-  },
   app: {
     baseURL: process.env.NUXT_PUBLIC_BASE_URL,
     head: {
@@ -18,14 +15,22 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ['@nuxtjs/google-fonts', '@nuxt/eslint'],
+  runtimeConfig: {
+    baseURL: '/', // NUXT_PUBLIC_BASE_URL によって上書きされる 公式ドキュメント参照
+  },
+  compatibilityDate: '2025-04-01',
+  eslint: {
+    config: {
+      stylistic: true,
+    },
+  },
   googleFonts: {
     families: {
       'Cinzel': [300, 400, 500, 600, 700],
-      'Zen Old Mincho':  [300, 400, 500, 600, 700],
-      'Amiri':  [300, 400, 500, 600, 700]
+      'Zen Old Mincho': [300, 400, 500, 600, 700],
+      'Amiri': [300, 400, 500, 600, 700],
     },
     preconnect: true,
     display: 'swap',
-  }
+  },
 })
