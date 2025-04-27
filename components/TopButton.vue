@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { NuxtLink } from '#components';
+
 const props = defineProps({
   title: {
     type: String,
@@ -16,11 +18,11 @@ const props = defineProps({
 </script>
 
 <template>
-  <router-link :to="pageLink">
+  <NuxtLink :to="pageLink">
     <button class="top-button" :style="{ width: width }">
       {{ title }}
     </button>
-  </router-link>
+  </NuxtLink>
 </template>
 
 <style lang ="scss" scoped>
