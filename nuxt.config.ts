@@ -2,11 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-04-01',
   devtools: { enabled: true },
+  runtimeConfig: {
+    baseURL: '/', // NUXT_PUBLIC_BASE_URL によって上書きされる 公式ドキュメント参照
+  },
   app: {
     baseURL: process.env.NUXT_PUBLIC_BASE_URL,
-    runtimeConfig: {
-      baseURL: '/', // NUXT_PUBLIC_BASE_URL によって上書きされる 公式ドキュメント参照
-    },
     head: {
       meta: [
         { charset: 'utf-8' },
