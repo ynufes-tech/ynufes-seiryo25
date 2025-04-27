@@ -1,10 +1,11 @@
 <script setup lang="ts">
 useHead({
-  title: 'Top | 25清陵祭公式HP~翠星~',
+  title: "Top | 25清陵祭公式HP~翠星~",
   meta: [
     {
-      name: 'description',
-      content: '5/17,18に開催される25清陵祭の公式HPです! 最新情報を随時更新していきます!',
+      name: "description",
+      content:
+        "5/17,18に開催される25清陵祭の公式HPです! 最新情報を随時更新していきます!",
     },
   ],
 });
@@ -14,10 +15,16 @@ useHead({
   <div class="page-root">
     <div class="shooting-stars">
       <div class="shooting-star-mini">
-        <img class="shooting-star-mini-img" src="@/assets/images/shooting-star_mini.webp" />
+        <img
+          class="shooting-star-mini-img"
+          src="@/assets/images/shooting-star_mini.webp"
+        />
       </div>
       <div class="shooting-star-big">
-          <img class="shooting-star-big-img" src="@/assets/images/shooting-star_big.webp" />
+        <img
+          class="shooting-star-big-img"
+          src="@/assets/images/shooting-star_big.webp"
+        />
       </div>
     </div>
     <div class="page-container">
@@ -26,81 +33,54 @@ useHead({
           <img id="top-title" src="@/assets/images/title_suisei-image.webp" />
         </div>
         <div class="seiryo-logo">
-          <img class="seiryo-logo-image" src="@/assets/images/seiryo-logo.webp" />
+          <img
+            class="seiryo-logo-image"
+            src="@/assets/images/seiryo-logo.webp"
+          />
         </div>
         <div class="date">
-          <p>5/17 <span class="weekday">Sat.</span>  13:00 - 20:30</p>
-          <p>5/18 <span class="weekday">Sun.</span>  9:00 - 15:00</p>
+          <p>5/17 <span class="weekday">Sat.</span> 13:00 - 20:30</p>
+          <p>5/18 <span class="weekday">Sun.</span> 9:00 - 15:00</p>
         </div>
         <SNS />
       </div>
       <div class="top-pictures-wrapper">
         <div class="top-pictures">
-          <img 
-          class="top-img_nm"
-          src="/assets/images/top1-img.webp"
-          >
-          <img 
-          class="top-img_re"
-          src="/assets/images/top2-img.webp"
-          >
-          <img 
-          class="top-img_nm"
-          src="/assets/images/top3-img.webp"
-          >
-          <img 
-          class="top-img_re"
-          src="/assets/images/top4-img.webp"
-          >
-          <img 
-          class="top-img_nm"
-          src="/assets/images/top5-img.webp"
-          >
-          <img 
-          class="top-img_re"
-          src="/assets/images/top6-img.webp"
-          >
-          <img 
-          class="top-img_nm"
-          src="/assets/images/top7-img.webp"
-          >
-          <img 
-          class="top-img_re"
-          src="/assets/images/top8-img.webp"
-          >
-          <img 
-          class="top-img_nm"
-          src="/assets/images/top9-img.webp"
-          >
-          <img 
-          class="top-img_re"
-          src="/assets/images/top10-img.webp"
-          >
+          <img class="top-img_nm" src="/assets/images/top1-img.webp" />
+          <img class="top-img_re" src="/assets/images/top2-img.webp" />
+          <img class="top-img_nm" src="/assets/images/top3-img.webp" />
+          <img class="top-img_re" src="/assets/images/top4-img.webp" />
+          <img class="top-img_nm" src="/assets/images/top5-img.webp" />
+          <img class="top-img_re" src="/assets/images/top6-img.webp" />
+          <img class="top-img_nm" src="/assets/images/top7-img.webp" />
+          <img class="top-img_re" src="/assets/images/top8-img.webp" />
+          <img class="top-img_nm" src="/assets/images/top9-img.webp" />
+          <img class="top-img_re" src="/assets/images/top10-img.webp" />
         </div>
       </div>
       <div class="top-buttons">
         <div class="light-title_nm">
           <p>ABOUT</p>
         </div>
-        <TopButton title="清陵祭を知る" page-link="/about-us" class="button1"/>
+        <TopButton title="清陵祭を知る" page-link="/about-us" class="button1" />
         <div class="light-title_re">
           <p>NEWS</p>
         </div>
-        <TopButton title="最新情報を見る" page-link="/news" class="button2"/>
+        <TopButton title="最新情報を見る" page-link="/news" class="button2" />
       </div>
     </div>
     <!-- <div class="preparing"> -->
-      <!-- <div class="pre-message"> -->
-        <!-- <p>準備中</p> -->
-      <!-- </div> -->
+    <!-- <div class="pre-message"> -->
+    <!-- <p>準備中</p> -->
+    <!-- </div> -->
     <!-- </div> -->
   </div>
 </template>
 
 <style lang="scss" scoped>
-@use '@/assets/scss/_breakpoint.scss' as *;
+@use "@/assets/scss/_breakpoint.scss" as *;
 
-.page-root{
+.page-root {
   padding: 0;
 }
 
@@ -138,10 +118,10 @@ useHead({
   }
 }
 
-.shooting-star-mini img{
+.shooting-star-mini img {
   width: 400px;
   @media (max-width: 840px) {
-    width: 300px; 
+    width: 300px;
   }
 }
 
@@ -151,10 +131,10 @@ useHead({
   right: 0;
 }
 
-.shooting-star-big img{
+.shooting-star-big img {
   width: 500px;
   @media (max-width: 940px) {
-  width: 400px;
+    width: 400px;
   }
   @media (max-width: 730px) {
     width: 260px;
@@ -190,20 +170,20 @@ useHead({
   font-size: min(1.5rem, 3.5vw);
   color: #eee;
   box-sizing: border-box;
-  text-shadow: 0 0 10px #05E6FF, 0 0 10px #65FBC2;
+  text-shadow: 0 0 10px #05e6ff, 0 0 10px #65fbc2;
   margin: 0 auto;
   width: min(65vw, 28em);
   letter-spacing: 0.1em;
   text-align: center;
   line-height: 1.5em;
-  font-family: 'Cinzel', sans-serif;
+  font-family: "Cinzel", sans-serif;
   @include sm {
     margin-top: 35vw;
   }
 }
 
-.weekday{
-  font-family: 'Amiri', sans-serif;
+.weekday {
+  font-family: "Amiri", sans-serif;
 }
 
 .top-pictures-wrapper {
@@ -248,8 +228,8 @@ useHead({
   letter-spacing: 0.1em;
   width: fit-content;
   color: transparent;
-  -webkit-text-stroke: 1px #21FCE3; 
-  text-shadow: 10px 10px 35px #65FBC2;
+  -webkit-text-stroke: 1px #21fce3;
+  text-shadow: 10px 10px 35px #65fbc2;
   font-weight: 300;
   z-index: 1000;
   @include md {
@@ -273,8 +253,8 @@ useHead({
   letter-spacing: 0.1em;
   width: fit-content;
   color: transparent;
-  -webkit-text-stroke: 1px #21FCE3; 
-  text-shadow: 10px 10px 35px #65FBC2;
+  -webkit-text-stroke: 1px #21fce3;
+  text-shadow: 10px 10px 35px #65fbc2;
   font-weight: 300;
   z-index: 1000;
   @include md {
@@ -310,7 +290,7 @@ useHead({
 // }
 
 // .pre-message{
-  // font-size: 40px;
-  // color: #eee;
+// font-size: 40px;
+// color: #eee;
 // }
 </style>
