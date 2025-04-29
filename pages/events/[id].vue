@@ -36,7 +36,7 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
             @error="showNoImage"
         />
       </div>
-      <MoonLogo text="企業団体名" class="moon"/>
+      <MoonLogo text="企画団体名" class="moon"/>
       <ColorBox :text="`${event?.o_name || '企画団体が見つかりません'}`"/>
       <StarLogo text="場所" class="star"/>
       <ColorBox :text="`${event?.place || '企画場所が見つかりません' }`"/>
