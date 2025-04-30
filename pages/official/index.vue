@@ -21,6 +21,28 @@ useHead({
                 <div class="about-events">
                     <div class="event-nm">
                         <img 
+                        src="/assets/images/official-events/festival.webp"
+                        class="event_icon"
+                        >
+                        <div class="text-box">
+                            <div class="event_name">
+                                <h3>横国の森フェスティバル</h3>
+                            </div>
+                            <div class="detail">
+                                <p>横国の森の中で楽しいフェスティバルが開催される！？<br/>3つのサークルがさまざまなパフォーマンスを見せてくれます！</p>
+                                <p>
+                                    5/18(日) 13:00~14:30
+                                </p>
+                                <p>
+                                    野外音楽堂<br/>
+                                    特設ステージ<br/>
+                                    <span class="rainy">(雨天時:メディアホール)</span>
+                                </p>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="event-re">
+                        <img 
                         src="/assets/images/official-events/singingshow.webp"
                         class="event_icon"
                         >
@@ -34,12 +56,13 @@ useHead({
                                     5/17(土) 18:45~19:45
                                 </p>
                                 <p>
-                                    野外音楽堂
+                                    野外音楽堂<br/>
+                                    <span class="rainy">(雨天時:経営棟109)</span>
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="event-re">
+                    <div class="event-nm">
                         <img 
                         src="/assets/images/official-events/clubvs.webp"
                         class="event_icon"
@@ -53,12 +76,13 @@ useHead({
                                     5/17(土) 13:30~14:45
                                 </p>
                                 <p>
-                                    野外音楽堂
+                                    野外音楽堂<br/>
+                                    <span class="rainy">(雨天時:メディアホール)</span>
                                 </p>
                            </div>
                         </div>
                     </div>
-                    <div class="event-nm">
+                    <div class="event-re">
                         <img 
                         src="/assets/images/official-events/freshman.webp"
                         class="event_icon"
@@ -70,7 +94,7 @@ useHead({
                             <div class="detail">
                                 <p>今年入ってきた新入生が0から考えた企画を野外音楽堂で実施！<br/>いったいどんな企画になるのか......<br/>お楽しみに!!</p>
                                 <p>
-                                    5/17(土)15:45~17:15
+                                    5/17(土) 15:45~17:15
                                 </p>
                                 <p>
                                     野外音楽堂
@@ -101,8 +125,8 @@ useHead({
                             <div class="detail">
                                 <p>制限時間内にポイを使って金魚をすくおう！<br/>景品GETのチャンスも!?<br/>ぜひ遊びに来てください♡</p>
                                 <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30
+                                    5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:20）</span><br/>
+                                    5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:20）</span>
                                 </p>
                                 <p>
                                     図書館1階<br/>
@@ -121,10 +145,10 @@ useHead({
                                 <h3>チキチキコロコロ<br/>レース</h3>
                             </div>
                             <div class="detail">
-                                <p>アイテムを使って紙コップを仰いで高得点を狙おう！<br/>賞品もあるのでぜひ挑戦しに来てね！！</p>
+                                <p>アイテムを使って紙コップを扇いで高得点を狙おう！<br/>賞品もあるのでぜひ挑戦しに来てね！！</p>
                                 <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30
+                                    5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:20）</span><br/>
+                                    5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:20）</span>
                                 </p>
                                 <p>
                                     図書館1階<br/>
@@ -145,8 +169,8 @@ useHead({
                             <div class="detail">
                                 <p>ビーズとゴム紐を使って、<br/>自分の個性やスタイルをめいっぱい表現したブレスレットを作ろう！</p>
                                 <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30
+                                    5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:10）</span><br/>
+                                    5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:10）</span>
                                 </p>
                                 <p>
                                     図書館1階<br/>
@@ -156,28 +180,6 @@ useHead({
                         </div>
                     </div>
                     <div class="event-re">
-                        <img 
-                        src="/assets/images/official-events/festival.webp"
-                        class="event_icon"
-                        >
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>横国の森フェスティバル</h3>
-                            </div>
-                            <div class="detail">
-                                <p>横国の森の中で楽しいフェスティバルが開催される！？<br/>3つのサークルがさまざまなパフォーマンスを見せてくれます！</p>
-                                <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30<br/>
-                                </p>
-                                <p>
-                                    図書館 1階<br/>
-                                    情報ラウンジ
-                                </p>
-                           </div>
-                        </div>
-                    </div>
-                    <div class="event-nm">
                         <img 
                         src="/assets/images/official-events/rally.webp"
                         class="event_icon"
@@ -189,8 +191,8 @@ useHead({
                             <div class="detail">
                                 <p>この横浜国立大学に眠っているまだ見ぬ財宝を構内をまわって探し出そう！<br/>健闘を祈る！</p>
                                 <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30
+                                    5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:20）</span><br/>
+                                    5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:20）</span>
                                 </p>
                                 <p>                  
                                     図書館1階<br/>
@@ -200,7 +202,7 @@ useHead({
                             </div>
                         </div>
                     </div>
-                    <div class="event-re">
+                    <div class="event-nm">
                         <img 
                         src="/assets/images/official-events/momesen.webp"
                         class="event_icon"
@@ -212,8 +214,8 @@ useHead({
                             <div class="detail">
                                 <p>かもめ先輩から挑戦状が届いた！<br/>制限時間内に謎を解いて<br/>キーワードを導き脱出しよう！</p>
                                 <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30
+                                    5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:15）</span><br/>
+                                    5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:15）</span>
                                 </p>
                                 <p>
                                     図書館1階<br/>
@@ -222,7 +224,7 @@ useHead({
                            </div>
                         </div>
                     </div>
-                    <div class="event-nm">
+                    <div class="event-re">
                         <img 
                         src="/assets/images/official-events/papet.webp"
                         class="event_icon"
@@ -234,8 +236,8 @@ useHead({
                             <div class="detail">
                                 <p>紙コップや折り紙、ペンを使って<br/>簡単に可愛いオリジナル<br/>パペット人形を作ろう！</p>
                                 <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30
+                                    5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:15）</span><br/>
+                                    5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:15）</span>
                                 </p>
                                 <p>
                                     図書館1階<br/>
@@ -244,7 +246,7 @@ useHead({
                             </div>
                         </div>
                     </div>
-                    <div class="event-re">
+                    <div class="event-nm">
                        <img 
                        src="/assets/images/official-events/freethrow.webp/"
                        class="event_icon"
@@ -256,8 +258,8 @@ useHead({
                            <div class="detail">
                                <p>動くゴールに向かってシュート！！<br/>君は何本決められるかな！？<br/>ぜひ挑戦しに来てね！</p>
                                <p>
-                                   5/17(土) 13:00〜16:30<br/>
-                                   5/18(日) 10:00〜14:30
+                                   5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:10）</span><br/>
+                                   5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:10）</span>
                                </p>
                                <p>
                                    図書館1階<br/>
@@ -266,7 +268,7 @@ useHead({
                            </div>
                         </div>
                     </div>
-                    <div class="event-nm">
+                    <div class="event-re">
                         <img 
                         src="/assets/images/official-events/colorfulmsg.webp"
                         class="event_icon"
@@ -276,13 +278,13 @@ useHead({
                                 <h3>カラフルメッセージ</h3>
                             </div>
                             <div class="detail">
-                                <p>清陵祭にきた思い出に<br/>自由にメッセージを残そう！</p>
+                                <p>清陵祭にきた思い出を<br/>自由にメッセージを残そう！</p>
                                 <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30
+                                    5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間16：25）</span><br/>
+                                    5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間14：25）</span>
                                 </p>
                                 <p>
-                                    図書館1階情報<br/>ラウンジ
+                                    図書館1階<br/>情報ラウンジ
                                 </p>
                             </div>
                         </div>
@@ -305,7 +307,7 @@ useHead({
                             </div>
                             <div class="detail">
                                 <p>清陵祭1日目の夜空を星のように彩ります。<br/>ぜひご覧ください！<br/>また、当日は退場規制にご協力ください。</p>
-                                <p>5/17(土) 19:45～19:55</p>
+                                <p>5/17(土) 19:45~20:00</p>
                                 <p>キャンパス全域</p>
                             </div>
                         </div>
@@ -325,6 +327,10 @@ useHead({
 
 .page-container {
     padding: 34vh 5rem 10vh;
+    
+    @include md {
+        padding: 15vh 5rem 10vh;
+    }
 }
 
 .category {
@@ -434,6 +440,21 @@ useHead({
         @include md {
             font-size: 20px;
         }
+    }
+}
+
+.limit-time {
+    font-size: 16px;
+    display: block;
+    @include sm {
+        font-size: 14px;
+    }
+}
+
+.rainy {
+    font-size: 16px;
+    @include sm {
+        font-size: 14px;
     }
 }
 
