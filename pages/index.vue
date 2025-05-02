@@ -68,9 +68,6 @@ useHead({
 }
 
 .shooting-stars {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
   z-index: -10;
 }
 
@@ -87,7 +84,7 @@ useHead({
 .shooting-star-mini img{
   width: 400px;
   @media (max-width: 840px) {
-    width: 300px; 
+    width: 300px;
   }
 }
 
