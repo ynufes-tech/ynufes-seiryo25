@@ -164,7 +164,7 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
 }
 .homepage-link{
   background-color: rgba(0,0,0,0.3);
-  width: 8rem;
+  width: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
