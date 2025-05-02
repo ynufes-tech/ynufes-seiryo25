@@ -12,27 +12,28 @@ useHead({
             <PageTitle :title="'NEWS'" :sub-title="'最新情報'" />
             <div class="box">
                 <div class="pops">
-                    <!-- <ColorButton
+                    <ColorButton
                         date="2025.00.00"
                         text="ニュース題名ニュース題名ニュース題名"
-                        link="/latest-info"
+                        link="latest-info"
                         class="news-title"
                     />
                     <ColorButton
                         date="2025.00.00"
                         text="ニュース題名ニュース題名ニュース題名"
-                        link="/latest-info"
+                        link="latest-info"
                         class="news-title"
                     />
                     <ColorButton
                         date="2025.00.00"
                         text="ニュース題名ニュース題名ニュース題名"
-                        link="/latest-info"
+                        link="latest-info"
                         class="news-title"
-                    /> -->
+                    />
                     <ColorButton
-                        date="2025.04.21"
-                        text="現在新着情報はありません"
+                        date="2025.00.00"
+                        text="ニュース題名ニュース題名ニュース題名"
+                        link="latest-info"
                         class="news-title"
                     />
                 </div>
@@ -50,7 +51,6 @@ useHead({
 
 .news-title {
     margin: 6vh 0 3rem;
-    border-radius: 15px;
     @include md {
         margin: 3vh 0 3rem;
     }

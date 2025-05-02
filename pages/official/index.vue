@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useHead({
   title: "Official | 25清陵祭公式HP~翠星~",
-  meta: [{ name: "description", content: "本部企画の 1覧を掲載しています" }],
+  meta: [{ name: "description", content: "本部企画の 一覧を掲載しています" }],
 });
 </script>
 <template>
@@ -91,7 +91,7 @@ useHead({
               </div>
               <div class="detail">
                 <p>
-                  今年入ってきた新入生が0から考えた企画を野外音楽堂で実施！<br />いったいどんな企画になるのか......<br />お楽しみに!!
+                  今年入ってきた新入生が0から考えた企画を野外音楽堂で実施！<br />いったいどんな企画になるのか......<br />お楽しみに！！
                 </p>
                 <p>5/17(土) 15:45~17:15</p>
                 <p>野外音楽堂</p>
@@ -117,7 +117,7 @@ useHead({
               </div>
               <div class="detail">
                 <p>
-                  制限時間内にポイを使って金魚をすくおう！<br />景品GETのチャンスも!?<br />ぜひ遊びに来てください♡
+                  制限時間内にポイを使って金魚をすくおう！<br />景品GETのチャンスも！？<br />ぜひ遊びに来てください♡
                 </p>
                 <p>
                   5/17(土) 13:00~16:30<span class="limit-time"

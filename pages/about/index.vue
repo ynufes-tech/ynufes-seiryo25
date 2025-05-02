@@ -169,12 +169,9 @@ useHead({
     margin: 10vh 0;
     font-size: 22px;
     @media (max-width: 860px) {
-        font-size: 18px;
+        font-size: 20px;
         display: flex;
         flex-direction: column;
-    }
-    @include sm {
-        font-size: 16px; 
     }
 }
 
@@ -184,12 +181,9 @@ useHead({
     margin: 10vh 0;
     font-size: 22px;
     @media (max-width: 860px) {
-        font-size: 18px;
+        font-size: 20px;
         display: flex;
         flex-direction: column-reverse;
-    }
-    @include sm {
-        font-size: 16px; 
     }
 }
 
@@ -244,7 +238,7 @@ useHead({
         padding: 0;
         justify-content: center;
         border-right: 0;
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 

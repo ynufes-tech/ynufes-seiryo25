@@ -10,7 +10,7 @@ const props = defineProps({
 <template>
   <div class="ins-icon-holder">
     <a class="ins-icon" :href="props.link">
-      <img src="~/assets/images/Instagram-logo.webp" alt="sns-icon-x" />
+      <img src="~/assets/images/instagram-logo.webp" alt="sns-icon-x" />
     </a>
   </div>
 </template>
