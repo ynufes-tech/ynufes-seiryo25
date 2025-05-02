@@ -275,7 +275,7 @@ const hideDropdown = () => {
                         <img
                         id="rt-img"
                         class="member-img"
-                        src="/assets/images/about-us_pictures/accounting/accounting2.webp"
+                        src="/assets/images/about-us_pictures/generalaffair/generalaffair2.webp"
                         >
                     </div>
                 </div>
