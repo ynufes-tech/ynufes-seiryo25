@@ -2,7 +2,7 @@
 useHead({
    title: "Official | 25清陵祭公式HP~翠星~",
    meta:[
-    { name: "description", content: "本部企画の 1覧を掲載しています"},
+    { name: "description", content: "本部企画の 一覧を掲載しています"},
    ], 
 });
 </script>
