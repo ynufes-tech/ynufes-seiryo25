@@ -18,7 +18,11 @@ useHead({
       <PageTitle :title="'CONTEST'" :sub-title="'企画コンテスト'" />
       <div class="upper-box">
         <TextBox
-          :text="`企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの`"
+          :text="`全企画の中で最も来場者の皆さんを満足させるのはどの企画か...？\n
+                  「展示・販売・体験部門」「食べ物部門」「パフォーマンス部門」\nの三つの部門に分かれて総得点を競う、企画審査委員会。今回も開催します！\n
+                  皆さんは企画審査委員です。清陵祭を楽しんで、企画を星5つでフォームから評価しましょう。\n
+                  参加してくれた審査委員の皆さんには、図書館前で景品も！\n
+                  皆さんの審査投票をお待ちしています。`"
           size="large"
         />
         <div class="buttons">
@@ -26,7 +30,13 @@ useHead({
                   <TopButton title="ランキングを見る" /> -->
         </div>
         <div class="howto">
-          <img class="howto-img" src="/assets/images/no-image.png" />
+          <img class="howto-img" src="/assets/images/contest-howto.webp" />
+        </div>
+        <div class="vote-link">
+          <a href="https://forms.gle/K9Xr4En59uDg9PGm6" target="_blank" rel="noopener noreferrer">
+            企画審査フォームはこちら
+          </a>
+          <img class="vote-qr" src="/assets/images/contest-qr.webp"
         </div>
       </div>
       <div class="mid-box">
@@ -34,21 +44,21 @@ useHead({
           <MoonLogo text="部門紹介" class="cate" />
         </div>
         <div class="categories">
-          <StarLogo text="○○部門" class="star" />
+          <StarLogo text="展示・販売・体験部門" class="star" />
           <TextBox
-            :text="`部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明`"
+            :text="`創意工夫が光る企画が勢ぞろい。\n個性豊かで魅力あふれる展示や、多種多様な体験の面白さをその目でご評価ください。`"
             size="large"
             class="contents"
           />
-          <StarLogo text="○○部門" class="star" />
+          <StarLogo text="食べ物部門" class="star" />
           <TextBox
-            :text="`部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明`"
+            :text="`個性光るさまざまな料理が皆さんを待っています。\n味はもちろん、見た目や提供の工夫まで、審査委員の皆さまの目と舌でご審査を！`"
             size="large"
             class="contents"
           />
-          <StarLogo text="○○部門" class="star" />
+          <StarLogo text="パフォーマンス部門" class="star" />
           <TextBox
-            :text="`部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明部門の説明`"
+            :text="`歌・ダンス・演劇など多彩なパフォーマンスが展開されます。\n演出力や表現力など、熱いパフォーマンスをその目で見極めてください。`"
             size="large"
             class="contents"
           />
@@ -121,6 +131,23 @@ useHead({
   }
 }
 
+.vote-link {
+  padding: 5rem 0 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  a {
+    color: white;
+  }
+  .vote-qr {
+    margin-top: 3rem;
+    width: 20vw;
+    @include md {
+      width: 40vw;
+    }
+  }
+}
+
 .buttons {
   position: absolute;
   margin: 19rem 0 0 -50vw;
@@ -152,12 +179,16 @@ useHead({
 
 .star {
   display: flex;
-  margin-left: -120vw;
+  width: 100%;
+  margin-left: -55vw;
 }
 
 .contents {
   display: flex;
   align-items: center;
+  @include md {
+    margin-top: 1rem;
+  }
 }
 
 .under-box {
