@@ -16,8 +16,8 @@ useHead({
       <div class="image-container">
         <img
             alt="campus-map"
-            class="campus-map-img"
-            src="../../assets/images/campus-map.png"
+            class="campus-map-webp"
+            src="~/assets/images/campus-map.webp"
         />
       </div>
 
@@ -29,7 +29,7 @@ useHead({
             download
         >
           <img
-              src="@/assets/images/download-button-white.png"
+              src="~/assets/images/download-button-white.webp"
               alt="ダウンロード"
           />
         </a>
@@ -81,7 +81,7 @@ useHead({
     transition: 0.3s ease-in-out;
 
     &:hover {
-      content: url('@/assets/images/download-button-blue.png');
+      content: url('@/assets/images/download-button-blue.webp');
     }
   }
 }
