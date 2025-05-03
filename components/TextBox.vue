@@ -81,6 +81,10 @@ const props = defineProps({
     @include sm {
       width: 70vw;
     }
+    p {
+      font-size: 18px;
+      padding: 2vh 0;
+    }
   }
 
   &.size-medium {
