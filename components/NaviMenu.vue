@@ -194,14 +194,15 @@ const toggle = () => {
   right: 4rem; /* 右端からの余白を増やす */
   width: 70px; /* ボタンの幅を増やして横長にする */
   height: 40px; /* ボタンの高さを90%に調整 */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
   @include md {
     top: 1.5rem; /* 上端からの余白を増やす */
     right: 2.5rem; /* 右端からの余白を増やす */
     width: 42px; /* ボタンの幅を増やして横長にする */
     height: 24px; /* ボタンの高さを90%に調整 */
   }
-  cursor: pointer;
-  transition: transform 0.3s ease;
 
   &:hover {
     transform: scale(1.25);
@@ -227,6 +228,7 @@ const toggle = () => {
     color: #666666;
     transition: transform 0.3s ease;
   }
+
   &:nth-child(1) {
     top: 10%; /* 最初の項目 */
     margin: 4vh 0 3vh 22vw;
@@ -234,6 +236,7 @@ const toggle = () => {
       margin: 1.5rem 0 2vh 30vw;
     }
   }
+
   &:nth-child(2) {
     top: 5%; /* 最初の項目 */
     margin: -2vh 0 3vh 22.1vw;
@@ -241,6 +244,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 37vw;
     }
   }
+
   &:nth-child(3) {
     top: 5%; /* 最初の項目 */
     margin: -2vh 0 3vh 22.5vw;
