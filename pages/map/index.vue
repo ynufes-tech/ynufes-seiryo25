@@ -62,11 +62,15 @@ useHead({
   margin-top: 7em;
   margin-bottom: 2em;
 
-  img.campus-map-img {
+  img.campus-map-webp {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 10px;
+  }
+
+  @include md {
+    margin-top: 4em;
   }
 }
 
