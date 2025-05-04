@@ -30,10 +30,10 @@ useHead({
 
         <!-- ダウンロードボタン2種 -->
         <div class="option">
-          <p>通常版（68.8MB）</p>
+          <p>通常版（128MB）</p>
           <a
               class="download-image-button"
-              href="https://storage.googleapis.com/tokiwa24-assets/tokiwa24-pamphlet-high.pdf"
+              href="https://storage.googleapis.com/seiryo25-pdf-assets/seiryo25-pamphlet-high.pdf"
               download
           >
             <img
@@ -44,10 +44,10 @@ useHead({
         </div>
 
         <div class="option">
-          <p>軽量版（22.9MB）</p>
+          <p>軽量版（10.8MB）</p>
           <a
               class="download-image-button"
-              href="https://storage.googleapis.com/tokiwa24-assets/tokiwa24-pamphlet-light.pdf"
+              href="https://storage.googleapis.com/seiryo25-pdf-assets/seiryo25-pamphlet-light.pdf"
               download
           >
             <img
