@@ -40,56 +40,64 @@ const toggle = () => {
             <NuxtLink
               to="/"
               @click="toggle"
-            >TOP
+            >
+              <p>TOP</p>
             </NuxtLink>
           </li>
           <li>
             <NuxtLink
               to="/news"
               @click="toggle"
-            >NEWS
+            >
+              <p>NEWS</p>
             </NuxtLink>
           </li>
           <li>
             <NuxtLink
               to="/about"
               @click="toggle"
-            >ABOUT
+            >
+              <p>ABOUT</p>
             </NuxtLink>
           </li>
           <li>
             <NuxtLink
               to="/official"
               @click="toggle"
-            >OFFICIAL-EVENTS
+            >
+              <p>OFFICIAL-EVENTS</p>
             </NuxtLink>
           </li>
           <li>
             <NuxtLink
               to="/events"
               @click="toggle"
-            >EVENTS
+            >
+              <p>EVENTS</p>
             </NuxtLink>
           </li>
           <li>
             <NuxtLink
               to="/access"
               @click="toggle"
-            >ACCESS
+            >
+              <p>ACCESS</p>
             </NuxtLink>
           </li>
           <li>
             <NuxtLink
               to="/staff"
               @click="toggle"
-            >STAFF
+            >
+              <p>STAFF</p>
             </NuxtLink>
           </li>
           <li>
             <NuxtLink
               to="/about-us"
               @click="toggle"
-            >ABOUT-US
+            >
+              <p>ABOUT-US</p>
             </NuxtLink>
           </li>
           <!-- <li> -->
@@ -193,91 +201,95 @@ const toggle = () => {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  //text-align: center;
 
   @include md {
     padding: 0;
   }
-}
 
-.nav-list li {
-  margin-bottom: 2rem;
+  li {
+    margin-bottom: 2rem;
 
-  &:hover {
-    transform: translateY(-2px) scale(1.1);
-    color: #666666;
-    transition: transform 0.3s ease;
-  }
+    p {
+      cursor: pointer;
+      color: #666666;
+      transition: transform 0.1s ease;
 
-  &:nth-child(1) {
-    top: 10%; /* 最初の項目 */
-    margin: 2rem 0 1rem 22vw;
-    @include md {
-      margin: 1.5rem 0 1rem 30vw;
+      &:hover {
+        transform: translateY(-1.5px) scale(1.1);
+        transition: transform 0.3s ease;
+      }
     }
-  }
 
-  &:nth-child(2) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 22.5vw;
-    @include md {
-      margin: 1.5rem 0 1rem 37vw;
+    &:nth-child(1) {
+      top: 10%; /* 最初の項目 */
+      margin: 2rem 0 1rem 22vw;
+      @include md {
+        margin: 1.5rem 0 1rem 30vw;
+      }
     }
-  }
 
-  &:nth-child(3) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 23.5vw;
-    @include md {
-      margin: 1.5rem 0 1rem 40vw;
+    &:nth-child(2) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 22.5vw;
+      @include md {
+        margin: 1.5rem 0 1rem 37vw;
+      }
     }
-  }
 
-  &:nth-child(4) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 24.7vw;
-    @include md {
-      margin: 1.5rem 0 1rem 41vw;
+    &:nth-child(3) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 23.5vw;
+      @include md {
+        margin: 1.5rem 0 1rem 40vw;
+      }
     }
-  }
 
-  &:nth-child(5) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 26.7vw;
-    @include md {
-      margin: 1.5rem 0 1rem 41vw;
+    &:nth-child(4) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 24.7vw;
+      @include md {
+        margin: 1.5rem 0 1rem 41vw;
+      }
     }
-  }
 
-  &:nth-child(6) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 28.5vw;
-    @include md {
-      margin: 1.5rem 0 1rem 38vw;
+    &:nth-child(5) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 26.7vw;
+      @include md {
+        margin: 1.5rem 0 1rem 41vw;
+      }
     }
-  }
 
-  &:nth-child(7) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 31.5vw;
-    @include md {
-      margin: 1.5rem 0 1rem 35.5vw;
+    &:nth-child(6) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 28.5vw;
+      @include md {
+        margin: 1.5rem 0 1rem 38vw;
+      }
     }
-  }
 
-  &:nth-child(8) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 35.5vw;
-    @include md {
-      margin: 1.5rem 0 1rem 32vw;
+    &:nth-child(7) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 31.5vw;
+      @include md {
+        margin: 1.5rem 0 1rem 35.5vw;
+      }
     }
-  }
 
-  &:nth-child(9) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 39.5vw;
-    @include md {
-      margin: 1.5rem 0 1rem 28vw;
+    &:nth-child(8) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 35.5vw;
+      @include md {
+        margin: 1.5rem 0 1rem 32vw;
+      }
+    }
+
+    &:nth-child(9) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 39.5vw;
+      @include md {
+        margin: 1.5rem 0 1rem 28vw;
+      }
     }
   }
 }
