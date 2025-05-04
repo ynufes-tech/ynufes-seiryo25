@@ -18,7 +18,7 @@ useHead({
                    <p>「25清陵祭」の開催にあたり、多くの企業の皆様より多大なるご支援とご協力を賜りました。<br/>
                      ここに深く感謝申し上げます。</p>
                    <p>ご協賛いただきました企業の皆様を以下にご紹介させていただきます。<br/>
-                     （敬称略・順不同）</p>
+                     （敬称略・五十音順）</p>
                </div>
 
   <h2 class="heading">
@@ -30,6 +30,7 @@ useHead({
       ・JOINUS<br/>
       ・オーラルプラン歯科クリニック<br/>
       ・株式会社安藤スポーツ<br/>
+      ・株式会社カレッジヤード<br/>
       ・株式会社毎日コムネット<br/>
       ・株式会社 横浜岡田屋<br/>
       ・株式会社らいふ<br/>
@@ -38,6 +39,7 @@ useHead({
     </div>
     <div class="right">
       ・食品館あおば<br/>
+      ・信栄食堂<br/>
       ・ときた内科クリニック<br/>
       ・どんとこい家<br/>
       ・ネクストギアーズ株式会社<br/>
@@ -162,12 +164,17 @@ useHead({
       margin-top: 8vh;
     }
   display: flex;
-  gap: 2rem; /* 左右の間隔 */
+  gap: 2rem; 
+
+  @include md {
+    margin-top: 8vh;
+    flex-direction: column; 
+  }
 
 
 .left,
 .right {
-  flex: 1; /* 幅を均等に分ける */
+  flex: 1; 
 }
 }
 
@@ -191,6 +198,17 @@ p {
     width: 8em;
     height: auto;
     margin-right: 0.5em;
+
+    @media (max-width: 768px) {
+    width: 5em;
+    margin-right: 0.3em;
+  }
+
+  @media (max-width: 480px) {
+    width: 4em;
+    margin-right: 0.2em;
   }
 }
+  }
+
 </style>
