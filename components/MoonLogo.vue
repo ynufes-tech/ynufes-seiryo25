@@ -26,9 +26,7 @@ const props = defineProps({
   display: flex;
   flex-direction: row;
   position: relative;
-  right: 0;
-  left: 15vw;
-  bottom: 20px;
+  margin: 20px auto;
 }
 .content {
   display: flex;
