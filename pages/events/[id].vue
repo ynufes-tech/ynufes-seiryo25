@@ -137,9 +137,9 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
 .moon {
   position: relative;
   top: 30px;
-  left: 0;
+  left: -20vw;
   @include md {
-    left: 0;
+    left: -30vw;
   }
 }
 
