@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-import { ref } from "vue";
+import { ref } from 'vue'
 
-const showMenu = ref(false);
+const showMenu = ref(false)
 const toggle = () => {
-  showMenu.value = !showMenu.value;
-};
+  showMenu.value = !showMenu.value
+}
 </script>
 
 <template>
@@ -16,49 +16,76 @@ const toggle = () => {
       alt="Menu Button"
       class="menu-button"
       @click="toggle"
-    />
-    <div v-show="showMenu" class="nav-list-wrapper">
+    >
+    <div
+      v-show="showMenu"
+      class="nav-list-wrapper"
+    >
       <!-- 背景画像 -->
       <img
         src="~/assets/images/NaviBack.webp"
         alt="Menu Background"
         class="background-image"
-      />
+      >
       <!-- メニュー右上にバツ印ボタン -->
       <img
         src="~/assets/images/ShrinkButton.webp"
         alt="Close Menu"
         class="close-button"
         @click="toggle"
-      />
+      >
       <nav>
         <ul class="nav-list">
           <li>
-            <NuxtLink to="/" @click="toggle">TOP</NuxtLink>
+            <NuxtLink
+              to="/"
+              @click="toggle"
+            >TOP</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/news" @click="toggle">NEWS</NuxtLink>
+            <NuxtLink
+              to="/news"
+              @click="toggle"
+            >NEWS</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" @click="toggle">ABOUT</NuxtLink>
+            <NuxtLink
+              to="/about"
+              @click="toggle"
+            >ABOUT</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/official" @click="toggle">OFFICIAL-EVENTS</NuxtLink>
+            <NuxtLink
+              to="/official"
+              @click="toggle"
+            >OFFICIAL-EVENTS</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/events" @click="toggle">EVENTS</NuxtLink>
+            <NuxtLink
+              to="/events"
+              @click="toggle"
+            >EVENTS</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/access" @click="toggle">ACCESS</NuxtLink>
+            <NuxtLink
+              to="/access"
+              @click="toggle"
+            >ACCESS</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/staff" @click="toggle">STAFF</NuxtLink>
+            <NuxtLink
+              to="/staff"
+              @click="toggle"
+            >STAFF</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about-us" @click="toggle">ABOUT-US</NuxtLink>
+            <NuxtLink
+              to="/about-us"
+              @click="toggle"
+            >ABOUT-US</NuxtLink>
           </li>
           <!-- <li> -->
-            <!-- <NuxtLink to="/faq" @click="toggle">FAQ</NuxtLink> -->
+          <!-- <NuxtLink to="/faq" @click="toggle">FAQ</NuxtLink> -->
           <!-- </li> -->
         </ul>
       </nav>

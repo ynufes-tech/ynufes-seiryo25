@@ -25,7 +25,8 @@ onMounted(
             showHeader.value = true
             changePos = scrollPos
           }
-        } else {
+        }
+        else {
           // scroll down
           // 一定以上スクロールしたらヘッダーを非表示
           if (changePos + maxThreshold < scrollPos) {
@@ -33,7 +34,8 @@ onMounted(
             changePos = scrollPos
           }
         }
-      } else {
+      }
+      else {
         showHeader.value = true
       }
     }
@@ -48,9 +50,10 @@ onMounted(
         running = true
       }
     })
-  }
+  },
 )
 </script>
+
 <template>
   <div class="header-component">
     <Transition name="h">
@@ -61,12 +64,15 @@ onMounted(
       >
         <div class="header-content">
           <div class="left">
-            <NuxtLink class="header-icon" to="/">
+            <NuxtLink
+              class="header-icon"
+              to="/"
+            >
               <img
                 src="~/assets/images/seiryo25_logo.webp"
                 class="header-img"
                 alt="ロゴ"
-              />
+              >
             </NuxtLink>
           </div>
           <div class="right">
@@ -77,6 +83,7 @@ onMounted(
     </Transition>
   </div>
 </template>
+
 <style lang="scss" scoped>
 @use '@/assets/scss/_breakpoint.scss' as *;
 
