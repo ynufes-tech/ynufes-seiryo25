@@ -40,6 +40,7 @@ const props = defineProps({
   border: none;
   color: #170634;
   font-size: 23px;
+  font-family: 'Zen Old Mincho', sans-serif;
   cursor: pointer;
 }
 
