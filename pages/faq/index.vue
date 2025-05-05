@@ -10,7 +10,10 @@ useHead({
 <template>
   <div class="page-root">
     <div class="page-container">
-      <PageTitle :title="'FAQ'" :sub-title="'よくあるご質問'" />
+      <PageTitle
+        :title="'FAQ'"
+        :sub-title="'よくあるご質問'"
+      />
       <div class="box">
         <div class="category">
           <div class="qa">
@@ -46,8 +49,8 @@ useHead({
           <div class="content">
             <p>清陵祭期間中、 生協や食堂は使える?</p>
             <p>
-              第1食堂は屋内飲食が可能ですが、 食堂の営業はございません。 また、
-              第2食堂・生協は終日営業していません。
+              第1食堂は屋内飲食が可能ですが、 食堂の営業はございません。
+              また、 第2食堂・生協は終日営業していません。
             </p>
           </div>
         </div>
