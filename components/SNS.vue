@@ -9,7 +9,10 @@
         rel="noopener noreferrer"
         target="_blank"
       >
-        <img alt="x" src="~/assets/images/x-white.webp" />
+        <img
+          alt="x"
+          src="~/assets/images/x-white.webp"
+        >
       </a>
       <a
         id="sns-ins"
@@ -17,7 +20,10 @@
         rel="noopener noreferrer"
         target="_blank"
       >
-        <img alt="instagram" src="~/assets/images/Instagram-logo.webp" />
+        <img
+          alt="instagram"
+          src="~/assets/images/Instagram-logo.webp"
+        >
       </a>
       <a
         id="sns-f"
@@ -25,7 +31,10 @@
         rel="noopener noreferrer"
         target="_blank"
       >
-        <img alt="facebook" src="~/assets/images/facebook-logo.webp" />
+        <img
+          alt="facebook"
+          src="~/assets/images/facebook-logo.webp"
+        >
       </a>
     </div>
   </div>

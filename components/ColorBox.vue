@@ -9,9 +9,11 @@ const props = defineProps({
 
 <template>
   <div class="pop">
-    <div class="color-button">
+    <div class="color-box">
       <div class="content">
-        <p class="news-title">{{ text }}</p>
+        <p class="news-title">
+          {{ text }}
+        </p>
       </div>
     </div>
   </div>
@@ -25,19 +27,19 @@ const props = defineProps({
   justify-content: center;
 }
 
-.color-button {
+.color-box {
   position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 2px; // 枠線として使う余白
   background: linear-gradient(
-    90deg, 
-    rgba(44,163,255,1) 0%, 
-    rgba(113,255,210,1) 0%, 
-    rgba(129,240,255,1) 17%, 
-    rgba(58,215,181,1) 44%, 
-    rgba(162,240,254,1) 67%, 
+    90deg,
+    rgba(44,163,255,1) 0%,
+    rgba(113,255,210,1) 0%,
+    rgba(129,240,255,1) 17%,
+    rgba(58,215,181,1) 44%,
+    rgba(162,240,254,1) 67%,
     rgba(157,255,209,1) 91%
   );
   background-size: 200% 200%;
@@ -48,7 +50,7 @@ const props = defineProps({
   border-radius: 2rem;
 
   filter: drop-shadow(5px 3px 10px rgba(255, 255, 255, 0.9));
-  
+
   @include md {
     width: 85vw;
   }
@@ -82,8 +84,6 @@ const props = defineProps({
     }
   }
 
-
-  
   .now {
     margin-top: 0;
     padding: 0 1vw 0;

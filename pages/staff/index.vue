@@ -1,40 +1,43 @@
 <script setup lang="ts">
 useHead({
-   title: "Staff | 25清陵祭公式HP~翠星~",
-   meta:[
-    { name: "description", content: "お問い合わせはこちら"},
-   ], 
-});
+  title: 'Staff | 25清陵祭公式HP~翠星~',
+  meta: [
+    { name: 'description', content: 'お問い合わせはこちら' },
+  ],
+})
 </script>
 
 <template>
-<div class="page-root">
+  <div class="page-root">
     <div class="page-container">
-        <PageTitle :title="'STAFF'" :sub-title="'大学祭に関するお問い合わせ'" />
-        <div class="box">
-            <div class="explanation">
-                <p>清陵祭に興味を持っていただきありがとうございます。</p>
-                <p>お問い合わせに関しましては、メールにてお願いします。</p>
-            </div>
-            <div class="content">
-                <p>
-                メールでのお問い合わせ<br />
-                メールアドレス：25seiryo.soumu@gmail.com<br />
-                </p>
-                <!-- <p> -->
-                <!-- ※HPに関するお問い合わせは以下までお願いします。<br /> -->
-                <!-- メールアドレス：<br /> -->
-                <!-- </p> -->
-            </div>
-            <div class="message">
-                <p>
-                お問い合わせいただく場合、本文にお名前とお問い合わせ内容の記入を忘れずにお願いします。<br />
-                お問い合わせ内容を確認後、担当者より連絡させていただきます。
-                </p>
-            </div>
+      <PageTitle
+        :title="'STAFF'"
+        :sub-title="'大学祭に関するお問い合わせ'"
+      />
+      <div class="box">
+        <div class="explanation">
+          <p>清陵祭に興味を持っていただきありがとうございます。</p>
+          <p>お問い合わせに関しましては、メールにてお願いします。</p>
         </div>
+        <div class="content">
+          <p>
+            メールでのお問い合わせ<br>
+            メールアドレス：25seiryo.soumu@gmail.com<br>
+          </p>
+          <!-- <p> -->
+          <!-- ※HPに関するお問い合わせは以下までお願いします。<br /> -->
+          <!-- メールアドレス：<br /> -->
+          <!-- </p> -->
+        </div>
+        <div class="message">
+          <p>
+            お問い合わせいただく場合、本文にお名前とお問い合わせ内容の記入を忘れずにお願いします。<br>
+            お問い合わせ内容を確認後、担当者より連絡させていただきます。
+          </p>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -49,7 +52,7 @@ useHead({
 .box {
     background-color: rgba(134, 249, 255, 0.2);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 0 30px 15px rgba(134, 249, 255, 0.2);
     padding: 9% 8%;
     opacity: 90%;
