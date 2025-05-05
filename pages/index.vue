@@ -7,26 +7,38 @@ useHead({
       content: '5/17,18に開催される25清陵祭の公式HPです! 最新情報を随時更新していきます!',
     },
   ],
-});
+})
 </script>
 
 <template>
   <div class="page-root">
     <div class="shooting-stars">
       <div class="shooting-star-mini">
-        <img class="shooting-star-mini-img" src="@/assets/images/shooting-star_mini.webp" />
+        <img
+          class="shooting-star-mini-img"
+          src="@/assets/images/shooting-star_mini.webp"
+        >
       </div>
       <div class="shooting-star-big">
-          <img class="shooting-star-big-img" src="@/assets/images/shooting-star_big.webp" />
+        <img
+          class="shooting-star-big-img"
+          src="@/assets/images/shooting-star_big.webp"
+        >
       </div>
     </div>
     <div class="page-container">
       <div class="content">
         <div class="title-container">
-          <img id="top-title" src="@/assets/images/title_suisei-image.webp" />
+          <img
+            id="top-title"
+            src="@/assets/images/title_suisei-image.webp"
+          >
         </div>
         <div class="seiryo-logo">
-          <img class="seiryo-logo-image" src="@/assets/images/seiryo-logo.webp" />
+          <img
+            class="seiryo-logo-image"
+            src="@/assets/images/seiryo-logo.webp"
+          >
         </div>
         <div class="date">
           <p>5/17 <span class="weekday">Sat.</span>  13:00 - 20:30</p>
@@ -36,9 +48,9 @@ useHead({
       </div>
     </div>
     <!-- <div class="preparing"> -->
-      <!-- <div class="pre-message"> -->
-        <!-- <p>準備中</p> -->
-      <!-- </div> -->
+    <!-- <div class="pre-message"> -->
+    <!-- <p>準備中</p> -->
+    <!-- </div> -->
     <!-- </div> -->
   </div>
 </template>

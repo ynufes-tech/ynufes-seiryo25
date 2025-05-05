@@ -1,85 +1,94 @@
 <script setup lang="ts">
 useHead({
-   title: "About | 25清陵祭公式HP~翠星~",
-   meta:[
-    { name: "description", content: "25清陵祭についての情報を掲載しています" },
-   ], 
-});
+  title: 'About | 25清陵祭公式HP~翠星~',
+  meta: [
+    { name: 'description', content: '25清陵祭についての情報を掲載しています' },
+  ],
+})
 </script>
 
 <template>
-<div class="page-root">
+  <div class="page-root">
     <div class="page-container">
-        <PageTitle :title="'ABOUT'" :sub-title="'清陵祭について'" />
-        <div class="flames">
-            <div class="flame_1">
-                <img class="white-flame" src="/assets/images/white-flame-upper.png">
-            </div>
-            <div class="flame_2">
-                <img class="white-flame" src="/assets/images/white-flame-under.png">
-            </div>
+      <PageTitle
+        :title="'ABOUT'"
+        :sub-title="'清陵祭について'"
+      />
+      <div class="flames">
+        <div class="flame_1">
+          <img
+            class="white-flame"
+            src="/assets/images/white-flame-upper.png"
+          >
         </div>
-        <div class="box">
-            <div class="content">
-                <div class="explain1">
-                    <div class="theme1">
-                        <h3>新しい想い出を紡ぐ。</h3>
-                    </div>
-                    <div class="message">
-                        <p>清陵祭は、毎年5月に開催される横浜国立大学の大学祭です。</p>
-                        <p>
-                            次々と並び立つ食欲をそそる模擬店、<br>
-                            心躍る音楽と目を奪われるダンス、<br>
-                            唯一無二の企画が彩るキャンパス。<br>
-                            きっと、あなたも忘れたくない瞬間に出会えます。
-                        </p>
-                        <p>
-                            ご来場に際して事前予約は不要です。<br>
-                            ぜひ、お気軽にお越しください。
-                        </p>
-                    </div>
-                </div>
-                <div class="explain2">
-                    <div class="message">
-                        <p>2025年の清陵祭テーマは、「翠星」</p>
-                        <p>「翠」は5月の誕生石エメラルドを指しています。</p>
-                        <p> 春から初夏への変わり目の5月。<br>
-                            新緑の葉が風に揺らめき、心の中にも芽吹きの兆しが現れます。<br>
-                            「翠星」には、爽やかな希望が輝く大学祭になることへの願いが込められています。
-                        </p>
-                    </div>
-                    <div class="theme2">
-                        <h3>「翠星」</h3>
-                    </div>
-                </div>
-            </div>
+        <div class="flame_2">
+          <img
+            class="white-flame"
+            src="/assets/images/white-flame-under.png"
+          >
         </div>
-        <div class="date-box">
-            <div class="inner-date-box">
-                <div class="info">
-                    <div class="info-label">
-                        <p>開催日時</p>
-                    </div>
-                    <div class="info-content">
-                        <p>
-                        1日目：5月17日(土)　13:00 - 20:30<br >
-                        2日目：5月18日(日)　9:00 - 15:00
-                        </p>
-                    </div>
-                </div>
-                <div class="info">
-                    <div class="info-label">
-                        <p>会場</p>
-                    </div>
-                    <div class="info-content">
-                        <p>横浜国立大学　常盤台キャンパス</p>
-                    </div>
-                </div>
+      </div>
+      <div class="box">
+        <div class="content">
+          <div class="explain1">
+            <div class="theme1">
+              <h3>新しい想い出を紡ぐ。</h3>
             </div>
+            <div class="message">
+              <p>清陵祭は、毎年5月に開催される横浜国立大学の大学祭です。</p>
+              <p>
+                次々と並び立つ食欲をそそる模擬店、<br>
+                心躍る音楽と目を奪われるダンス、<br>
+                唯一無二の企画が彩るキャンパス。<br>
+                きっと、あなたも忘れたくない瞬間に出会えます。
+              </p>
+              <p>
+                ご来場に際して事前予約は不要です。<br>
+                ぜひ、お気軽にお越しください。
+              </p>
+            </div>
+          </div>
+          <div class="explain2">
+            <div class="message">
+              <p>2025年の清陵祭テーマは、「翠星」</p>
+              <p>「翠」は5月の誕生石エメラルドを指しています。</p>
+              <p>
+                春から初夏への変わり目の5月。<br>
+                新緑の葉が風に揺らめき、心の中にも芽吹きの兆しが現れます。<br>
+                「翠星」には、爽やかな希望が輝く大学祭になることへの願いが込められています。
+              </p>
+            </div>
+            <div class="theme2">
+              <h3>「翠星」</h3>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="date-box">
+        <div class="inner-date-box">
+          <div class="info">
+            <div class="info-label">
+              <p>開催日時</p>
+            </div>
+            <div class="info-content">
+              <p>
+                1日目：5月17日(土)&emsp;13:00 - 20:30<br>
+                2日目：5月18日(日)&emsp;9:00 - 15:00
+              </p>
+            </div>
+          </div>
+          <div class="info">
+            <div class="info-label">
+              <p>会場</p>
+            </div>
+            <div class="info-content">
+              <p>横浜国立大学&emsp;常盤台キャンパス</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -119,7 +128,7 @@ useHead({
 .box {
   background-color: rgba(134, 249, 255, 0.2);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 0 30px 15px rgba(134, 249, 255, 0.2);
   padding: 1% 4%;
   opacity: 90%;
@@ -138,7 +147,7 @@ useHead({
   display: flex;
   justify-content: center;
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 0 30px 15px rgba(134, 249, 255, 0.2);
   padding: 1% 4%;
   background-color: rgba(134, 249, 255, 0.2);
@@ -174,7 +183,7 @@ useHead({
         flex-direction: column;
     }
     @include sm {
-        font-size: 16px; 
+        font-size: 16px;
     }
 }
 
@@ -189,7 +198,7 @@ useHead({
         flex-direction: column-reverse;
     }
     @include sm {
-        font-size: 16px; 
+        font-size: 16px;
     }
 }
 
@@ -264,6 +273,4 @@ useHead({
 .info-content p {
   line-height: 3;
 }
-
-
 </style>

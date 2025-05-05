@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-import { ref } from "vue";
+import { ref } from 'vue'
 
-const showMenu = ref(false);
+const showMenu = ref(false)
 const toggle = () => {
-  showMenu.value = !showMenu.value;
-};
+  showMenu.value = !showMenu.value
+}
 </script>
 
 <template>
@@ -16,49 +16,92 @@ const toggle = () => {
       alt="Menu Button"
       class="menu-button"
       @click="toggle"
-    />
-    <div v-show="showMenu" class="nav-list-wrapper">
+    >
+    <div
+      v-show="showMenu"
+      class="nav-list-wrapper"
+    >
       <!-- 背景画像 -->
       <img
         src="~/assets/images/NaviBack.webp"
         alt="Menu Background"
         class="background-image"
-      />
+      >
       <!-- メニュー右上にバツ印ボタン -->
       <img
         src="~/assets/images/ShrinkButton.webp"
         alt="Close Menu"
         class="close-button"
         @click="toggle"
-      />
+      >
       <nav>
         <ul class="nav-list">
           <li>
-            <NuxtLink to="/" @click="toggle">TOP</NuxtLink>
+            <NuxtLink
+              to="/"
+              @click="toggle"
+            >
+              <p>TOP</p>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/news" @click="toggle">NEWS</NuxtLink>
+            <NuxtLink
+              to="/news"
+              @click="toggle"
+            >
+              <p>NEWS</p>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" @click="toggle">ABOUT</NuxtLink>
+            <NuxtLink
+              to="/about"
+              @click="toggle"
+            >
+              <p>ABOUT</p>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/official" @click="toggle">OFFICIAL-EVENTS</NuxtLink>
+            <NuxtLink
+              to="/official"
+              @click="toggle"
+            >
+              <p>OFFICIAL-EVENTS</p>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/events" @click="toggle">EVENTS</NuxtLink>
+            <NuxtLink
+              to="/events"
+              @click="toggle"
+            >
+              <p>EVENTS</p>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/access" @click="toggle">ACCESS</NuxtLink>
+            <NuxtLink
+              to="/access"
+              @click="toggle"
+            >
+              <p>ACCESS</p>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/staff" @click="toggle">STAFF</NuxtLink>
+            <NuxtLink
+              to="/staff"
+              @click="toggle"
+            >
+              <p>STAFF</p>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about-us" @click="toggle">ABOUT-US</NuxtLink>
+            <NuxtLink
+              to="/about-us"
+              @click="toggle"
+            >
+              <p>ABOUT-US</p>
+            </NuxtLink>
           </li>
           <!-- <li> -->
-            <!-- <NuxtLink to="/faq" @click="toggle">FAQ</NuxtLink> -->
+          <!-- <NuxtLink to="/faq" @click="toggle">FAQ</NuxtLink> -->
           <!-- </li> -->
         </ul>
       </nav>
@@ -138,14 +181,15 @@ const toggle = () => {
   right: 4rem; /* 右端からの余白を増やす */
   width: 70px; /* ボタンの幅を増やして横長にする */
   height: 40px; /* ボタンの高さを90%に調整 */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
   @include md {
     top: 1.5rem; /* 上端からの余白を増やす */
     right: 2.5rem; /* 右端からの余白を増やす */
     width: 42px; /* ボタンの幅を増やして横長にする */
     height: 24px; /* ボタンの高さを90%に調整 */
   }
-  cursor: pointer;
-  transition: transform 0.3s ease;
 
   &:hover {
     transform: scale(1.25);
@@ -157,82 +201,95 @@ const toggle = () => {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  //text-align: center;
 
   @include md {
     padding: 0;
   }
-}
 
-.nav-list li {
-  margin-bottom: 2rem;
+  li {
+    margin-bottom: 2rem;
 
-  &:hover {
-    transform: translateY(-2px) scale(1.1);
-    color: #666666;
-    transition: transform 0.3s ease;
-  }
-  &:nth-child(1) {
-    top: 10%; /* 最初の項目 */
-    margin: 2rem 0 1rem 22vw;
-    @include md {
-      margin: 1.5rem 0 1rem 30vw;
+    p {
+      cursor: pointer;
+      color: #666666;
+      transition: transform 0.1s ease;
+
+      &:hover {
+        transform: translateY(-1.5px) scale(1.1);
+        transition: transform 0.3s ease;
+      }
     }
-  }
-  &:nth-child(2) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 22.5vw;
-    @include md {
-      margin: 1.5rem 0 1rem 37vw;
+
+    &:nth-child(1) {
+      top: 10%; /* 最初の項目 */
+      margin: 2rem 0 1rem 22vw;
+      @include md {
+        margin: 1.5rem 0 1rem 30vw;
+      }
     }
-  }
-  &:nth-child(3) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 23.5vw;
-    @include md {
-      margin: 1.5rem 0 1rem 40vw;
+
+    &:nth-child(2) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 22.5vw;
+      @include md {
+        margin: 1.5rem 0 1rem 37vw;
+      }
     }
-  }
-  &:nth-child(4) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 24.7vw;
-    @include md {
-      margin: 1.5rem 0 1rem 41vw;
+
+    &:nth-child(3) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 23.5vw;
+      @include md {
+        margin: 1.5rem 0 1rem 40vw;
+      }
     }
-  }
-  &:nth-child(5) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 26.7vw;
-    @include md {
-      margin: 1.5rem 0 1rem 41vw;
+
+    &:nth-child(4) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 24.7vw;
+      @include md {
+        margin: 1.5rem 0 1rem 41vw;
+      }
     }
-  }
-  &:nth-child(6) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 28.5vw;
-    @include md {
-      margin: 1.5rem 0 1rem 38vw;
+
+    &:nth-child(5) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 26.7vw;
+      @include md {
+        margin: 1.5rem 0 1rem 41vw;
+      }
     }
-  }
-  &:nth-child(7) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 31.5vw;
-    @include md {
-      margin: 1.5rem 0 1rem 35.5vw;
+
+    &:nth-child(6) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 28.5vw;
+      @include md {
+        margin: 1.5rem 0 1rem 38vw;
+      }
     }
-  }
-  &:nth-child(8) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 35.5vw;
-    @include md {
-      margin: 1.5rem 0 1rem 32vw;
+
+    &:nth-child(7) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 31.5vw;
+      @include md {
+        margin: 1.5rem 0 1rem 35.5vw;
+      }
     }
-  }
-  &:nth-child(9) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 39.5vw;
-    @include md {
-      margin: 1.5rem 0 1rem 28vw;
+
+    &:nth-child(8) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 35.5vw;
+      @include md {
+        margin: 1.5rem 0 1rem 32vw;
+      }
+    }
+
+    &:nth-child(9) {
+      top: 10%; /* 最初の項目 */
+      margin: 0 0 1rem 39.5vw;
+      @include md {
+        margin: 1.5rem 0 1rem 28vw;
+      }
     }
   }
 }
