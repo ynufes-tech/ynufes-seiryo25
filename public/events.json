@@ -447,12 +447,12 @@
     "id": 39,
     "e_name": "YNUCL",
     "o_name": "横国イラスト・漫画研究部YNUCL",
-    "e_description": null,
-    "o_description": null,
+    "e_description": "部誌を販売しています！今回のテーマは「擬人化」です!",
+    "o_description": "毎週集まってイラストを描くサークルです。",
     "genre": "展示・販売・体験",
     "hp_id": null,
-    "x_id": null,
-    "ins_id": null,
+    "x_id": "https://x.com/YNUCLz",
+    "ins_id": "https://www.instagram.com/ynucl_gram",
     "place": "理工学部A棟-108"
   },
   {
