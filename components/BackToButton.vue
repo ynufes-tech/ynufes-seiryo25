@@ -7,26 +7,27 @@ const props = defineProps({
   link: {
     type: String,
     required: true,
-  }
-});
+  },
+})
 </script>
 
 <template>
   <div class="page-root">
-      <div class="page-container">
-          <div class="backto">
-              <a class="circle-text-button" :href="link">
-                  <div class="circle">
-                    <div class="inner-dot">
-                    </div>
-                  </div>
-                  <span class="text">{{ text }}</span>
-               </a>
-           </div>
+    <div class="page-container">
+      <div class="backto">
+        <a
+          class="circle-text-button"
+          :href="link"
+        >
+          <div class="circle">
+            <div class="inner-dot" />
+          </div>
+          <span class="text">{{ text }}</span>
+        </a>
       </div>
+    </div>
   </div>
 </template>
-
 
 <style scoped lang="scss">
 @use "@/assets/scss/_breakpoint.scss" as *;
@@ -65,7 +66,7 @@ const props = defineProps({
 
   .text {
     font-size: 28px;
-    color: #FFFF; 
+    color: #FFFF;
     font-family: 'Zen Old Mincho', sans-serif;
     transition: color 0.3s ease;
     @include md {

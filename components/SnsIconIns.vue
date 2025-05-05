@@ -9,8 +9,14 @@ const props = defineProps({
 
 <template>
   <div class="ins-icon-holder">
-    <a class="ins-icon" :href="props.link">
-      <img src="~/assets/images/Instagram-logo.webp" alt="sns-icon-x" />
+    <a
+      class="ins-icon"
+      :href="props.link"
+    >
+      <img
+        src="~/assets/images/Instagram-logo.webp"
+        alt="sns-icon-x"
+      >
     </a>
   </div>
 </template>

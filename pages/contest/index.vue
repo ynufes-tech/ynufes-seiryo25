@@ -1,21 +1,24 @@
 <script setup lang="ts">
-import TopButton from "~/components/TopButton.vue";
+import TextBox from '~/components/TextBox.vue'
 
 useHead({
-  title: "Contest | 25清陵祭公式HP~翠星~",
+  title: 'Contest | 25清陵祭公式HP~翠星~',
   meta: [
     {
-      name: "description",
-      content: "企画コンテストの詳細と結果をお知らせします！",
+      name: 'description',
+      content: '企画コンテストの詳細と結果をお知らせします！',
     },
   ],
-});
+})
 </script>
 
 <template>
   <div class="page-root">
     <div class="page-container">
-      <PageTitle :title="'CONTEST'" :sub-title="'企画コンテスト'" />
+      <PageTitle
+        :title="'CONTEST'"
+        :sub-title="'企画コンテスト'"
+      />
       <div class="upper-box">
         <TextBox
           :text="`全企画の中で最も来場者の皆さんを満足させるのはどの企画か...？\n
@@ -30,33 +33,55 @@ useHead({
                   <TopButton title="ランキングを見る" /> -->
         </div>
         <div class="howto">
-          <img class="howto-img" src="/assets/images/contest-howto.webp" />
+          <img
+            class="howto-img"
+            src="/assets/images/contest-howto.webp"
+          >
         </div>
         <div class="vote-link">
-          <a href="https://forms.gle/K9Xr4En59uDg9PGm6" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://forms.gle/K9Xr4En59uDg9PGm6"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             企画審査フォームはこちら
           </a>
-          <img class="vote-qr" src="/assets/images/contest-qr.webp"
+          <img
+            class="vote-qr"
+            src="/assets/images/contest-qr.webp"
+          >
         </div>
       </div>
       <div class="mid-box">
         <div class="title">
-          <MoonLogo text="部門紹介" class="cate" />
+          <MoonLogo
+            text="部門紹介"
+            class="cate"
+          />
         </div>
         <div class="categories">
-          <StarLogo text="展示・販売・体験部門" class="star" />
+          <StarLogo
+            text="展示・販売・体験部門"
+            class="star"
+          />
           <TextBox
             :text="`創意工夫が光る企画が勢ぞろい。\n個性豊かで魅力あふれる展示や、多種多様な体験の面白さをその目でご評価ください。`"
             size="large"
             class="contents"
           />
-          <StarLogo text="食べ物部門" class="star" />
+          <StarLogo
+            text="食べ物部門"
+            class="star"
+          />
           <TextBox
             :text="`個性光るさまざまな料理が皆さんを待っています。\n味はもちろん、見た目や提供の工夫まで、審査委員の皆さまの目と舌でご審査を！`"
             size="large"
             class="contents"
           />
-          <StarLogo text="パフォーマンス部門" class="star" />
+          <StarLogo
+            text="パフォーマンス部門"
+            class="star"
+          />
           <TextBox
             :text="`歌・ダンス・演劇など多彩なパフォーマンスが展開されます。\n演出力や表現力など、熱いパフォーマンスをその目で見極めてください。`"
             size="large"
@@ -66,10 +91,16 @@ useHead({
       </div>
       <div class="under-box">
         <div class="title">
-          <MoonLogo text="2024常盤祭の優勝団体" class="cate" />
+          <MoonLogo
+            text="2024常盤祭の優勝団体"
+            class="cate"
+          />
         </div>
         <div class="past-winner">
-          <TextBox :text="`飲食部門\n和田町ジロリアン`" size="small" />
+          <TextBox
+            :text="`飲食部門\n和田町ジロリアン`"
+            size="small"
+          />
           <TextBox
             :text="`展示・販売・体験部門\n謎解きサークルWHYNU`"
             size="small"
@@ -136,9 +167,11 @@ useHead({
   display: flex;
   align-items: center;
   flex-direction: column;
+
   a {
     color: white;
   }
+
   .vote-qr {
     margin-top: 3rem;
     width: 20vw;

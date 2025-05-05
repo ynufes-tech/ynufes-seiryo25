@@ -8,14 +8,16 @@ const props = defineProps({
     type: String,
     required: true,
   },
-});
+})
 </script>
+
 <template>
   <div class="page-title">
     <h1>{{ props.title }}</h1>
     <h2>{{ props.subTitle }}</h2>
   </div>
 </template>
+
 <style lang="scss" scoped>
 @use "@/assets/scss/_breakpoint.scss" as *;
 .page-title {
@@ -42,7 +44,7 @@ const props = defineProps({
     letter-spacing: 0.1em;
     width: fit-content;
     color: transparent;
-    -webkit-text-stroke: 1px #21FCE3; 
+    -webkit-text-stroke: 1px #21FCE3;
     text-shadow: 10px 10px 35px #65FBC2;
     font-weight: 400;
     z-index: 1000;
