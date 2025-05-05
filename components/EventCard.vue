@@ -151,7 +151,7 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
   @include sm{
     top: -50px;
     line-height: 3px;
-    font-size: 5.4svw;
+    font-size: 4.8svw;
 
   }
 }

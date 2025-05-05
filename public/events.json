@@ -51,12 +51,12 @@
     "id": 5,
     "e_name": "お笑いサークルわかばのライブ",
     "o_name": "お笑いサークルわかば",
-    "e_description": null,
+    "e_description": "わかばのお笑いライブです！漫才・ピン・コント様々なネタを披露します。",
     "o_description": null,
     "genre": "パフォーマンス",
     "hp_id": null,
-    "x_id": null,
-    "ins_id": null,
+    "x_id": "https://x.com/ynu_owarai_wkb",
+    "ins_id": "https://www.instagram.com/ynu.wakaba.owarai",
     "place": "都市科学部棟-103"
   },
   {
@@ -163,8 +163,8 @@
     "o_description": "写真部は月に2、3回の撮影会を中心に活動しております。また年に4回写真展を開催し、年に2回合宿を行っております。いつでもご入部いただけますのでお気軽にご相談ください。",
     "genre": "展示・販売・体験",
     "hp_id": null,
-    "x_id": "https://x.com/X(旧Twitter): ynuphoto",
-    "ins_id": "https://www.instagram.com/Instagram: ynu_photo",
+    "x_id": "https://x.com/ynuphoto",
+    "ins_id": "https://www.instagram.com/ynu_photo",
     "place": "経営学部1号館-205"
   },
   {
@@ -237,7 +237,7 @@
     "hp_id": null,
     "x_id": "https://x.com/Stair_shinkan2",
     "ins_id": "https://www.instagram.com/stair_shinkan",
-    "place": "特別な-場所"
+    "place": "特別な場所"
   },
   {
     "id": 22,
@@ -282,7 +282,7 @@
     "e_description": "玉こん。それは山形県民のソウルフード、玉こんにゃく。じっくり煮込み、たれが染み込んだその味で、あなたの心を癒します！",
     "o_description": "てらこやみなとみらいは、横浜・みなとみらいエリアを拠点に子どもの居場所づくり活動をしている学生ボランティア団体です！月に1回、子どもと全力で遊ぶ企画を行っています。4月は臨港パークで、巨大シャボン玉を作る企画を行いました！過去の活動の様子は、ぜひ公式インスタグラムをご覧ください！",
     "genre": "軽食",
-    "hp_id": "フォームの回答 1",
+    "hp_id": null,
     "x_id": null,
     "ins_id": null,
     "place": "テントA-4"
@@ -295,7 +295,7 @@
     "o_description": "東方深晴霞は、東方Projectが好きな人が集まるサークルです！活動は基本的に週1,2の自由参加です！原作・二次創作問わず東方が好きな方、学年問わずお待ちしております！",
     "genre": "展示・販売・体験",
     "hp_id": null,
-    "x_id": "https://x.com/ynurtc",
+    "x_id": "https://x.com/ynu_univtouhou",
     "ins_id": null,
     "place": "経営学部1号館-206"
   },
@@ -307,7 +307,7 @@
     "o_description": "横浜国立大学を拠点に活動する謎解きサークル。普段は週1回サークルメンバーで集まり、謎解きをしたり、作ったりしている団体です！",
     "genre": "展示・販売・体験",
     "hp_id": null,
-    "x_id": "https://x.com/https://x.com/ynu_nazotoki?t=KhYvw88P_GnWpLvFPBY6Rw&s=09",
+    "x_id": "https://x.com/ynu_nazotoki?t=KhYvw88P_GnWpLvFPBY6Rw&s=09",
     "ins_id": null,
     "place": "理工学部A棟-104"
   },
@@ -369,7 +369,7 @@
     "hp_id": null,
     "x_id": "https://x.com/baysoundjazzynu",
     "ins_id": "https://www.instagram.com/baysoundjazzynu",
-    "place": "特別な-場所"
+    "place": "特別な場所"
   },
   {
     "id": 33,
@@ -387,12 +387,12 @@
     "id": 34,
     "e_name": "カフェ  ペルソナ",
     "o_name": "ペルソナーズ",
-    "e_description": null,
-    "o_description": null,
+    "e_description": "ひんやり贅沢。 凍らせたカラフルなフルーツをグラスにたっぷりと。そこにシュワっと弾けるサイダーや、濃厚なフルーツジュースを注げば、見た目も味わいも特別な一杯のできあがり。 果実がじんわり溶け出し、時間とともに変わる味のハーモニーを楽しめます。 暑い日のおもてなしや、リラックスタイムにぴったりの、ちょっと贅沢なドリンク体験をどうぞ。",
+    "o_description": "私たちソフトボールサークル「ペルソナーズ」は、初心者から経験者まで誰でも大歓迎！ 週に一度、楽しく体を動かしながら、本気で勝ちにいく試合も盛り上がっています。 「運動したいけど激しすぎるのはちょっと…」という方にもぴったり！ みんなでワイワイ練習して、たまにはバーベキューやイベントも開催！ ソフトボールを通じて、最高の仲間と最高の時間を過ごしませんか？ まずは気軽に見学・体験から。あなたの参加を待っています！",
     "genre": "ドリンク",
     "hp_id": null,
     "x_id": null,
-    "ins_id": null,
+    "ins_id": "https://www.instagram.com/personers2025_",
     "place": "テントY-4"
   },
   {
@@ -405,7 +405,7 @@
     "hp_id": "https://shell-platypus-3ca.notion.site/e0497fdd59df4de3aa436c00065ef553",
     "x_id": "https://x.com/yfhouken_2025",
     "ins_id": "https://www.instagram.com/yfhoken_2025",
-    "place": "特別な-場所"
+    "place": "特別な場所"
   },
   {
     "id": 36,
@@ -506,13 +506,13 @@
   {
     "id": 44,
     "e_name": "鶏白湯トマト",
-    "o_name": "横国ラーメンサークル「ラメラメ✨」",
+    "o_name": "横国ラーメンサークル「ラメラメ」",
     "e_description": "ラーメン好きが集まって結成された、横国発のラーメンサークル『ラメラメ✨』がついに学祭初出店！ 今回お届けするのは、「トマト×鶏白湯ラーメン」 世界に羽ばたく群馬の風雲児、麺屋こうじ二代目店主の高橋さんの職人技が作り出す濃厚な鶏白湯と、神奈川県の地元のトマトの爽やかさが織りなすハーモニーは誰もが唸る極上の一杯です。 ぜひ味わってみてください！",
     "o_description": "2024年に生まれた横国ラーメンサークル『ラメラメ✨』 目標はただひとつ、飲食店の少ない常盤台に「国大生による、国大生のためのラーメン屋をつくること」主な活動は すする、作る、またすする。美味しいラーメンを探し求め、全国各地のラーメン屋を巡る「ラーメン巡り」と、自分たちにしか出せない味を追求するための「ラーメン試作会」を行っています。今年は学祭に加え、フードフェスへの出展も予定しています❗さらに、メンバーが全力で楽しめるイベントも続々企画中‼️最高の一杯を目指して、今日も明日も私たちはラーメンをすすります。ラーメンを愛するあなた、料理が好きなあなた、仲間と何かを作り上げたいあなた、ラメラメ✨で、幸せいっぱいの一杯を作りませんか？",
     "genre": "食事",
     "hp_id": null,
     "x_id": "https://x.com/@ramerame_ynu",
-    "ins_id": "https://www.instagram.com/@ramen_ramen.ynu",
+    "ins_id": "https://www.instagram.com/ramen_ramen.ynu",
     "place": "テントC-2"
   },
   {
@@ -549,7 +549,7 @@
     "hp_id": "https://ynusb.ciao.jp/index.shtml",
     "x_id": "https://x.com/ynusb_main",
     "ins_id": "https://www.instagram.com/ynusb_main",
-    "place": "特別な-場所"
+    "place": "特別な場所"
   },
   {
     "id": 48,
@@ -560,7 +560,7 @@
     "genre": "軽食",
     "hp_id": "http://ynusb.ciao.jp/",
     "x_id": "https://x.com/@ynusb_main",
-    "ins_id": "https://www.instagram.com/@ynusb_main",
+    "ins_id": "https://www.instagram.com/ynusb_main",
     "place": "テントB-2"
   },
   {
@@ -572,7 +572,7 @@
     "genre": "食事",
     "hp_id": "http://ynusb.ciao.jp/",
     "x_id": "https://x.com/@ynusb_main",
-    "ins_id": "https://www.instagram.com/@ynusb_main",
+    "ins_id": "https://www.instagram.com/ynusb_main",
     "place": "テントB-4"
   },
   {
@@ -645,7 +645,7 @@
     "hp_id": null,
     "x_id": null,
     "ins_id": "https://www.instagram.com/liz2025xx",
-    "place": "特別な-場所"
+    "place": "特別な場所"
   },
   {
     "id": 57,
@@ -654,10 +654,10 @@
     "e_description": "横国唯一のストリートダンスサークルR3udeの清陵祭公演です！最高に楽しませるので、ぜひ見に来てください🔥🔥",
     "o_description": null,
     "genre": "パフォーマンス",
-    "hp_id": "https://www.instagram.com/r3ude_2025?igsh=YnBhbHhrbGo3YXg0",
+    "hp_id": null,
     "x_id": null,
     "ins_id": "https://www.instagram.com/r3ude_2025",
-    "place": "特別な-場所"
+    "place": "特別な場所"
   },
   {
     "id": 59,
