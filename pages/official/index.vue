@@ -1,9 +1,7 @@
 <script setup lang="ts">
 useHead({
-   title: "Official | 25清陵祭公式HP~翠星~",
-   meta:[
-    { name: "description", content: "本部企画の 1覧を掲載しています"},
-   ], 
+  title: "Official | 25清陵祭公式HP~翠星~",
+  meta: [{ name: "description", content: "本部企画の 一覧を掲載しています" }],
 });
 </script>
 <template>
@@ -290,55 +288,140 @@ useHead({
                     </div>
                 </div>
             </div>
-            <div class="box">
-                <div class="category">
-                    <p>花火</p>
-                    <img 
-                    class="star-bar"
-                    src="/assets/images/star-bar.png"
-                    >
-                </div>
-                <div class="about-events">
-                    <div class="event-mid">
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>星華</h3>
-                            </div>
-                            <div class="detail">
-                                <p>清陵祭1日目の夜空を星のように彩ります。<br/>ぜひご覧ください！<br/>また、当日は退場規制にご協力ください。</p>
-                                <p>5/17(土) 19:45～19:55</p>
-                                <p>キャンパス全域</p>
-                            </div>
-                        </div>
-                        <img 
-                        src="/assets/images/official-events/fireworks.webp"
-                        class="fireworks_icon"
-                        >
-                    </div>
-                </div>
+          </div>
+          <div class="event-re">
+            <img
+              src="/assets/images/official-events/papet.webp"
+              class="event_icon"
+            />
+            <div class="text-box">
+              <div class="event_name">
+                <h3>どうぶつパペットランド</h3>
+              </div>
+              <div class="detail">
+                <p>
+                  紙コップや折り紙、ペンを使って<br />簡単に可愛いオリジナル<br />パペット人形を作ろう！
+                </p>
+                <p>
+                  5/17(土) 13:00~16:30<span class="limit-time"
+                    >（受付終了時間 16:15）</span
+                  ><br />
+                  5/18(日) 10:00~14:30<span class="limit-time"
+                    >（受付終了時間 14:15）</span
+                  >
+                </p>
+                <p>
+                  図書館1階<br />
+                  shoca.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="event-nm">
+            <img
+              src="/assets/images/official-events/freethrow.webp/"
+              class="event_icon"
+            />
+            <div class="text-box">
+              <div class="event_name">
+                <h3>動くゴールを狙え！<br />究極のフリースローチャレンジ</h3>
+              </div>
+              <div class="detail">
+                <p>
+                  動くゴールに向かってシュート！！<br />君は何本決められるかな！？<br />ぜひ挑戦しに来てね！
+                </p>
+                <p>
+                  5/17(土) 13:00~16:30<span class="limit-time"
+                    >（受付終了時間 16:10）</span
+                  ><br />
+                  5/18(日) 10:00~14:30<span class="limit-time"
+                    >（受付終了時間 14:10）</span
+                  >
+                </p>
+                <p>
+                  図書館1階<br />
+                  情報ラウンジ
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="event-re">
+            <img
+              src="/assets/images/official-events/colorfulmsg.webp"
+              class="event_icon"
+            />
+            <div class="text-box">
+              <div class="event_name">
+                <h3>カラフルメッセージ</h3>
+              </div>
+              <div class="detail">
+                <p>清陵祭にきた思い出を<br />自由にメッセージを残そう！</p>
+                <p>
+                  5/17(土) 13:00~16:30<span class="limit-time"
+                    >（受付終了時間16：25）</span
+                  ><br />
+                  5/18(日) 10:00~14:30<span class="limit-time"
+                    >（受付終了時間14：25）</span
+                  >
+                </p>
+                <p>図書館1階<br />情報ラウンジ</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="box">
+        <div class="category">
+          <p>花火</p>
+          <img class="star-bar" src="/assets/images/star-bar.png" />
+        </div>
+        <div class="about-events">
+          <div class="event-mid">
+            <div class="text-box">
+              <div class="event_name">
+                <h3>星華</h3>
+              </div>
+              <div class="detail">
+                <p>
+                  清陵祭1日目の夜空を星のように彩ります。<br />ぜひご覧ください！<br />また、当日は退場規制にご協力ください。
+                </p>
+                <p>5/17(土) 19:45~20:00</p>
+                <p>キャンパス全域</p>
+              </div>
+            </div>
+            <img
+              src="/assets/images/official-events/fireworks.webp"
+              class="fireworks_icon"
+            />
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-@use '@/assets/scss/_breakpoint.scss' as *;
+@use "@/assets/scss/_breakpoint.scss" as *;
 
 .page-container {
-    padding: 34vh 5rem 10vh;
+  padding: 34vh 5rem 10vh;
+
+  @include md {
+    padding: 15vh 5rem 10vh;
+  }
 }
 
 .category {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
 
-    p {
-        margin: 0;
-        text-align: center;
-    }
+  p {
+    margin: 0;
+    text-align: center;
+  }
 }
 
 .star-bar {
@@ -354,40 +437,40 @@ useHead({
 }
 
 .detail {
-    margin-bottom: 4rem;
-    p {
-        text-align: center;
-        width: 100%;
-    }
+  margin-bottom: 4rem;
+  p {
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .about-events {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .event-nm {
-    display: flex;
-    @include md {
-        flex-direction: column;
-        align-items: center;
-    }
+  display: flex;
+  @include md {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .event-re {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 
-    @include md {
-        flex-direction: column;
-        align-items: center;
-    }
+  @include md {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .event-mid {
-    display: flex;
-    justify-content: center;
-    margin-top: -2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: -2rem;
 }
 
 .event_icon {
@@ -408,34 +491,49 @@ useHead({
 }
 
 .fireworks_icon {
-    z-index: 10;
-    width: 150px;
-    height: 150px;
-    margin-top: 32rem; 
-    margin-left: -9rem;
-    @include md {
-      width: 100px;
-      height: 100px;
-      margin-top: 32rem; 
-      margin-left: -6rem;
-    }
-    @include sm {
-        margin-top: 35rem; 
-        margin-left: -6rem;
-    }
+  z-index: 10;
+  width: 150px;
+  height: 150px;
+  margin-top: 32rem;
+  margin-left: -9rem;
+  @include md {
+    width: 100px;
+    height: 100px;
+    margin-top: 32rem;
+    margin-left: -6rem;
+  }
+  @include sm {
+    margin-top: 35rem;
+    margin-left: -6rem;
+  }
 }
 
 .event_name {
-    display: flex;
-    justify-content: center;
-    h3 {
-        font-weight: lighter;
-        font-size: 24px;
-        margin-top: 5vh;
-        @include md {
-            font-size: 20px;
-        }
+  display: flex;
+  justify-content: center;
+  h3 {
+    font-weight: lighter;
+    font-size: 24px;
+    margin-top: 5vh;
+    @include md {
+      font-size: 20px;
     }
+  }
+}
+
+.limit-time {
+  font-size: 16px;
+  display: block;
+  @include sm {
+    font-size: 14px;
+  }
+}
+
+.rainy {
+  font-size: 16px;
+  @include sm {
+    font-size: 14px;
+  }
 }
 
 .text-box {
@@ -459,15 +557,13 @@ useHead({
 }
 
 p {
-    margin: 5vh 0 0;
-    font-size: 20px;
-    @include sm {
-        font-size: 18px;
-    }
-    @include sm {
-        font-size: 14px;
-    }
+  margin: 5vh 0 0;
+  font-size: 20px;
+  @include sm {
+    font-size: 18px;
+  }
+  @include sm {
+    font-size: 14px;
+  }
 }
-
-
 </style>

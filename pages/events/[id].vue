@@ -36,7 +36,7 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
             @error="showNoImage"
         />
       </div>
-      <MoonLogo text="企業団体名" class="moon"/>
+      <MoonLogo text="企画団体名" class="moon"/>
       <ColorBox :text="`${event?.o_name || '企画団体が見つかりません'}`"/>
       <StarLogo text="場所" class="star"/>
       <ColorBox :text="`${event?.place || '企画場所が見つかりません' }`"/>
@@ -137,9 +137,9 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
 .moon {
   position: relative;
   top: 30px;
-  left: 0;
+  left: -20vw;
   @include md {
-    left: 0;
+    left: -30vw;
   }
 }
 
@@ -164,7 +164,7 @@ const showNoImage = function (e: SyntheticEvent<HTMLDivElement>) {
 }
 .homepage-link{
   background-color: rgba(0,0,0,0.3);
-  width: 8rem;
+  width: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
