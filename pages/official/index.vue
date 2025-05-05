@@ -5,367 +5,375 @@ useHead({
 });
 </script>
 <template>
-    <div class="page-root">
-        <div class="page-container">
-            <PageTitle :title="'OFFICIAL'" :sub-title="'本部企画'" />
-            <div class="box">
-                <div class="category">
-                    <p>ステージ</p>
-                    <img 
-                    class="star-bar"
-                    src="/assets/images/star-bar.png"
-                    >
-                </div>
-                <div class="about-events">
-                    <div class="event-nm">
-                        <img 
-                        src="/assets/images/official-events/singingshow.webp"
-                        class="event_icon"
-                        >
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>歌いまShow</h3>
-                            </div>
-                            <div class="detail">
-                                <p>野外音楽堂ステージに歌うま集結！<br/>審査員の主観ジャッジも必見の<br/>「歌いまShow」！</p>
-                                <p>
-                                    5/17(土) 18:45~19:45
-                                </p>
-                                <p>
-                                    野外音楽堂
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-re">
-                        <img 
-                        src="/assets/images/official-events/clubvs.webp"
-                        class="event_icon"
-                        >
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>横国一のサークルはどこだ⁉<br/>サークル対抗ミニゲーム対決</h3>
-                            </div>
-                            <div class="detail">
-                                <p>サークル対抗戦で白熱バトル！<br/>仲間と挑戦し、熱く盛り上がろう！<br/>参加者、観覧者含め全員に景品も！！</p>                              <p>
-                                    5/17(土) 13:30~14:45
-                                </p>
-                                <p>
-                                    野外音楽堂
-                                </p>
-                           </div>
-                        </div>
-                    </div>
-                    <div class="event-nm">
-                        <img 
-                        src="/assets/images/official-events/freshman.webp"
-                        class="event_icon"
-                        >
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>一年生企画</h3>
-                            </div>
-                            <div class="detail">
-                                <p>一年生が0から考えた企画を野外音楽堂で実施！<br/>いったいどんな企画になるのか......<br/>お楽しみに!!</p>
-                                <p>
-                                    5/17(土)15:45~17:15
-                                </p>
-                                <p>
-                                    野外音楽堂<br/>
-                                    （雨天時:経営109）
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-                <div class="category">
-                    <p>図書館</p>
-                    <img 
-                    class="star-bar"
-                    src="/assets/images/star-bar.png"
-                    >
-                </div>
-                <div class="about-events">
-                    <div class="event-nm">
-                        <img 
-                        src="/assets/images/official-events/goldfish.webp"
-                        class="event_icon"
-                        >
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>ドキドキ！金魚すくい</h3>
-                            </div>
-                            <div class="detail">
-                                <p>制限時間内にポイを使って金魚をすくおう！<br/>景品GETのチャンスも!?<br/>ぜひ遊びに来てください♡</p>
-                                <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30
-                                </p>
-                                <p>
-                                    図書館1階<br/>
-                                    shoca.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-re">
-                        <img 
-                        src="/assets/images/official-events/race.webp"
-                        class="event_icon"
-                        >
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>チキチキコロコロ<br/>レース</h3>
-                            </div>
-                            <div class="detail">
-                                <p>アイテムを使って紙コップを仰いで高得点を狙おう！<br/>賞品もあるのでぜひ挑戦しに来てね！！</p>
-                                <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30
-                                </p>
-                                <p>
-                                    図書館1階<br/>
-                                    shoca.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-nm">
-                        <img 
-                        src="/assets/images/official-events/bracelet.webp"
-                        class="event_icon"
-                        >
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>マイ・ハッピー<br/>ブレスレット工房</h3>
-                           </div>
-                            <div class="detail">
-                                <p>ビーズとゴム紐を使って、<br/>自分の個性やスタイルをめいっぱい表現したブレスレットを作ろう！</p>
-                                <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30
-                                </p>
-                                <p>
-                                    図書館1階<br/>
-                                    情報ラウンジ
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-re">
-                        <img 
-                        src="/assets/images/official-events/festival.webp"
-                        class="event_icon"
-                        >
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>横国の森フェスティバル</h3>
-                            </div>
-                            <div class="detail">
-                                <p>横国の森の中で楽しいフェスティバルが開催される！？<br/>3つのサークルがさまざまなパフォーマンスを見せてくれます！</p>
-                                <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30<br/>
-                                </p>
-                                <p>
-                                    図書館 1階<br/>
-                                    メディアホール
-                                </p>
-                           </div>
-                        </div>
-                    </div>
-                    <div class="event-nm">
-                        <img 
-                        src="/assets/images/official-events/rally.webp"
-                        class="event_icon"
-                        >
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>消えた財宝を探せ！<br/>トレジャースタンプラリー</h3>
-                            </div>
-                            <div class="detail">
-                                <p>この横浜国立大学に眠っているまだ見ぬ財宝を構内をまわって探し出そう！<br/>健闘を祈る！</p>
-                                <p>
-                                    5/17(土) 13:00〜16:10<br/>
-                                    5/18(日) 10:00〜14:10
-                                </p>
-                                <p>                  
-                                    図書館1階<br/>
-                                    階段前 <br/>
-                                    (ゴール受付)
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-re">
-                        <img 
-                        src="/assets/images/official-events/momesen.webp"
-                        class="event_icon"
-                        >
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>かもめ先輩からの<br/>挑戦状</h3>
-                            </div>
-                            <div class="detail">
-                                <p>かもめ先輩から挑戦状が届いた！<br/>制限時間内に謎を解いて<br/>キーワードを導き脱出しよう！</p>
-                                <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30
-                                </p>
-                                <p>
-                                    図書館1階<br/>
-                                    メディアブース104
-                                </p>
-                           </div>
-                        </div>
-                    </div>
-                    <div class="event-nm">
-                        <img 
-                        src="/assets/images/official-events/papet.webp"
-                        class="event_icon"
-                        >
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>どうぶつパペットランド</h3>
-                            </div>
-                            <div class="detail">
-                                <p>紙コップや折り紙、ペンを使って<br/>簡単に可愛いオリジナル<br/>パペット人形を作ろう！</p>
-                                <p>
-                                    5/17(土) 13:00〜16:10<br/>
-                                    5/18(日) 10:00〜14:10
-                                </p>
-                                <p>
-                                    図書館1階<br/>
-                                    shoca.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-re">
-                       <img 
-                       src="/assets/images/official-events/freethrow.webp/"
-                       class="event_icon"
-                       >
-                       <div class="text-box">
-                           <div class="event_name">
-                               <h3>動くゴールを狙え！<br/>究極のフリースローチャレンジ</h3>
-                           </div>
-                           <div class="detail">
-                               <p>動くゴールに向かってシュート！！<br/>君は何本決められるかな！？<br/>ぜひ挑戦しに来てね！</p>
-                               <p>
-                                   5/17(土) 13:00〜16:20<br/>
-                                   5/18(日) 10:00〜14:20
-                               </p>
-                               <p>
-                                   図書館1階<br/>
-                                   情報ラウンジ
-                               </p>
-                           </div>
-                        </div>
-                    </div>
-                    <div class="event-nm">
-                        <img 
-                        src="/assets/images/official-events/colorfulmsg.webp"
-                        class="event_icon"
-                        >
-                        <div class="text-box">
-                            <div class="event_name">
-                                <h3>カラフルメッセージ</h3>
-                            </div>
-                            <div class="detail">
-                                <p>清陵祭にきた思い出に<br/>自由にメッセージを残そう！</p>
-                                <p>
-                                    5/17(土) 13:00〜16:30<br/>
-                                    5/18(日) 10:00〜14:30
-                                </p>
-                                <p>
-                                    図書館1階情報<br/>ラウンジ
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="event-re">
+  <div class="page-root">
+    <div class="page-container">
+      <PageTitle :title="'OFFICIAL'" :sub-title="'本部企画'" />
+      <div class="box">
+        <div class="category">
+          <p>ステージ</p>
+          <img class="star-bar" src="/assets/images/star-bar.png" />
+        </div>
+        <div class="about-events">
+          <div class="event-nm">
             <img
-              src="/assets/images/official-events/papet.webp"
+              src="/assets/images/official-events/singingshow.webp"
               class="event_icon"
             />
             <div class="text-box">
               <div class="event_name">
-                <h3>どうぶつパペットランド</h3>
+                <h3>歌いまShow</h3>
               </div>
               <div class="detail">
                 <p>
-                  紙コップや折り紙、ペンを使って<br />簡単に可愛いオリジナル<br />パペット人形を作ろう！
+                  野外音楽堂ステージに歌うま集結！<br />審査員の主観ジャッジも必見の<br />「歌いまShow」！
                 </p>
+                <p>5/17(土) 18:45~19:45</p>
+                <p>野外音楽堂</p>
+              </div>
+            </div>
+          </div>
+          <div class="event-re">
+            <img
+              src="/assets/images/official-events/clubvs.webp"
+              class="event_icon"
+            />
+            <div class="text-box">
+              <div class="event_name">
+                <h3>
+                  横国一のサークルはどこだ⁉<br />サークル対抗ミニゲーム対決
+                </h3>
+              </div>
+              <div class="detail">
                 <p>
-                  5/17(土) 13:00~16:30<span class="limit-time"
-                    >（受付終了時間 16:15）</span
-                  ><br />
-                  5/18(日) 10:00~14:30<span class="limit-time"
-                    >（受付終了時間 14:15）</span
-                  >
+                  サークル対抗戦で白熱バトル！<br />仲間と挑戦し、熱く盛り上がろう！<br />参加者、観覧者含め全員に景品も！！
                 </p>
-                <p>
-                  図書館1階<br />
-                  shoca.
-                </p>
+                <p>5/17(土) 13:30~14:45</p>
+                <p>野外音楽堂</p>
               </div>
             </div>
           </div>
           <div class="event-nm">
             <img
-              src="/assets/images/official-events/freethrow.webp/"
+              src="/assets/images/official-events/freshman.webp"
               class="event_icon"
             />
             <div class="text-box">
               <div class="event_name">
-                <h3>動くゴールを狙え！<br />究極のフリースローチャレンジ</h3>
+                <h3>一年生企画</h3>
               </div>
               <div class="detail">
                 <p>
-                  動くゴールに向かってシュート！！<br />君は何本決められるかな！？<br />ぜひ挑戦しに来てね！
+                  一年生が0から考えた企画を野外音楽堂で実施！<br />いったいどんな企画になるのか......<br />お楽しみに!!
                 </p>
+                <p>5/17(土)15:45~17:15</p>
                 <p>
-                  5/17(土) 13:00~16:30<span class="limit-time"
-                    >（受付終了時間 16:10）</span
-                  ><br />
-                  5/18(日) 10:00~14:30<span class="limit-time"
-                    >（受付終了時間 14:10）</span
-                  >
-                </p>
-                <p>
-                  図書館1階<br />
-                  情報ラウンジ
+                  野外音楽堂<br />
+                  （雨天時:経営109）
                 </p>
               </div>
             </div>
           </div>
-          <div class="event-re">
-            <img
-              src="/assets/images/official-events/colorfulmsg.webp"
-              class="event_icon"
-            />
-            <div class="text-box">
-              <div class="event_name">
-                <h3>カラフルメッセージ</h3>
+        </div>
+        <div>
+          <div class="box">
+            <div class="category">
+              <p>図書館</p>
+              <img class="star-bar" src="/assets/images/star-bar.png" />
+            </div>
+            <div class="about-events">
+              <div class="event-nm">
+                <img
+                  src="/assets/images/official-events/goldfish.webp"
+                  class="event_icon"
+                />
+                <div class="text-box">
+                  <div class="event_name">
+                    <h3>ドキドキ！金魚すくい</h3>
+                  </div>
+                  <div class="detail">
+                    <p>
+                      制限時間内にポイを使って金魚をすくおう！<br />景品GETのチャンスも!?<br />ぜひ遊びに来てください♡
+                    </p>
+                    <p>
+                      5/17(土) 13:00〜16:30<br />
+                      5/18(日) 10:00〜14:30
+                    </p>
+                    <p>
+                      図書館1階<br />
+                      shoca.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="detail">
-                <p>清陵祭にきた思い出を<br />自由にメッセージを残そう！</p>
-                <p>
-                  5/17(土) 13:00~16:30<span class="limit-time"
-                    >（受付終了時間16：25）</span
-                  ><br />
-                  5/18(日) 10:00~14:30<span class="limit-time"
-                    >（受付終了時間14：25）</span
-                  >
-                </p>
-                <p>図書館1階<br />情報ラウンジ</p>
+              <div class="event-re">
+                <img
+                  src="/assets/images/official-events/race.webp"
+                  class="event_icon"
+                />
+                <div class="text-box">
+                  <div class="event_name">
+                    <h3>チキチキコロコロ<br />レース</h3>
+                  </div>
+                  <div class="detail">
+                    <p>
+                      アイテムを使って紙コップを仰いで高得点を狙おう！<br />賞品もあるのでぜひ挑戦しに来てね！！
+                    </p>
+                    <p>
+                      5/17(土) 13:00〜16:30<br />
+                      5/18(日) 10:00〜14:30
+                    </p>
+                    <p>
+                      図書館1階<br />
+                      shoca.
+                    </p>
+                  </div>
+                </div>
               </div>
+              <div class="event-nm">
+                <img
+                  src="/assets/images/official-events/bracelet.webp"
+                  class="event_icon"
+                />
+                <div class="text-box">
+                  <div class="event_name">
+                    <h3>マイ・ハッピー<br />ブレスレット工房</h3>
+                  </div>
+                  <div class="detail">
+                    <p>
+                      ビーズとゴム紐を使って、<br />自分の個性やスタイルをめいっぱい表現したブレスレットを作ろう！
+                    </p>
+                    <p>
+                      5/17(土) 13:00〜16:30<br />
+                      5/18(日) 10:00〜14:30
+                    </p>
+                    <p>
+                      図書館1階<br />
+                      情報ラウンジ
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="event-re">
+                <img
+                  src="/assets/images/official-events/festival.webp"
+                  class="event_icon"
+                />
+                <div class="text-box">
+                  <div class="event_name">
+                    <h3>横国の森フェスティバル</h3>
+                  </div>
+                  <div class="detail">
+                    <p>
+                      横国の森の中で楽しいフェスティバルが開催される！？<br />3つのサークルがさまざまなパフォーマンスを見せてくれます！
+                    </p>
+                    <p>
+                      5/17(土) 13:00〜16:30<br />
+                      5/18(日) 10:00〜14:30<br />
+                    </p>
+                    <p>
+                      図書館 1階<br />
+                      メディアホール
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="event-nm">
+                <img
+                  src="/assets/images/official-events/rally.webp"
+                  class="event_icon"
+                />
+                <div class="text-box">
+                  <div class="event_name">
+                    <h3>消えた財宝を探せ！<br />トレジャースタンプラリー</h3>
+                  </div>
+                  <div class="detail">
+                    <p>
+                      この横浜国立大学に眠っているまだ見ぬ財宝を構内をまわって探し出そう！<br />健闘を祈る！
+                    </p>
+                    <p>
+                      5/17(土) 13:00〜16:10<br />
+                      5/18(日) 10:00〜14:10
+                    </p>
+                    <p>
+                      図書館1階<br />
+                      階段前 <br />
+                      (ゴール受付)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="event-re">
+                <img
+                  src="/assets/images/official-events/momesen.webp"
+                  class="event_icon"
+                />
+                <div class="text-box">
+                  <div class="event_name">
+                    <h3>かもめ先輩からの<br />挑戦状</h3>
+                  </div>
+                  <div class="detail">
+                    <p>
+                      かもめ先輩から挑戦状が届いた！<br />制限時間内に謎を解いて<br />キーワードを導き脱出しよう！
+                    </p>
+                    <p>
+                      5/17(土) 13:00〜16:30<br />
+                      5/18(日) 10:00〜14:30
+                    </p>
+                    <p>
+                      図書館1階<br />
+                      メディアブース104
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="event-nm">
+                <img
+                  src="/assets/images/official-events/papet.webp"
+                  class="event_icon"
+                />
+                <div class="text-box">
+                  <div class="event_name">
+                    <h3>どうぶつパペットランド</h3>
+                  </div>
+                  <div class="detail">
+                    <p>
+                      紙コップや折り紙、ペンを使って<br />簡単に可愛いオリジナル<br />パペット人形を作ろう！
+                    </p>
+                    <p>
+                      5/17(土) 13:00〜16:10<br />
+                      5/18(日) 10:00〜14:10
+                    </p>
+                    <p>
+                      図書館1階<br />
+                      shoca.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="event-re">
+                <img
+                  src="/assets/images/official-events/freethrow.webp/"
+                  class="event_icon"
+                />
+                <div class="text-box">
+                  <div class="event_name">
+                    <h3>
+                      動くゴールを狙え！<br />究極のフリースローチャレンジ
+                    </h3>
+                  </div>
+                  <div class="detail">
+                    <p>
+                      動くゴールに向かってシュート！！<br />君は何本決められるかな！？<br />ぜひ挑戦しに来てね！
+                    </p>
+                    <p>
+                      5/17(土) 13:00〜16:20<br />
+                      5/18(日) 10:00〜14:20
+                    </p>
+                    <p>
+                      図書館1階<br />
+                      情報ラウンジ
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="event-nm">
+                <img
+                  src="/assets/images/official-events/colorfulmsg.webp"
+                  class="event_icon"
+                />
+                <div class="text-box">
+                  <div class="event_name">
+                    <h3>カラフルメッセージ</h3>
+                  </div>
+                  <div class="detail">
+                    <p>清陵祭にきた思い出に<br />自由にメッセージを残そう！</p>
+                    <p>
+                      5/17(土) 13:00〜16:30<br />
+                      5/18(日) 10:00〜14:30
+                    </p>
+                    <p>図書館1階情報<br />ラウンジ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="event-re">
+          <img
+            src="/assets/images/official-events/papet.webp"
+            class="event_icon"
+          />
+          <div class="text-box">
+            <div class="event_name">
+              <h3>どうぶつパペットランド</h3>
+            </div>
+            <div class="detail">
+              <p>
+                紙コップや折り紙、ペンを使って<br />簡単に可愛いオリジナル<br />パペット人形を作ろう！
+              </p>
+              <p>
+                5/17(土) 13:00~16:30<span class="limit-time"
+                  >（受付終了時間 16:15）</span
+                ><br />
+                5/18(日) 10:00~14:30<span class="limit-time"
+                  >（受付終了時間 14:15）</span
+                >
+              </p>
+              <p>
+                図書館1階<br />
+                shoca.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="event-nm">
+          <img
+            src="/assets/images/official-events/freethrow.webp/"
+            class="event_icon"
+          />
+          <div class="text-box">
+            <div class="event_name">
+              <h3>動くゴールを狙え！<br />究極のフリースローチャレンジ</h3>
+            </div>
+            <div class="detail">
+              <p>
+                動くゴールに向かってシュート！！<br />君は何本決められるかな！？<br />ぜひ挑戦しに来てね！
+              </p>
+              <p>
+                5/17(土) 13:00~16:30<span class="limit-time"
+                  >（受付終了時間 16:10）</span
+                ><br />
+                5/18(日) 10:00~14:30<span class="limit-time"
+                  >（受付終了時間 14:10）</span
+                >
+              </p>
+              <p>
+                図書館1階<br />
+                情報ラウンジ
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="event-re">
+          <img
+            src="/assets/images/official-events/colorfulmsg.webp"
+            class="event_icon"
+          />
+          <div class="text-box">
+            <div class="event_name">
+              <h3>カラフルメッセージ</h3>
+            </div>
+            <div class="detail">
+              <p>清陵祭にきた思い出を<br />自由にメッセージを残そう！</p>
+              <p>
+                5/17(土) 13:00~16:30<span class="limit-time"
+                  >（受付終了時間16：25）</span
+                ><br />
+                5/18(日) 10:00~14:30<span class="limit-time"
+                  >（受付終了時間14：25）</span
+                >
+              </p>
+              <p>図書館1階<br />情報ラウンジ</p>
             </div>
           </div>
         </div>
