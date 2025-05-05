@@ -33,7 +33,7 @@ useHead({
           <p>通常版（128MB）</p>
           <a
               class="download-image-button"
-              href="https://storage.googleapis.com/seiryo25-pdf-assets/seiryo25-pamphlet-high.pdf"
+              href="https://storage.googleapis.com/seiryo25-assets/seiryo25-pamphlet-high.pdf"
               download
           >
             <img
@@ -44,10 +44,10 @@ useHead({
         </div>
 
         <div class="option">
-          <p>軽量版（10.8MB）</p>
+          <p>軽量版（10.1MB）</p>
           <a
               class="download-image-button"
-              href="https://storage.googleapis.com/seiryo25-pdf-assets/seiryo25-pamphlet-light.pdf"
+              href="https://storage.googleapis.com/seiryo25-assets/seiryo25-pamphlet-light.pdf"
               download
           >
             <img
