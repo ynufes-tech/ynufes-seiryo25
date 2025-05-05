@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TopButton from "~/components/TopButton.vue";
+
 
 useHead({
   title: "Contest | 25清陵祭公式HP~翠星~",
@@ -21,13 +21,6 @@ useHead({
           :text="`企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの紹介文企画コンテストの`"
           size="large"
         />
-        <div class="buttons">
-          <!-- <TopButton title="企画団体一覧" />
-                  <TopButton title="ランキングを見る" /> -->
-        </div>
-        <div class="howto">
-          <img class="howto-img" src="/assets/images/no-image.png" />
-        </div>
       </div>
       <div class="mid-box">
         <div class="title">
@@ -72,6 +65,15 @@ useHead({
       </div>
     </div>
   </div>
+  <!-- ✅ ここにフローティングボタンを追加 -->
+  <div class="floating-buttons">
+    <NuxtLink to="/ranking" class="floating-button" aria-label="ランキングページへ">
+      <img src="/assets/images/ranking-button.webp" alt="ランキングボタン" />
+    </NuxtLink>
+    <NuxtLink to="/events" class="floating-button" aria-label="企画一覧ページへ">
+      <img src="/assets/images/kikaku-button.webp" alt="企画一覧ボタン" />
+    </NuxtLink>
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -81,7 +83,6 @@ useHead({
   padding: 5rem 10vw;
   flex-direction: column;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   @include sm {
     margin-bottom: 5vh;
@@ -170,6 +171,41 @@ useHead({
   @include md {
     flex-direction: column;
     align-items: center;
+  }
+}
+/* ✅ フローティング全体の親コンテナ */
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column; // 縦並び
+  gap: 12px; // ボタンの間隔
+}
+
+/* ✅ 個々のリンク（ボタン） */
+.floating-button {
+  display: block;
+}
+
+/* ✅ 画像サイズ（PCで1.7倍） */
+.floating-button img {
+  width: 165px;
+  height: auto;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+/* ✅ ホバー時アニメーション */
+.floating-button img:hover {
+  transform: scale(1.05);
+}
+
+/* ✅ スマホ用サイズ制限 */
+@media (max-width: 768px) {
+  .floating-button img {
+    width: 85px;
   }
 }
 </style>
