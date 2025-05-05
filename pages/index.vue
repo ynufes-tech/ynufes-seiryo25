@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import BannerComponent from '~/components/BannerComponent.vue';
+
 useHead({
   title: "Top | 25清陵祭公式HP~翠星~",
   meta: [
@@ -43,6 +45,7 @@ useHead({
           <p>5/18 <span class="weekday">Sun.</span> 9:00 - 15:00</p>
         </div>
         <SNS />
+        <BannerComponent />
       </div>
       <div class="top-pictures-wrapper">
         <div class="top-pictures">
