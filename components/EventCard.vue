@@ -8,40 +8,30 @@ const props = defineProps<{
     // area: Area;
     // p_name: string;
     place: string
-    genre: string
+    genre: string;
   }
 }>()
 const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.eventData.id}.webp`
 </script>
-
 <template>
-  <div class="event-card">
-    <div class="card-title">
-      <p class="card-genre">
-        {{ props.eventData.genre }}
-      </p>
-    </div>
-    <div class="icon-holder">
-      <img
-        :src="iconURL"
-        alt="project-icon"
-        class="icon-image"
-      >
-    </div>
-    <div class="card-contents">
-      <p class="e-name">
-        {{ props.eventData.e_name }}
-      </p>
-      <p class="o-name">
-        {{ props.eventData.o_name }}
-      </p>
-      <p class="place">
-        {{ props.eventData.place }}
-      </p>
-    </div>
+<div class="event-card">
+  <div class="card-title">
+    <p class="card-genre">{{props.eventData.genre}}</p>
   </div>
+  <div class="icon-holder">
+    <img
+      :src="iconURL"
+      alt="project-icon"
+      class="icon-image"
+    />
+  </div>
+  <div class="card-contents">
+    <p class="e-name">{{ props.eventData.e_name}}</p>
+    <p class="o-name">{{ props.eventData.o_name}}</p>
+    <p class="place">{{ props.eventData.place}}</p>
+  </div>
+</div>
 </template>
-
 <style lang="scss" scoped>
 @use '@/assets/scss/_breakpoint.scss' as *;
 .event-card{
@@ -165,4 +155,5 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
 
   }
 }
+
 </style>

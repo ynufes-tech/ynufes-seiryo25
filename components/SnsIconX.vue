@@ -9,14 +9,8 @@ const props = defineProps({
 
 <template>
   <div class="x-icon-holder">
-    <a
-      class="x-icon"
-      :href="props.link"
-    >
-      <img
-        src="~/assets/images/x-white.webp"
-        alt="sns-icon-x"
-      >
+    <a class="x-icon" :href="props.link">
+      <img src="~/assets/images/x-white.webp" alt="sns-icon-x" />
     </a>
   </div>
 </template>

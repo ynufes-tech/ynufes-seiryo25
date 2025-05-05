@@ -11,16 +11,10 @@ const props = defineProps({
   <div class="pop">
     <div class="star">
       <div class="moon-logo">
-        <img
-          src="~/assets/images/star-logo.webp"
-          alt="moon"
-          class="star-icon"
-        >
+        <img src="~/assets/images/star-logo.webp" alt="moon" class="star-icon">
       </div>
       <div class="content">
-        <p class="title">
-          {{ text }}
-        </p>
+        <p class="title">{{ text }}</p>
       </div>
     </div>
   </div>
@@ -59,4 +53,5 @@ const props = defineProps({
     height: auto;
   }
 }
+
 </style>

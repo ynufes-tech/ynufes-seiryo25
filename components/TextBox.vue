@@ -12,13 +12,10 @@ const props = defineProps({
 </script>
 
 <template>
-  <div
-    class="text-box"
-    :class="`size-${size}`"
-  >
-    <p>{{ text }}</p>
-  </div>
-</template>
+    <div class="text-box" :class="`size-${size}`">
+      <p>{{ text }}</p>
+    </div>
+</template>  
 
 <style lang ="scss" scoped>
 @use '@/assets/scss/_breakpoint.scss' as *;
@@ -33,12 +30,12 @@ const props = defineProps({
   margin: 5vh 1vw;
   background: #fff;
   background: linear-gradient(
-    90deg,
-    rgba(44,163,255,1) 0%,
-    rgba(113,255,210,1) 0%,
-    rgba(129,240,255,1) 17%,
-    rgba(58,215,181,1) 44%,
-    rgba(162,240,254,1) 67%,
+    90deg, 
+    rgba(44,163,255,1) 0%, 
+    rgba(113,255,210,1) 0%, 
+    rgba(129,240,255,1) 17%, 
+    rgba(58,215,181,1) 44%, 
+    rgba(162,240,254,1) 67%, 
     rgba(157,255,209,1) 91%
   );
   background-size: 200% 200%;
@@ -109,5 +106,6 @@ const props = defineProps({
       width: 75vw;
     }
   }
-}
+}  
+
 </style>

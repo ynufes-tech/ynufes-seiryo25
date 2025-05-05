@@ -10,7 +10,6 @@ const props = defineProps({
   },
 })
 </script>
-
 <template>
   <a
     class="black-button"
@@ -21,7 +20,6 @@ const props = defineProps({
     <p>{{ props.text }}</p>
   </a>
 </template>
-
 <style lang="scss" scoped>
 @use '@/assets/scss/_breakpoint.scss' as *;
 
@@ -37,8 +35,8 @@ const props = defineProps({
 }
 
 p {
-    margin: 0;
-    padding: 10px 20px;
-    line-height: 1;
+    margin: 0;                 
+    padding: 10px 20px;  
+    line-height: 1;            
 }
 </style>

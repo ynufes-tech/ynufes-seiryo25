@@ -8,7 +8,7 @@ useHead({
         "5/17,18に開催される25清陵祭の公式HPです! 最新情報を随時更新していきます!",
     },
   ],
-})
+});
 </script>
 
 <template>
@@ -30,10 +30,7 @@ useHead({
     <div class="page-container">
       <div class="upper-box">
         <div class="title-container">
-          <img
-            id="top-title"
-            src="@/assets/images/title_suisei-image.webp"
-          >
+          <img id="top-title" src="@/assets/images/title_suisei-image.webp" />
         </div>
         <div class="seiryo-logo">
           <img
@@ -73,9 +70,9 @@ useHead({
       </div>
     </div>
     <!-- <div class="preparing"> -->
-    <!-- <div class="pre-message"> -->
-    <!-- <p>準備中</p> -->
-    <!-- </div> -->
+      <!-- <div class="pre-message"> -->
+        <!-- <p>準備中</p> -->
+      <!-- </div> -->
     <!-- </div> -->
   </div>
 </template>

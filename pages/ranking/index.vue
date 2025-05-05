@@ -1,27 +1,24 @@
 <script setup lang="ts">
-import ColorBox from '~/components/ColorBox.vue'
-import ColorButton from '~/components/ColorButton.vue'
-import MoonLogo from '~/components/MoonLogo.vue'
-import StarLogo from '~/components/StarLogo.vue'
+import ColorBox from "~/components/ColorBox.vue";
+import ColorButton from "~/components/ColorButton.vue";
+import MoonLogo from "~/components/MoonLogo.vue";
+import StarLogo from "~/components/StarLogo.vue";
 
 useHead({
-  title: 'Ranking | 25清陵祭公式HP~翠星~',
+  title: "Ranking | 25清陵祭公式HP~翠星~",
   meta: [
     {
-      name: 'description',
-      content: '企画コンテストのランキングを更新していきます！',
+      name: "description",
+      content: "企画コンテストのランキングを更新していきます！",
     },
   ],
-})
+});
 </script>
 
 <template>
   <div class="page-root">
     <div class="page-container">
-      <PageTitle
-        :title="'RANKING'"
-        :sub-title="'企画ランキング'"
-      />
+      <PageTitle :title="'RANKING'" :sub-title="'企画ランキング'" />
       <div class="box">
         <div class="upper-button">
           <ColorButton
@@ -40,46 +37,37 @@ useHead({
         <div class="result-holder">
           <div id="day1-result">
             <div class="result-title">
-              <img
-                class="moon"
-                src="/assets/images/moon-logo.webp"
-              >
-              <ColorBox
-                text="5/17&emsp;中間結果発表"
-                class="result-text"
-              />
+              <img class="moon" src="/assets/images/moon-logo.webp" />
+              <ColorBox text="5/17　中間結果発表" class="result-text" />
             </div>
             <div class="cate">
               <img
                 class="star"
                 src="/assets/images/star-logo.webp"
                 alt="星LOGO"
-              >
-              <ColorBox
-                text="○○部門"
-                class="cate-text"
               />
+              <ColorBox text="○○部門" class="cate-text" />
             </div>
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
                 image="2位の画像"
                 votes="○○"
-                project-name="企画名2"
+                projectName="企画名2"
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
                 image="1位の画像"
                 votes="○○"
-                project-name="企画名1"
+                projectName="企画名1"
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
                 image="3位の画像"
                 votes="○○"
-                project-name="企画名3"
+                projectName="企画名3"
                 class="rank3"
               />
             </div>
@@ -88,32 +76,29 @@ useHead({
                 class="star"
                 src="/assets/images/star-logo.webp"
                 alt="星LOGO"
-              >
-              <ColorBox
-                text="○○部門"
-                class="cate-text"
               />
+              <ColorBox text="○○部門" class="cate-text" />
             </div>
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
                 image="2位の画像"
                 votes="○○"
-                project-name="企画名2"
+                projectName="企画名2"
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
                 image="1位の画像"
                 votes="○○"
-                project-name="企画名1"
+                projectName="企画名1"
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
                 image="3位の画像"
                 votes="○○"
-                project-name="企画名3"
+                projectName="企画名3"
                 class="rank3"
               />
             </div>
@@ -122,32 +107,29 @@ useHead({
                 class="star"
                 src="/assets/images/star-logo.webp"
                 alt="星LOGO"
-              >
-              <ColorBox
-                text="○○部門"
-                class="cate-text"
               />
+              <ColorBox text="○○部門" class="cate-text" />
             </div>
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
                 image="2位の画像"
                 votes="○○"
-                project-name="企画名2"
+                projectName="企画名2"
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
                 image="1位の画像"
                 votes="○○"
-                project-name="企画名1"
+                projectName="企画名1"
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
                 image="3位の画像"
                 votes="○○"
-                project-name="企画名3"
+                projectName="企画名3"
                 class="rank3"
               />
             </div>
@@ -158,43 +140,37 @@ useHead({
                 class="moon"
                 src="/assets/images/moon-logo.webp"
                 alt="月LOGO"
-              >
-              <ColorBox
-                text="5/18&emsp;最終結果発表"
-                class="result-text"
               />
+              <ColorBox text="5/18　最終結果発表" class="result-text" />
             </div>
             <div class="cate">
               <img
                 class="star"
                 src="/assets/images/star-logo.webp"
                 alt="星LOGO"
-              >
-              <ColorBox
-                text="○○部門"
-                class="cate-text"
               />
+              <ColorBox text="○○部門" class="cate-text" />
             </div>
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
                 image="2位の画像"
                 votes="○○"
-                project-name="企画名2"
+                projectName="企画名2"
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
                 image="1位の画像"
                 votes="○○"
-                project-name="企画名1"
+                projectName="企画名1"
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
                 image="3位の画像"
                 votes="○○"
-                project-name="企画名3"
+                projectName="企画名3"
                 class="rank3"
               />
             </div>
@@ -203,32 +179,29 @@ useHead({
                 class="star"
                 src="/assets/images/star-logo.webp"
                 alt="星LOGO"
-              >
-              <ColorBox
-                text="○○部門"
-                class="cate-text"
               />
+              <ColorBox text="○○部門" class="cate-text" />
             </div>
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
                 image="2位の画像"
                 votes="○○"
-                project-name="企画名2"
+                projectName="企画名2"
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
                 image="1位の画像"
                 votes="○○"
-                project-name="企画名1"
+                projectName="企画名1"
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
                 image="3位の画像"
                 votes="○○"
-                project-name="企画名3"
+                projectName="企画名3"
                 class="rank3"
               />
             </div>
@@ -237,32 +210,29 @@ useHead({
                 class="star"
                 src="/assets/images/star-logo.webp"
                 alt="星LOGO"
-              >
-              <ColorBox
-                text="○○部門"
-                class="cate-text"
               />
+              <ColorBox text="○○部門" class="cate-text" />
             </div>
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
                 image="2位の画像"
                 votes="○○"
-                project-name="企画名2"
+                projectName="企画名2"
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
                 image="1位の画像"
                 votes="○○"
-                project-name="企画名1"
+                projectName="企画名1"
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
                 image="3位の画像"
                 votes="○○"
-                project-name="企画名3"
+                projectName="企画名3"
                 class="rank3"
               />
             </div>
@@ -275,7 +245,6 @@ useHead({
 
 <style lang="scss" scoped>
 @use "@/assets/scss/_breakpoint.scss" as *;
-
 .page-container {
   display: flex;
   flex-direction: column;

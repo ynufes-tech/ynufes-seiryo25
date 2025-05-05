@@ -1,18 +1,18 @@
 <script setup lang="ts">
 const props = defineProps<{
-  rank: number
-  image?: string
-  votes?: number | string
-  projectName?: string
-  comingSoon?: boolean
-}>()
+  rank: number;
+  image?: string;
+  votes?: number | string;
+  projectName?: string;
+  comingSoon?: boolean;
+}>();
 
 const rankClass = computed(() => {
-  if (props.rank === 1) return 'first'
-  if (props.rank === 2) return 'second'
-  if (props.rank === 3) return 'third'
-  return ''
-})
+  if (props.rank === 1) return "first";
+  if (props.rank === 2) return "second";
+  if (props.rank === 3) return "third";
+  return "";
+});
 </script>
 
 <template>
@@ -22,25 +22,13 @@ const rankClass = computed(() => {
       src="/assets/images/big-star.webp"
       alt="一番星"
       class="big-star"
-    >
-    <div
-      class="rank"
-      :class="rankClass"
-    >
-      第{{ props.rank }}位
-    </div>
+    />
+    <div class="rank" :class="rankClass">第{{ props.rank }}位</div>
     <div class="image-area">
-      <img
-        src="/assets/images/comingsoon.webp"
-        alt="企画写真"
-      >
+      <img src="/assets/images/comingsoon.webp" alt="企画写真" />
     </div>
-    <div class="votes">
-      {{ props.votes }}票
-    </div>
-    <div class="project-name">
-      「{{ props.projectName }}」
-    </div>
+    <div class="votes">{{ props.votes }}票</div>
+    <div class="project-name">「{{ props.projectName }}」</div>
   </div>
 </template>
 

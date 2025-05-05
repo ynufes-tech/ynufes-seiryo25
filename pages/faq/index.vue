@@ -1,10 +1,10 @@
 <script setup lang="ts">
 useHead({
-  title: 'FAQ | 25清陵祭公式HP~翠星~',
+  title: "FAQ | 25清陵祭公式HP~翠星~",
   meta: [
-    { name: 'description', content: 'よくあるご質問はこちら' },
+    { name: "description", content: "よくあるご質問はこちら" },
   ],
-})
+});
 </script>
 
 <template>
@@ -23,8 +23,8 @@ useHead({
           <div class="content">
             <p>落とし物や迷子の相談は?</p>
             <p>
-              お近くのSTAFFジャンパーを着た大学祭実行委員にお声がけ頂くか､本部(経営学部1号館108教室)までお越しください。
-              場所はマップをご参照ください。
+              お近くのSTAFFジャンパーを着ている大学祭実行委員にお声がけいただくか､本部(経営学部1号館108教室)までお越しください。
+              場所はキャンパスマップをご参照ください。
             </p>
           </div>
         </div>
@@ -34,10 +34,10 @@ useHead({
             <p>A2</p>
           </div>
           <div class="content">
-            <p>落とし物や迷子の相談は？</p>
+            <p>具合が悪くなったら?</p>
             <p>
-              お近くのSTAFFジャンパーを着た大学祭実行委員にお声がけ頂くか､本部(経営学部1号館108教室)までお越しください。
-              場所はマップをご参照ください。
+              お近くの大学祭実行委員にお声がけいただくか、本部までお越しください。
+              混乱を避けるため、救急車の手配は大学実行委員が行います。
             </p>
           </div>
         </div>
@@ -47,10 +47,10 @@ useHead({
             <p>A3</p>
           </div>
           <div class="content">
-            <p>落とし物や迷子の相談は？</p>
+            <p>清陵祭期間中、 生協や食堂は使える?</p>
             <p>
-              お近くのSTAFFジャンパーを着た大学祭実行委員にお声がけ頂くか､本部(経営学部1号館108教室)までお越しください。
-              場所はマップをご参照ください。
+              第1食堂は屋内飲食が可能ですが、 食堂の営業はございません。
+              また、 第2食堂・生協は終日営業していません。
             </p>
           </div>
         </div>
@@ -60,10 +60,10 @@ useHead({
             <p>A4</p>
           </div>
           <div class="content">
-            <p>落とし物や迷子の相談は？</p>
+            <p>災害が発生した場合は?</p>
             <p>
-              お近くのSTAFFジャンパーを着た大学祭実行委員にお声がけ頂くか､本部(経営学部1号館108教室)までお越しくだ
-              場所はマップをご参照ください。
+              大学祭実行委員の指示に従い、お近くの避難場所へ避難してください。
+              避難場所は野外音楽堂、都市科学部棟裏です。
             </p>
           </div>
         </div>
@@ -73,10 +73,27 @@ useHead({
             <p>A5</p>
           </div>
           <div class="content">
-            <p>落とし物や迷子の相談は？</p>
+            <p>雨が降ったとき企画はどうなる?</p>
             <p>
-              お近くのSTAFFジャンパーを着た大学祭実行委員にお声がけ頂くか､本部(経営学部1号館108教室)までお越しくだ
-              場所はマップをご参照ください。
+              企画場所が変更または中止となる場合がございます。
+              詳しくは配布しているパンフレットのタイムテーブル
+              (p.9-10)、イベント& ステージ(p.11-12)をご確認ください。
+              また、最新情報については、<NuxtLink to="/news" class="linkto"
+                >NEWSページ</NuxtLink
+              >にてお知らせいたします。
+            </p>
+          </div>
+        </div>
+        <div class="category">
+          <div class="qa">
+            <p>Q6</p>
+            <p>A6</p>
+          </div>
+          <div class="content">
+            <p>各最寄り駅・バス停への行き方は?</p>
+            <p>
+              <NuxtLink to="/access" class="linkto">ACCESSページ</NuxtLink
+              >をご覧ください。
             </p>
           </div>
         </div>
@@ -97,38 +114,48 @@ useHead({
 }
 
 .box {
-    background-color: rgba(134, 249, 255, 0.2);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 0 30px 15px rgba(134, 249, 255, 0.2);
-    padding: 5% 8%;
-    opacity: 90%;
-    margin: 12rem 8vw 0;
-    @include md {
-      margin-top: 18rem;
-      padding: 2% 8%;
-      margin: 8rem 7vw 0;
-    }
-    @include sm {
-      margin-top: 7rem;
-    }
+  background-color: rgba(134, 249, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px 15px rgba(134, 249, 255, 0.2);
+  padding: 5% 8%;
+  opacity: 90%;
+  margin: 12rem 8vw 0;
+  @include md {
+    margin-top: 18rem;
+    padding: 2% 8%;
+    margin: 8rem 7vw 0;
+  }
+  @include sm {
+    margin-top: 7rem;
+  }
 }
 
 .category {
-    display: flex;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+  display: flex;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .qa {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Amiri', sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: "Amiri", sans-serif;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3vw;
+}
+
+.linkto {
+  color: #fff;
+}
+
+p {
+  @include md {
+    font-size: 15px;
+  }
 }
 </style>

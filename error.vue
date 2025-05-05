@@ -8,10 +8,7 @@ import HeaderComponent from '~/components/HeaderComponent.vue'
       <HeaderComponent />
       <div class="page-root">
         <div class="page-container">
-          <PageTitle
-            :title="'ERROR'"
-            :sub-title="'404'"
-          />
+          <PageTitle :title="'ERROR'" :sub-title="'404'" />
           <div class="box">
             <div class="explanation">
               <p>
@@ -38,7 +35,6 @@ body {
   padding-top: 4rem;
 }
 </style>
-
 <style lang="scss" scoped>
 @use '@/assets/scss/_breakpoint.scss' as *;
 

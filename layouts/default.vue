@@ -5,9 +5,9 @@ import HeaderComponent from '~/components/HeaderComponent.vue'
 const scrollToTop = () => {
   window.scrollTo({
     top: 0,
-    behavior: 'smooth',
-  })
-}
+    behavior: 'smooth'
+  });
+};
 </script>
 
 <template>
@@ -16,14 +16,8 @@ const scrollToTop = () => {
     <slot />
 
     <!-- フローティングボタン -->
-    <div
-      class="floating-button"
-      @click="scrollToTop"
-    >
-      <img
-        src="~/assets/images/floating-button.png"
-        alt="Floating Button"
-      >
+    <div class="floating-button" @click="scrollToTop">
+      <img src="~/assets/images/floating-button.png" alt="Floating Button" />
     </div>
 
     <div class="background-container">
@@ -31,6 +25,7 @@ const scrollToTop = () => {
     </div>
   </div>
 </template>
+
 
 <style lang="scss">
 body {
@@ -41,7 +36,6 @@ body {
   padding-top: 4rem;
 }
 </style>
-
 <style lang="scss" scoped>
 @use '@/assets/scss/_breakpoint.scss' as *;
 .layout-root {

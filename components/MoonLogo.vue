@@ -11,16 +11,10 @@ const props = defineProps({
   <div class="pop">
     <div class="moon">
       <div class="moon-logo">
-        <img
-          src="~/assets/images/moon-logo.webp"
-          alt="moon"
-          class="moon-icon"
-        >
+        <img src="~/assets/images/moon-logo.webp" alt="moon" class="moon-icon">
       </div>
       <div class="content">
-        <p class="title">
-          {{ text }}
-        </p>
+        <p class="title">{{ text }}</p>
       </div>
     </div>
   </div>
@@ -49,7 +43,7 @@ const props = defineProps({
   }
 }
 .moon-icon{
-  width: 10vw;
+  width: 10vw; 
   max-width: 80px;
   height: auto;
   @include md{

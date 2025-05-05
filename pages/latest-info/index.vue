@@ -4,25 +4,26 @@ import BackToButton from '~/components/BackToButton.vue'
 
 <template>
   <div class="page-root">
-    <div class="page-container">
-      <div class="pop">
-        <div class="date">
-          <p>2025.00.00</p>
+      <div class="page-container">
+        <div class="pop">
+          <div class="date">
+              <p>2025.00.00</p>
+          </div>
+          <div class="news-title">
+              <p>ニュース題名ニュース題名ニュース題名ニュース題名</p>
+          </div>
         </div>
-        <div class="news-title">
-          <p>ニュース題名ニュース題名ニュース題名ニュース題名</p>
+        <div class="detail">
+          <p>ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容</p>
         </div>
+        <BackToButton
+          text = "ニュース一覧に戻る"
+          link = "/news"
+        />
       </div>
-      <div class="detail">
-        <p>ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容</p>
-      </div>
-      <BackToButton
-        text="ニュース一覧に戻る"
-        link="/news"
-      />
-    </div>
   </div>
 </template>
+
 
 <style scoped lang="scss">
 @use "@/assets/scss/_breakpoint.scss" as *;
@@ -41,11 +42,11 @@ import BackToButton from '~/components/BackToButton.vue'
   filter: drop-shadow(9px 19px 12px rgba(255, 255, 255, 0.4));
   background: linear-gradient(
   90deg,
-  rgba(44,163,255,0.6) 0%,
-  rgba(113,255,210,0.6) 0%,
-  rgba(129,240,255,0.6) 17%,
-  rgba(58,215,181,0.6) 44%,
-  rgba(162,240,254,0.6) 67%,
+  rgba(44,163,255,0.6) 0%, 
+  rgba(113,255,210,0.6) 0%, 
+  rgba(129,240,255,0.6) 17%, 
+  rgba(58,215,181,0.6) 44%, 
+  rgba(162,240,254,0.6) 67%, 
   rgba(157,255,209,0.6) 91%
   )
 }
@@ -76,12 +77,12 @@ import BackToButton from '~/components/BackToButton.vue'
   margin-top: 10vh;
   background: #fff;
   background: linear-gradient(
-    90deg,
-    rgba(44,163,255,1) 0%,
-    rgba(113,255,210,1) 0%,
-    rgba(129,240,255,1) 17%,
-    rgba(58,215,181,1) 44%,
-    rgba(162,240,254,1) 67%,
+    90deg, 
+    rgba(44,163,255,1) 0%, 
+    rgba(113,255,210,1) 0%, 
+    rgba(129,240,255,1) 17%, 
+    rgba(58,215,181,1) 44%, 
+    rgba(162,240,254,1) 67%, 
     rgba(157,255,209,1) 91%
   );
   background-size: 200% 200%;
@@ -114,5 +115,5 @@ import BackToButton from '~/components/BackToButton.vue'
       padding: 15px 15px;
     }
   }
-}
+}  
 </style>
