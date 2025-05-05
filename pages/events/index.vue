@@ -1,23 +1,27 @@
 <script setup lang="ts">
 import events from 'public/events.json'
-import EventCard from "~/components/EventCard.vue";
+import EventCard from '~/components/EventCard.vue'
 </script>
+
 <template>
   <div class="page-root">
-    <PageTitle title="EVENTS" sub-title="企画一覧" />
+    <PageTitle
+      title="EVENTS"
+      sub-title="企画一覧"
+    />
     <div class="card-holder">
       <NuxtLink
-          v-for="event in events"
-          :key="event.id"
-          :to="`/events/${event.id}`"
-          class="events-elements"
+        v-for="event in events"
+        :key="event.id"
+        :to="`/events/${event.id}`"
+        class="events-elements"
       >
-        <EventCard :event-data="event"/>
+        <EventCard :event-data="event" />
       </NuxtLink>
     </div>
-
   </div>
 </template>
+
 <style>
 .card-holder{
   width:90vw;

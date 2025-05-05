@@ -7,7 +7,7 @@ const props = defineProps({
   link: {
     type: String,
     required: false,
-    default: "#",
+    default: '#',
   },
   date: {
     type: String,
@@ -18,7 +18,10 @@ const props = defineProps({
 
 <template>
   <div class="pop">
-    <NuxtLink class="color-button" :to="link">
+    <NuxtLink
+      class="color-button"
+      :to="link"
+    >
       <div class="content">
         <p class="now">{{ date }}</p>
         <p class="news-title">{{ text }}</p>
@@ -43,12 +46,12 @@ const props = defineProps({
   border-radius: inherit;
   padding: 2px; // 枠線として使う余白
   background: linear-gradient(
-    90deg, 
-    rgba(44,163,255,1) 0%, 
-    rgba(113,255,210,1) 0%, 
-    rgba(129,240,255,1) 17%, 
-    rgba(58,215,181,1) 44%, 
-    rgba(162,240,254,1) 67%, 
+    90deg,
+    rgba(44,163,255,1) 0%,
+    rgba(113,255,210,1) 0%,
+    rgba(129,240,255,1) 17%,
+    rgba(58,215,181,1) 44%,
+    rgba(162,240,254,1) 67%,
     rgba(157,255,209,1) 91%
   );
   background-size: 200% 200%;
@@ -107,7 +110,7 @@ const props = defineProps({
       color: #fff;
     }
   }
-  
+
   .now {
     margin-top: 0;
     padding: 0 1vw 0;
