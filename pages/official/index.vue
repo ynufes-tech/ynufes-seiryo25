@@ -59,7 +59,7 @@ useHead({
                 <p>5/17(土) 18:45~19:45</p>
                 <p>
                   野外音楽堂<br>
-                  <span class="rainy">(雨天時:経営棟109)</span>
+                  <span class="rainy">(雨天時:経営2号館109教室)</span>
                 </p>
               </div>
             </div>
@@ -82,7 +82,7 @@ useHead({
                 <p>5/17(土) 13:30~14:45</p>
                 <p>
                   野外音楽堂<br>
-                  <span class="rainy">(雨天時:メディアホール)</span>
+                  <span class="rainy">(雨天時:中央図書館1階メディアホール)</span>
                 </p>
               </div>
             </div>
