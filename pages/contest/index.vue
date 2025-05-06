@@ -243,7 +243,7 @@ useHead({
 }
 
 /* ✅ スマホ用サイズ制限 */
-@media (max-width: 768px) {
+@include md {
   .floating-button img {
     width: 85px;
   }
