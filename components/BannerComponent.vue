@@ -2,19 +2,29 @@
 <template>
   <div class="banner-component">
     <div class="eye-ceiver">
-      <a href="https://www.hazawa-kubotaganka.com/" class="banner">
+      <a
+        href="https://www.hazawa-kubotaganka.com/"
+        class="banner"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="~/assets/images/eye-clinic.webp"
           class="banner-image"
           alt="sponsor-link"
-        />
+        >
       </a>
-      <a href="https://www.next-gears.net/" class="banner">
+      <a
+        href="https://www.next-gears.net/"
+        class="banner"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="~/assets/images/transceiver.webp"
           class="banner-image"
           alt="sponsor-link"
-        />
+        >
       </a>
     </div>
   </div>
