@@ -189,59 +189,80 @@ const toggle = () => {
     }
   }
   &:nth-child(2) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 22.5vw;
+    top: 5%; /* 最初の項目 */
+    margin: -1vh 0 1rem 22.5vw;
     @include md {
-      margin: 1.5rem 0 1rem 37vw;
+      margin: 1rem 0 1rem 37vw;
     }
   }
   &:nth-child(3) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 23.5vw;
+    top: 5%; /* 最初の項目 */
+    margin: -1vh 0 1rem 23.5vw;
     @include md {
-      margin: 1.5rem 0 1rem 40vw;
+      margin: 1rem 0 1rem 40vw;
     }
   }
   &:nth-child(4) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 24.7vw;
+    top: 5%; /* 最初の項目 */
+    margin: -1vh 0 1rem 24.7vw;
     @include md {
-      margin: 1.5rem 0 1rem 41vw;
+      margin: 1rem 0 1rem 41vw;
     }
   }
   &:nth-child(5) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 26.7vw;
+    top: 5%; /* 最初の項目 */
+    margin: -1vh 0 1rem 26.7vw;
     @include md {
-      margin: 1.5rem 0 1rem 41vw;
+      margin: 1rem 0 1rem 41vw;
     }
   }
   &:nth-child(6) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 28.5vw;
+    top: 5%; /* 最初の項目 */
+    margin: -1vh 0 1rem 28.5vw;
     @include md {
-      margin: 1.5rem 0 1rem 38vw;
+      margin: 1rem 0 1rem 38vw;
     }
   }
   &:nth-child(7) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 31.5vw;
+    top: 5%; /* 最初の項目 */
+    margin: -1vh 0 1rem 31.5vw;
     @include md {
-      margin: 1.5rem 0 1rem 35.5vw;
+      margin: 1rem 0 1rem 35.5vw;
     }
   }
   &:nth-child(8) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 35.5vw;
+    top: 5%; /* 最初の項目 */
+    margin: -1vh 0 1rem 34.5vw;
     @include md {
-      margin: 1.5rem 0 1rem 32vw;
+      margin: 1rem 0 1rem 32vw;
     }
   }
   &:nth-child(9) {
-    top: 10%; /* 最初の項目 */
-    margin: 0 0 1rem 39.5vw;
+    top: 5%; /* 最初の項目 */
+    margin: -1vh 0 1rem 40.5vw;
     @include md {
-      margin: 1.5rem 0 1rem 28vw;
+      margin: 1rem 0 1rem 32vw;
+    }
+  }
+  &:nth-child(10) {
+    top: 5%; /* 最初の項目 */
+    margin: -2vh 0 1rem 41.5vw;
+    @include md {
+      margin: 1rem 0 1rem 28vw;
+    }
+  }
+  &:nth-child(11) {
+    top: 5%; /* 最初の項目 */
+    margin: -2vh 0 1rem 46.5vw;
+    @include md {
+      margin: 1rem 0 1rem 29vw;
+    }
+  }
+  &:nth-child(12) {
+    top: 5%; /* 最初の項目 */
+    margin: -2vh 0 1rem 49.5vw;
+    @include md {
+      margin: 1rem 0 1rem 30vw;
     }
   }
 }
