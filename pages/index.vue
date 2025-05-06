@@ -97,13 +97,13 @@ useHead({
           <div class="square-button-set">
             <div class="square-buttons-wrapper">   
               <NuxtLink to="/pamphlet" class="image-button">
-                <img src="~/assets/images/square1.webp" alt="公式パンフレット" class="square-button"/>
+                <img src="~/assets/images/square3.webp" alt="公式パンフレット" class="square-button"/>
                 <span class="button-text">公式パンフレット</span>
               </NuxtLink>
             </div>
             <div class="square-buttons-wrapper">
               <NuxtLink to="/map" class="image-button">
-                <img src="~/assets/images/square2.webp" alt="キャンパスマップ" class="square-button"/>
+                <img src="~/assets/images/square4.webp" alt="キャンパスマップ" class="square-button"/>
                 <span class="button-text">キャンパスマップ</span>
               </NuxtLink>
             </div>
