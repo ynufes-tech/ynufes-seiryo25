@@ -7,7 +7,7 @@ const props = defineProps({
 });
 </script>
 <template>
-  <a class="connect-button" href="link">
+  <a class="connect-button" :href="link">
     <img
       class="image"
       src="@/assets/images/connect-button-img.webp"
