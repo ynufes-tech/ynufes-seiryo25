@@ -286,28 +286,28 @@ const toggle = () => {
   }
   &:nth-child(10) {
     top: 5%; /* 最初の項目 */
-    margin: -2.5vh 0 3vh 41.5vw;
+    margin: -2.5vh 0 3vh 43vw;
     @include md {
       margin: 1rem 0 1rem 27vw;
     }
   }
   &:nth-child(11) {
     top: 5%; /* 最初の項目 */
-    margin: -2.5vh 0 3vh 46.5vw;
+    margin: -2.5vh 0 3vh 49vw;
     @include md {
       margin: 1rem 0 1rem 24.5vw;
     }
   }
   &:nth-child(12) {
     top: 5%; /* 最初の項目 */
-    margin: -2.5vh 0 3vh 49.5vw;
+    margin: -2.5vh 0 3vh 56vw;
     @include md {
       margin: 1rem 0 1rem 25.5vw;
     }
   }
   &:nth-child(13) {
     top: 5%; /* 最初の項目 */
-    margin: -2.5vh 0 3vh 56vw;
+    margin: -2.5vh 0 3vh 64vw;
     @include md {
       margin: 1rem 0 1rem 28.5vw;
     }
