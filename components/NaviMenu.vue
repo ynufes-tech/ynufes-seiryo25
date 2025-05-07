@@ -358,6 +358,6 @@ const toggle = () => {
   text-decoration: underline;
 }
 .color-sns {
-  margin: auto 2vw 2vw auto;
+  margin: auto 5vh 7vh auto;
 }
 </style>
