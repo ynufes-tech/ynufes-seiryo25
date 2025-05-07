@@ -329,7 +329,8 @@ const toggle = () => {
 }
 #official {
   @include sm {
-    font-size: 1.05rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
     .jptxt {
       font-size: 9px;
     }
