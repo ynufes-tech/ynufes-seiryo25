@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import ConnectButton from "@/components/ConnectButton.vue";
 useHead({
   title: "Connection | 25清陵祭公式HP~翠星~",
   meta: [{ name: "description", content: "他大学の大学祭情報はこちら" }],
@@ -11,13 +12,18 @@ useHead({
       <PageTitle :title="'CONNECTION'" :sub-title="'他大学の学祭のご紹介'" />
       <div class="box">
         <div class="category">
-          <div class="symbol">
-            <p>■</p>
-            <p>□</p>
+          <div class="text-box">
+            <div class="symbol">
+              <p>■</p>
+              <p>□</p>
+            </div>
+            <div class="content">
+              <p>一橋大学　第28回KODAIRA祭</p>
+              <p>開催日程<br />2025年 6/14(土) - 6/15(日)</p>
+            </div>
           </div>
-          <div class="content">
-            <p>静岡大学　春フェス</p>
-            <p>開催日程<br />2025年　4/26(土) - 4/27(日)</p>
+          <div class="button-box">
+            <ConnectButton link="https://kodairafes.com/" />
           </div>
         </div>
       </div>
@@ -41,7 +47,7 @@ useHead({
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 0 30px 15px rgba(134, 249, 255, 0.2);
-  padding: 5% 12%;
+  padding: 5% 10%;
   opacity: 90%;
   margin: 12rem 8vw 0;
   @include md {
@@ -56,8 +62,11 @@ useHead({
 
 .category {
   display: flex;
-  margin-top: 10vh;
+  margin-top: 15vh;
   margin-bottom: 10vh;
+  @include lg {
+    flex-direction: column;
+  }
 }
 
 .symbol {
@@ -72,9 +81,25 @@ useHead({
   margin-left: 3vw;
 }
 
-.linkto {
-  color: #fff;
+.text-box {
+  display: flex;
+  //align-items: center;
+  //font-size: 20px;
+  @include md {
+    font-size: 15px;
+  }
 }
+.button-box {
+  margin-top: 115px;
+  margin-left: auto;
+  margin-right: 0;
+  @include lg {
+    margin: 0 auto;
+  }
+}
+// .connect-button {
+//   //width: 3rem;
+// }
 
 p {
   @include md {
