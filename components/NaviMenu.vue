@@ -113,6 +113,7 @@ const toggle = () => {
           </li>
         </ul>
       </nav>
+      <ColorSNS />
     </div>
   </div>
 </template>
@@ -150,8 +151,6 @@ const toggle = () => {
   z-index: 10000;
   display: flex;
   flex-direction: column;
-  //align-items: center;
-  //justify-content: center;
   overflow: hidden; /* 背景画像がはみ出さないようにする */
 }
 
@@ -208,7 +207,6 @@ const toggle = () => {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  //text-align: center;
 
   @include md {
     padding: 0;
@@ -331,7 +329,7 @@ const toggle = () => {
 }
 #official {
   @include sm {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     .jptxt {
       font-size: 9px;
     }
@@ -358,5 +356,8 @@ const toggle = () => {
 
 .nav-list li a.router-link-active {
   text-decoration: underline;
+}
+.color-sns {
+  margin: auto 2vw 2vw auto;
 }
 </style>
