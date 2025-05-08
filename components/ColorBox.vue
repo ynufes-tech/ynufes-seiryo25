@@ -9,7 +9,7 @@ const props = defineProps({
 
 <template>
   <div class="pop">
-    <div class="color-button">
+    <div class="color-box">
       <div class="content">
         <p class="news-title">{{ text }}</p>
       </div>
@@ -25,7 +25,7 @@ const props = defineProps({
   justify-content: center;
 }
 
-.color-button {
+.color-box {
   position: relative;
   display: inline-flex;
   align-items: center;

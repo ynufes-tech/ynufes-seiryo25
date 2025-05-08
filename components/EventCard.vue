@@ -8,6 +8,7 @@ const props = defineProps<{
     // area: Area;
     // p_name: string;
     place: string
+    genre: string;
   }
 }>()
 const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.eventData.id}.webp`
@@ -15,7 +16,7 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
 <template>
 <div class="event-card">
   <div class="card-title">
-    <p class="card-genre">Dance</p>
+    <p class="card-genre">{{props.eventData.genre}}</p>
   </div>
   <div class="icon-holder">
     <img
@@ -60,17 +61,25 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
   }
 }
 .card-title{
-  color: transparent;
-  font-size: 50px;
+  font-size: 40px;
   padding-left: 15px;
-  margin-top: 5px;
+  margin-top: 6px;
   position: relative;
-  top: -10px;
+  margin-bottom: 10px;
+  color: rgba(237, 235, 169, 0.75);
+  @include md{
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+  }
+  @include sm{
+    font-size: 30px;
+  }
 }
 .icon-holder{
-  padding: 0 23%;
+  padding: 2% 23%;
   position: relative;
-  top: -60px;
+  top: -50px;
   text-align: center;
   @include lg{
     position: relative;
@@ -79,11 +88,11 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
   }
   @include md{
     position: relative;
-    top: -8vh;
+    top: -15px;
   }
   @include sm{
     position: relative;
-    top: -70px;
+    top: -30px;
     right: 20px;
 
   }
@@ -137,12 +146,12 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
   @include md {
     font-size: 2.8svw;
     line-height: 5px;
-    top: -65px;
+    top: -35px;
   }
   @include sm{
-    top: -85px;
+    top: -50px;
     line-height: 3px;
-    font-size: 5.5svw;
+    font-size: 4.8svw;
 
   }
 }
