@@ -46,7 +46,7 @@ useHead({
                 src="/assets/images/star-logo.webp"
                 alt="星LOGO"
               />
-              <ColorBox text="○○部門" class="cate-text" />
+              <ColorBox text="展示・販売・体験部門" class="cate-text" />
             </div>
             <div class="ranking-holder">
               <RankingCard
@@ -77,7 +77,7 @@ useHead({
                 src="/assets/images/star-logo.webp"
                 alt="星LOGO"
               />
-              <ColorBox text="○○部門" class="cate-text" />
+              <ColorBox text="食べ物部門" class="cate-text" />
             </div>
             <div class="ranking-holder">
               <RankingCard
@@ -108,7 +108,7 @@ useHead({
                 src="/assets/images/star-logo.webp"
                 alt="星LOGO"
               />
-              <ColorBox text="○○部門" class="cate-text" />
+              <ColorBox text="パフォーマンス部門" class="cate-text" />
             </div>
             <div class="ranking-holder">
               <RankingCard
@@ -149,7 +149,7 @@ useHead({
                 src="/assets/images/star-logo.webp"
                 alt="星LOGO"
               />
-              <ColorBox text="○○部門" class="cate-text" />
+              <ColorBox text="展示・販売・体験部門" class="cate-text" />
             </div>
             <div class="ranking-holder">
               <RankingCard
@@ -180,7 +180,7 @@ useHead({
                 src="/assets/images/star-logo.webp"
                 alt="星LOGO"
               />
-              <ColorBox text="○○部門" class="cate-text" />
+              <ColorBox text="食べ物部門" class="cate-text" />
             </div>
             <div class="ranking-holder">
               <RankingCard
@@ -211,7 +211,7 @@ useHead({
                 src="/assets/images/star-logo.webp"
                 alt="星LOGO"
               />
-              <ColorBox text="○○部門" class="cate-text" />
+              <ColorBox text="パフォーマンス部門" class="cate-text" />
             </div>
             <div class="ranking-holder">
               <RankingCard
@@ -362,6 +362,7 @@ useHead({
   max-width: 30vw;
   height: 7vh;
   white-space: nowrap;
+  min-width: 15em;
   @include md {
     width: 30vw;
   }
