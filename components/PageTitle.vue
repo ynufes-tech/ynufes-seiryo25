@@ -37,9 +37,9 @@ const props = defineProps({
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    margin: 0 5vw;
-    font-size: 95px;
-    letter-spacing: 0.1em;
+    margin: 0 3vw;
+    font-size: 90px;
+    letter-spacing: 0;
     width: fit-content;
     color: transparent;
     -webkit-text-stroke: 1px #21FCE3; 
@@ -47,7 +47,7 @@ const props = defineProps({
     font-weight: 400;
     z-index: 1000;
     @include md {
-      font-size: 65px;
+      font-size: 60px;
     }
     @include sm {
       font-size: 45px;
