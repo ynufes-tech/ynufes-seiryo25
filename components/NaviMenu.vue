@@ -34,43 +34,92 @@ const toggle = () => {
       <nav>
         <ul class="nav-list">
           <li>
-            <NuxtLink to="/" @click="toggle">TOP</NuxtLink>
+            <NuxtLink to="/" @click="toggle" class="link"
+              >TOP
+              <div class="jptxt">トップ</div></NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/news" @click="toggle">NEWS</NuxtLink>
+            <NuxtLink to="/news" @click="toggle" class="link"
+              >NEWS
+              <div class="jptxt">最新情報</div></NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/about" @click="toggle">ABOUT</NuxtLink>
+            <NuxtLink to="/about" @click="toggle" class="link"
+              >ABOUT
+              <div class="jptxt">清陵祭について</div></NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/pamphlet" @click="toggle">PAMPHLET</NuxtLink>
+            <NuxtLink to="/pamphlet" @click="toggle" class="link"
+              >PAMPHLET
+              <div class="jptxt">公式パンフレット</div></NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/official" @click="toggle">OFFICIAL-EVENTS</NuxtLink>
+            <NuxtLink to="/official" @click="toggle" class="link" id="official"
+              >OFFICIAL-EVENTS
+              <div class="jptxt">本部企画紹介</div></NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/events" @click="toggle">EVENTS</NuxtLink>
+            <NuxtLink to="/events" @click="toggle" class="link"
+              >EVENTS
+              <div class="jptxt">企画団体一覧</div></NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/contest" @click="toggle">CONTEST</NuxtLink>
+            <NuxtLink to="/contest" @click="toggle" class="link"
+              >CONTEST
+              <div class="jptxt">企画コンテスト</div></NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/access" @click="toggle">ACCESS</NuxtLink>
+            <NuxtLink to="/contest" @click="toggle" class="link"
+              >MAP
+              <div class="jptxt">キャンパスマップ</div></NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/staff" @click="toggle">STAFF</NuxtLink>
+            <NuxtLink to="/access" @click="toggle" class="link"
+              >ACCESS
+              <div class="jptxt">大学までのアクセス</div></NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/about-us" @click="toggle">ABOUT-US</NuxtLink>
+            <NuxtLink to="/staff" @click="toggle" class="link"
+              >STAFF
+              <div class="jptxt">お問い合わせ</div></NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/faq" @click="toggle">FAQ</NuxtLink>
+            <NuxtLink to="/about-us" @click="toggle" class="link"
+              >ABOUT-US
+              <div class="jptxt">大学祭実行委員会について</div></NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/sponsor" @click="toggle">SPONSOR</NuxtLink>
+            <NuxtLink to="/faq" @click="toggle" class="link"
+              >FAQ
+              <div class="jptxt">よくあるご質問</div></NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink to="/sponsor" @click="toggle" class="link"
+              >SPONSOR
+              <div class="jptxt">協賛企業一覧</div></NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink to="/connection" @click="toggle" class="link"
+              >CONNECTION
+              <div class="jptxt">他大学の学祭の紹介</div></NuxtLink
+            >
           </li>
         </ul>
       </nav>
+      <ColorSNS />
     </div>
   </div>
 </template>
@@ -108,8 +157,6 @@ const toggle = () => {
   z-index: 10000;
   display: flex;
   flex-direction: column;
-  //align-items: center;
-  //justify-content: center;
   overflow: hidden; /* 背景画像がはみ出さないようにする */
 }
 
@@ -166,7 +213,6 @@ const toggle = () => {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  //text-align: center;
 
   @include md {
     padding: 0;
@@ -177,92 +223,132 @@ const toggle = () => {
   margin-bottom: 2rem;
 
   &:hover {
-    transform: translateY(-2px) scale(1.1);
+    transform: translateY(-1px) scale(1.01);
     color: #666666;
     transition: transform 0.3s ease;
   }
   &:nth-child(1) {
     top: 10%; /* 最初の項目 */
-    margin: 2rem 0 1rem 22vw;
+    margin: 4vh 0 3vh 22vw;
     @include md {
-      margin: 1.5rem 0 1rem 30vw;
+      margin: 1.5rem 0 2vh 30vw;
     }
   }
   &:nth-child(2) {
     top: 5%; /* 最初の項目 */
-    margin: -1vh 0 1rem 22.5vw;
+    margin: -2vh 0 3vh 22.1vw;
     @include md {
-      margin: 1rem 0 1rem 37vw;
+      margin: 1vh 0 2vh 37vw;
     }
   }
   &:nth-child(3) {
     top: 5%; /* 最初の項目 */
-    margin: -1vh 0 1rem 23.5vw;
+    margin: -2vh 0 3vh 22.5vw;
     @include md {
-      margin: 1rem 0 1rem 40vw;
+      margin: 1vh 0 2vh 40vw;
     }
   }
   &:nth-child(4) {
     top: 5%; /* 最初の項目 */
-    margin: -1vh 0 1rem 24.7vw;
+    margin: -2vh 0 3vh 23.1vw;
     @include md {
-      margin: 1rem 0 1rem 41vw;
+      margin: 1vh 0 2vh 41vw;
     }
   }
   &:nth-child(5) {
     top: 5%; /* 最初の項目 */
-    margin: -1vh 0 1rem 26.7vw;
+    margin: -2vh 0 3vh 24vw;
     @include md {
-      margin: 1rem 0 1rem 41vw;
+      margin: 1vh 0 2vh 40vw;
     }
   }
   &:nth-child(6) {
     top: 5%; /* 最初の項目 */
-    margin: -1vh 0 1rem 28.5vw;
+    margin: -2vh 0 3vh 25.3vw;
     @include md {
-      margin: 1rem 0 1rem 38vw;
+      margin: 1vh 0 2vh 38vw;
     }
   }
   &:nth-child(7) {
     top: 5%; /* 最初の項目 */
-    margin: -1vh 0 1rem 31.5vw;
+    margin: -2vh 0 3vh 27.1vw;
     @include md {
-      margin: 1rem 0 1rem 35.5vw;
+      margin: 1vh 0 2vh 35.5vw;
     }
   }
   &:nth-child(8) {
     top: 5%; /* 最初の項目 */
-    margin: -1vh 0 1rem 34.5vw;
+    margin: -2vh 0 3vh 29.5vw;
     @include md {
-      margin: 1rem 0 1rem 32vw;
+      margin: 1vh 0 2vh 32vw;
     }
   }
   &:nth-child(9) {
     top: 5%; /* 最初の項目 */
-    margin: -1vh 0 1rem 40.5vw;
+    margin: -2vh 0 3vh 32.5vw;
     @include md {
-      margin: 1rem 0 1rem 32vw;
+      margin: 1vh 0 2vh 30vw;
     }
   }
   &:nth-child(10) {
     top: 5%; /* 最初の項目 */
-    margin: -2vh 0 1rem 41.5vw;
+    margin: -2.5vh 0 3vh 37vw;
     @include md {
-      margin: 1rem 0 1rem 28vw;
+      margin: 1vh 0 2vh 27vw;
     }
   }
   &:nth-child(11) {
     top: 5%; /* 最初の項目 */
-    margin: -2vh 0 1rem 46.5vw;
+    margin: -2.5vh 0 3vh 42.5vw;
     @include md {
-      margin: 1rem 0 1rem 29vw;
+      margin: 1vh 0 2vh 24.5vw;
     }
   }
   &:nth-child(12) {
     top: 5%; /* 最初の項目 */
-    margin: -2vh 0 1rem 49.5vw;
+    margin: -2.5vh 0 3vh 48.7vw;
     @include md {
-      margin: 1rem 0 1rem 30vw;
+      margin: 1vh 0 2vh 25.5vw;
+    }
+  }
+  &:nth-child(13) {
+    top: 5%; /* 最初の項目 */
+    margin: -2.5vh 0 3vh 55.5vw;
+    @include md {
+      margin: 1vh 0 2vh 30vw;
+    }
+  }
+  &:nth-child(14) {
+    top: 5%; /* 最初の項目 */
+    margin: -2.5vh 0 3vh 64vw;
+    @include md {
+      margin: 1vh 0 2vh 38vw;
+    }
+  }
+}
+.link {
+  display: flex;
+}
+.jptxt {
+  margin: auto 0 2px 0;
+  padding-left: 1vw;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+
+  @include md {
+    font-size: 11px;
+    padding-left: 1vw;
+  }
+}
+#official {
+  @include md {
+    font-size: 1.1rem;
+  }
+  @include sm {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    .jptxt {
+      font-size: 9px;
     }
   }
 }
@@ -278,14 +364,24 @@ const toggle = () => {
   @include md {
     font-size: 1.2rem;
   }
+  @include sm {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
 }
 
 .nav-list li a:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
   color: #666666;
 }
 
 .nav-list li a.router-link-active {
   text-decoration: underline;
+}
+.color-sns {
+  margin: auto 3vh 12vh auto;
+  @include md {
+    margin: auto 2vh 7vh auto;
+  }
 }
 </style>
