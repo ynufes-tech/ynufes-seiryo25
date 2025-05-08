@@ -75,7 +75,7 @@
       width: 35px;
       img {
         width: 30px;
-        padding: 1px 1px 10px 30px;
+        padding: 1px 1px 10px 28px;
         @include md {
           width: 25px;
         }
