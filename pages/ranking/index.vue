@@ -362,6 +362,7 @@ useHead({
   max-width: 30vw;
   height: 7vh;
   white-space: nowrap;
+  min-width: 15em;
   @include md {
     width: 30vw;
   }
