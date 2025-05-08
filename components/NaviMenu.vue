@@ -76,6 +76,12 @@ const toggle = () => {
             >
           </li>
           <li>
+            <NuxtLink to="/contest" @click="toggle" class="link"
+              >MAP
+              <div class="jptxt">キャンパスマップ</div></NuxtLink
+            >
+          </li>
+          <li>
             <NuxtLink to="/access" @click="toggle" class="link"
               >ACCESS
               <div class="jptxt">大学までのアクセス</div></NuxtLink
@@ -225,91 +231,98 @@ const toggle = () => {
     top: 10%; /* 最初の項目 */
     margin: 4vh 0 3vh 22vw;
     @include md {
-      margin: 1.5rem 0 1rem 30vw;
+      margin: 1.5rem 0 2vh 30vw;
     }
   }
   &:nth-child(2) {
     top: 5%; /* 最初の項目 */
-    margin: -2vh 0 3vh 22.5vw;
+    margin: -2vh 0 3vh 22.1vw;
     @include md {
-      margin: 1rem 0 1rem 37vw;
+      margin: 1vh 0 2vh 37vw;
     }
   }
   &:nth-child(3) {
     top: 5%; /* 最初の項目 */
-    margin: -2vh 0 3vh 23.5vw;
+    margin: -2vh 0 3vh 22.5vw;
     @include md {
-      margin: 1rem 0 1rem 40vw;
+      margin: 1vh 0 2vh 40vw;
     }
   }
   &:nth-child(4) {
     top: 5%; /* 最初の項目 */
-    margin: -2vh 0 3vh 24.7vw;
+    margin: -2vh 0 3vh 23.1vw;
     @include md {
-      margin: 1rem 0 1rem 41vw;
+      margin: 1vh 0 2vh 41vw;
     }
   }
   &:nth-child(5) {
     top: 5%; /* 最初の項目 */
-    margin: -2vh 0 3vh 26.7vw;
+    margin: -2vh 0 3vh 24vw;
     @include md {
-      margin: 1rem 0 1rem 41vw;
+      margin: 1vh 0 2vh 40vw;
     }
   }
   &:nth-child(6) {
     top: 5%; /* 最初の項目 */
-    margin: -2vh 0 3vh 28.5vw;
+    margin: -2vh 0 3vh 25.3vw;
     @include md {
-      margin: 1rem 0 1rem 38vw;
+      margin: 1vh 0 2vh 38vw;
     }
   }
   &:nth-child(7) {
     top: 5%; /* 最初の項目 */
-    margin: -2vh 0 3vh 31.5vw;
+    margin: -2vh 0 3vh 27.1vw;
     @include md {
-      margin: 1rem 0 1rem 35.5vw;
+      margin: 1vh 0 2vh 35.5vw;
     }
   }
   &:nth-child(8) {
     top: 5%; /* 最初の項目 */
-    margin: -2vh 0 3vh 34.5vw;
+    margin: -2vh 0 3vh 29.5vw;
     @include md {
-      margin: 1rem 0 1rem 32vw;
+      margin: 1vh 0 2vh 32vw;
     }
   }
   &:nth-child(9) {
     top: 5%; /* 最初の項目 */
-    margin: -2vh 0 3vh 38vw;
+    margin: -2vh 0 3vh 32.5vw;
     @include md {
-      margin: 1rem 0 1rem 30vw;
+      margin: 1vh 0 2vh 30vw;
     }
   }
   &:nth-child(10) {
     top: 5%; /* 最初の項目 */
-    margin: -2.5vh 0 3vh 43vw;
+    margin: -2.5vh 0 3vh 37vw;
     @include md {
-      margin: 1rem 0 1rem 27vw;
+      margin: 1vh 0 2vh 27vw;
     }
   }
   &:nth-child(11) {
     top: 5%; /* 最初の項目 */
-    margin: -2.5vh 0 3vh 49vw;
+    margin: -2.5vh 0 3vh 42.5vw;
     @include md {
-      margin: 1rem 0 1rem 24.5vw;
+      margin: 1vh 0 2vh 24.5vw;
     }
   }
   &:nth-child(12) {
     top: 5%; /* 最初の項目 */
-    margin: -2.5vh 0 3vh 56vw;
+    margin: -2.5vh 0 3vh 48.7vw;
     @include md {
-      margin: 1rem 0 1rem 25.5vw;
+      margin: 1vh 0 2vh 25.5vw;
     }
   }
   &:nth-child(13) {
     top: 5%; /* 最初の項目 */
+    margin: -2.5vh 0 3vh 55.5vw;
+    @include md {
+      margin: 1vh 0 2vh 30vw;
+    }
+  }
+  &:nth-child(14) {
+    top: 5%; /* 最初の項目 */
     margin: -2.5vh 0 3vh 64vw;
     @include md {
-      margin: 1rem 0 1rem 28.5vw;
+      margin: 1vh 0 2vh 38vw;
     }
   }
 }
@@ -317,7 +330,7 @@ const toggle = () => {
   display: flex;
 }
 .jptxt {
-  margin: auto 0 1px 0;
+  margin: auto 0 2px 0;
   padding-left: 1vw;
   font-size: 14px;
   letter-spacing: 0.5px;
@@ -328,8 +341,11 @@ const toggle = () => {
   }
 }
 #official {
+  @include md {
+    font-size: 1.1rem;
+  }
   @include sm {
-    font-size: 1rem;
+    font-size: 0.8rem;
     letter-spacing: 1px;
     .jptxt {
       font-size: 9px;
@@ -348,6 +364,10 @@ const toggle = () => {
   @include md {
     font-size: 1.2rem;
   }
+  @include sm {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
 }
 
 .nav-list li a:hover {
@@ -360,5 +380,8 @@ const toggle = () => {
 }
 .color-sns {
   margin: auto 5vh 7vh auto;
+  @include md {
+    margin: auto 2vh 7vh auto;
+  }
 }
 </style>

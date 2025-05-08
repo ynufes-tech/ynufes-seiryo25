@@ -37,26 +37,18 @@
 .color-sns {
   width: 150px;
   margin: auto 3vw 6vw auto;
-  border-radius: 50%;
   display: flex;
   flex-direction: column;
-  //align-items: center;
-  //justify-content: center;
 
-  h1 {
-    width: fit-content;
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: 30px;
-  }
   .sns-field {
     display: flex;
-    justify-content: space-around;
     gap: 30px;
     margin-bottom: 30px;
     img {
       transition: all 0.2s ease-in-out;
-      aspect-ratio: 1;
+      &:hover {
+        transform: scale(1.2);
+      }
     }
     #sns-f img {
       width: 30px;
@@ -67,14 +59,13 @@
     #sns-x {
       width: 35px;
       height: 35px;
-      margin: 2.5px;
       @include md {
         width: 30px;
         height: 30px;
       }
       img {
         width: 25px;
-        padding: 10px;
+        padding: 4px 40px 5px 58px;
         @include md {
           width: 20px;
         }
@@ -84,7 +75,7 @@
       width: 35px;
       img {
         width: 30px;
-        padding: 5px;
+        padding: 1px 1px 10px 30px;
         @include md {
           width: 25px;
         }
