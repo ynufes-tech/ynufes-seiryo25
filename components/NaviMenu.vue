@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-import { ref } from "vue";
+import { ref } from 'vue'
 
-const showMenu = ref(false);
+const showMenu = ref(false)
 const toggle = () => {
-  showMenu.value = !showMenu.value;
-};
+  showMenu.value = !showMenu.value
+}
 </script>
 
 <template>
@@ -16,106 +16,152 @@ const toggle = () => {
       alt="Menu Button"
       class="menu-button"
       @click="toggle"
-    />
-    <div v-show="showMenu" class="nav-list-wrapper">
+    >
+    <div
+      v-show="showMenu"
+      class="nav-list-wrapper"
+    >
       <!-- 背景画像 -->
       <img
         src="~/assets/images/NaviBack.webp"
         alt="Menu Background"
         class="background-image"
-      />
+      >
       <!-- メニュー右上にバツ印ボタン -->
       <img
         src="~/assets/images/ShrinkButton.webp"
         alt="Close Menu"
         class="close-button"
         @click="toggle"
-      />
+      >
       <nav>
         <ul class="nav-list">
           <li>
-            <NuxtLink to="/" @click="toggle" class="link"
-              >TOP
-              <div class="jptxt">トップ</div></NuxtLink
-            >
+            <NuxtLink
+              to="/"
+              class="link"
+              @click="toggle"
+            >TOP
+              <div class="jptxt">トップ</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/news" @click="toggle" class="link"
-              >NEWS
-              <div class="jptxt">最新情報</div></NuxtLink
-            >
+            <NuxtLink
+              to="/news"
+              class="link"
+              @click="toggle"
+            >NEWS
+              <div class="jptxt">最新情報</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" @click="toggle" class="link"
-              >ABOUT
-              <div class="jptxt">清陵祭について</div></NuxtLink
-            >
+            <NuxtLink
+              to="/about"
+              class="link"
+              @click="toggle"
+            >ABOUT
+              <div class="jptxt">清陵祭について</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/pamphlet" @click="toggle" class="link"
-              >PAMPHLET
-              <div class="jptxt">公式パンフレット</div></NuxtLink
-            >
+            <NuxtLink
+              to="/pamphlet"
+              class="link"
+              @click="toggle"
+            >PAMPHLET
+              <div class="jptxt">公式パンフレット</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/official" @click="toggle" class="link" id="official"
-              >OFFICIAL-EVENTS
-              <div class="jptxt">本部企画紹介</div></NuxtLink
-            >
+            <NuxtLink
+              id="official"
+              to="/official"
+              class="link"
+              @click="toggle"
+            >OFFICIAL-EVENTS
+              <div class="jptxt">本部企画紹介</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/events" @click="toggle" class="link"
-              >EVENTS
-              <div class="jptxt">企画団体一覧</div></NuxtLink
-            >
+            <NuxtLink
+              to="/events"
+              class="link"
+              @click="toggle"
+            >EVENTS
+              <div class="jptxt">企画団体一覧</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/contest" @click="toggle" class="link"
-              >CONTEST
-              <div class="jptxt">企画コンテスト</div></NuxtLink
-            >
+            <NuxtLink
+              to="/contest"
+              class="link"
+              @click="toggle"
+            >CONTEST
+              <div class="jptxt">企画コンテスト</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/contest" @click="toggle" class="link"
-              >MAP
-              <div class="jptxt">キャンパスマップ</div></NuxtLink
-            >
+            <NuxtLink
+              to="/contest"
+              class="link"
+              @click="toggle"
+            >MAP
+              <div class="jptxt">キャンパスマップ</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/access" @click="toggle" class="link"
-              >ACCESS
-              <div class="jptxt">大学までのアクセス</div></NuxtLink
-            >
+            <NuxtLink
+              to="/access"
+              class="link"
+              @click="toggle"
+            >ACCESS
+              <div class="jptxt">大学までのアクセス</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/staff" @click="toggle" class="link"
-              >STAFF
-              <div class="jptxt">お問い合わせ</div></NuxtLink
-            >
+            <NuxtLink
+              to="/staff"
+              class="link"
+              @click="toggle"
+            >STAFF
+              <div class="jptxt">お問い合わせ</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about-us" @click="toggle" class="link"
-              >ABOUT-US
-              <div class="jptxt">大学祭実行委員会について</div></NuxtLink
-            >
+            <NuxtLink
+              to="/about-us"
+              class="link"
+              @click="toggle"
+            >ABOUT-US
+              <div class="jptxt">大学祭実行委員会について</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/faq" @click="toggle" class="link"
-              >FAQ
-              <div class="jptxt">よくあるご質問</div></NuxtLink
-            >
+            <NuxtLink
+              to="/faq"
+              class="link"
+              @click="toggle"
+            >FAQ
+              <div class="jptxt">よくあるご質問</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/sponsor" @click="toggle" class="link"
-              >SPONSOR
-              <div class="jptxt">協賛企業一覧</div></NuxtLink
-            >
+            <NuxtLink
+              to="/sponsor"
+              class="link"
+              @click="toggle"
+            >SPONSOR
+              <div class="jptxt">協賛企業一覧</div>
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/connection" @click="toggle" class="link"
-              >CONNECTION
-              <div class="jptxt">他大学の学祭の紹介</div></NuxtLink
-            >
+            <NuxtLink
+              to="/connection"
+              class="link"
+              @click="toggle"
+            >CONNECTION
+              <div class="jptxt">他大学の学祭の紹介</div>
+            </NuxtLink>
           </li>
         </ul>
       </nav>
@@ -194,14 +240,15 @@ const toggle = () => {
   right: 4rem; /* 右端からの余白を増やす */
   width: 70px; /* ボタンの幅を増やして横長にする */
   height: 40px; /* ボタンの高さを90%に調整 */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
   @include md {
     top: 1.5rem; /* 上端からの余白を増やす */
     right: 2.5rem; /* 右端からの余白を増やす */
     width: 42px; /* ボタンの幅を増やして横長にする */
     height: 24px; /* ボタンの高さを90%に調整 */
   }
-  cursor: pointer;
-  transition: transform 0.3s ease;
 
   &:hover {
     transform: scale(1.25);
@@ -227,6 +274,7 @@ const toggle = () => {
     color: #666666;
     transition: transform 0.3s ease;
   }
+
   &:nth-child(1) {
     top: 10%; /* 最初の項目 */
     margin: 4vh 0 3vh 22vw;
@@ -234,6 +282,7 @@ const toggle = () => {
       margin: 1.5rem 0 2vh 30vw;
     }
   }
+
   &:nth-child(2) {
     top: 5%; /* 最初の項目 */
     margin: -2vh 0 3vh 22.1vw;
@@ -241,6 +290,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 37vw;
     }
   }
+
   &:nth-child(3) {
     top: 5%; /* 最初の項目 */
     margin: -2vh 0 3vh 22.5vw;
@@ -248,6 +298,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 40vw;
     }
   }
+
   &:nth-child(4) {
     top: 5%; /* 最初の項目 */
     margin: -2vh 0 3vh 23.1vw;
@@ -255,6 +306,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 41vw;
     }
   }
+
   &:nth-child(5) {
     top: 5%; /* 最初の項目 */
     margin: -2vh 0 3vh 24vw;
@@ -262,6 +314,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 40vw;
     }
   }
+
   &:nth-child(6) {
     top: 5%; /* 最初の項目 */
     margin: -2vh 0 3vh 25.3vw;
@@ -269,6 +322,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 38vw;
     }
   }
+
   &:nth-child(7) {
     top: 5%; /* 最初の項目 */
     margin: -2vh 0 3vh 27.1vw;
@@ -276,6 +330,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 35.5vw;
     }
   }
+
   &:nth-child(8) {
     top: 5%; /* 最初の項目 */
     margin: -2vh 0 3vh 29.5vw;
@@ -283,6 +338,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 32vw;
     }
   }
+
   &:nth-child(9) {
     top: 5%; /* 最初の項目 */
     margin: -2vh 0 3vh 32.5vw;
@@ -290,6 +346,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 30vw;
     }
   }
+
   &:nth-child(10) {
     top: 5%; /* 最初の項目 */
     margin: -2.5vh 0 3vh 37vw;
@@ -297,6 +354,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 27vw;
     }
   }
+
   &:nth-child(11) {
     top: 5%; /* 最初の項目 */
     margin: -2.5vh 0 3vh 42.5vw;
@@ -304,6 +362,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 24.5vw;
     }
   }
+
   &:nth-child(12) {
     top: 5%; /* 最初の項目 */
     margin: -2.5vh 0 3vh 48.7vw;
@@ -311,6 +370,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 25.5vw;
     }
   }
+
   &:nth-child(13) {
     top: 5%; /* 最初の項目 */
     margin: -2.5vh 0 3vh 55.5vw;
@@ -318,6 +378,7 @@ const toggle = () => {
       margin: 1vh 0 2vh 30vw;
     }
   }
+
   &:nth-child(14) {
     top: 5%; /* 最初の項目 */
     margin: -2.5vh 0 3vh 64vw;
@@ -326,9 +387,11 @@ const toggle = () => {
     }
   }
 }
+
 .link {
   display: flex;
 }
+
 .jptxt {
   margin: auto 0 2px 0;
   padding-left: 1vw;
@@ -340,6 +403,7 @@ const toggle = () => {
     padding-left: 1vw;
   }
 }
+
 #official {
   @include md {
     font-size: 1.1rem;
@@ -378,6 +442,7 @@ const toggle = () => {
 .nav-list li a.router-link-active {
   text-decoration: underline;
 }
+
 .color-sns {
   margin: auto 3vh 12vh auto;
   @include md {
