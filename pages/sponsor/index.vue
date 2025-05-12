@@ -2,14 +2,14 @@
 import moonLogo from "@/assets/images/moon-logo.webp"; // 正しいパスに修正
 useHead({
   title: "Sponsor | 25清陵祭公式HP~翠星~",
-  meta: [{ name: "description", content: "ご協賛はこちら" }],
+  meta: [{ name: "description", content: "25清陵祭のご協賛企業一覧を掲載しています。" }],
 });
 </script>
 
 <template>
   <div class="page-root">
     <div class="page-container">
-      <PageTitle :title="'SPONSOR'" :sub-title="'協賛企業一覧'" />
+      <PageTitle :title="'SPONSOR'" :sub-title="'ご協賛企業一覧'" />
       <div class="box">
         <div class="explanation">
           <p>
@@ -17,7 +17,7 @@ useHead({
             ここに深く感謝申し上げます。
           </p>
           <p>
-            ご協賛いただきました企業の皆様を以下にご紹介させていただきます。<br />
+            ご協賛いただいた企業の皆様を以下にご紹介いたします。<br />
             （敬称略・五十音順）
           </p>
         </div>
