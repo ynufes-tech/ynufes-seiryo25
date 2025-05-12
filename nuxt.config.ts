@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/google-fonts', '@nuxt/eslint'],
+  modules: ['@nuxtjs/google-fonts', '@nuxt/eslint', 'nuxt-gtag'],
   devtools: { enabled: true },
   app: {
     baseURL: process.env.NUXT_PUBLIC_BASE_URL,
@@ -33,4 +33,7 @@ export default defineNuxtConfig({
     preconnect: true,
     display: 'swap',
   },
+  gtag: {
+    id: 'G-NGC7YLLCPR'
+  }
 })
