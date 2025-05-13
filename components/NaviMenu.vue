@@ -102,7 +102,7 @@ const toggle = () => {
           </li>
           <li>
             <NuxtLink
-              to="/contest"
+              to="/map"
               class="link"
               @click="toggle"
             >MAP
