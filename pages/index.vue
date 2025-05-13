@@ -113,8 +113,8 @@ useHead({
           <div class="square-button-set">
             <div class="square-buttons-wrapper">   
               <NuxtLink to="/sponsor" class="image-button">
-                <img src="~/assets/images/square1.webp" alt="協賛企業一覧" class="square-button" />
-                <span class="button-text">協賛企業一覧</span>
+                <img src="~/assets/images/square1.webp" alt="ご協賛企業一覧" class="square-button" />
+                <span class="button-text">ご協賛企業一覧</span>
               </NuxtLink>
             </div>
             <div class="square-buttons-wrapper">
