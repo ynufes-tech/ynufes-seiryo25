@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
-const showMenu = ref(false)
+const showMenu = ref(false);
 const toggle = () => {
-  showMenu.value = !showMenu.value
-}
+  showMenu.value = !showMenu.value;
+};
 </script>
 
 <template>
@@ -16,157 +16,119 @@ const toggle = () => {
       alt="Menu Button"
       class="menu-button"
       @click="toggle"
-    >
-    <div
-      v-show="showMenu"
-      class="nav-list-wrapper"
-    >
-      <!-- 背景画像 -->
-      <img
-        src="~/assets/images/NaviBack.webp"
-        alt="Menu Background"
-        class="background-image"
-      >
-      <!-- メニュー右上にバツ印ボタン -->
-      <img
-        src="~/assets/images/ShrinkButton.webp"
-        alt="Close Menu"
-        class="close-button"
-        @click="toggle"
-      >
-      <nav>
-        <ul class="nav-list">
-          <li>
-            <NuxtLink
-              to="/"
-              class="link"
-              @click="toggle"
-            >TOP
-              <div class="jptxt">トップ</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/news"
-              class="link"
-              @click="toggle"
-            >NEWS
-              <div class="jptxt">最新情報</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/about"
-              class="link"
-              @click="toggle"
-            >ABOUT
-              <div class="jptxt">清陵祭について</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/pamphlet"
-              class="link"
-              @click="toggle"
-            >PAMPHLET
-              <div class="jptxt">パンフレット紹介</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              id="official"
-              to="/official"
-              class="link"
-              @click="toggle"
-            >OFFICIAL-EVENTS
-              <div class="jptxt">本部企画紹介</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/events"
-              class="link"
-              @click="toggle"
-            >EVENTS
-              <div class="jptxt">企画一覧</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/contest"
-              class="link"
-              @click="toggle"
-            >CONTEST
-              <div class="jptxt">企画コンテスト</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/contest"
-              class="link"
-              @click="toggle"
-            >MAP
-              <div class="jptxt">キャンパスマップ</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/access"
-              class="link"
-              @click="toggle"
-            >ACCESS
-              <div class="jptxt">大学までのアクセス</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/staff"
-              class="link"
-              @click="toggle"
-            >STAFF
-              <div class="jptxt">お問い合わせ</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/about-us"
-              class="link"
-              @click="toggle"
-            >ABOUT-US
-              <div class="jptxt">大学祭実行委員会について</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/faq"
-              class="link"
-              @click="toggle"
-            >FAQ
-              <div class="jptxt">よくあるご質問</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/sponsor"
-              class="link"
-              @click="toggle"
-            >SPONSOR
-              <div class="jptxt">ご協賛企業一覧</div>
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/connection"
-              class="link"
-              @click="toggle"
-            >CONNECTION
-              <div class="jptxt">他大学の学祭の紹介</div>
-            </NuxtLink>
-          </li>
-        </ul>
-      </nav>
-      <ColorSNS />
-    </div>
+
+    />
+    <!-- transition コンポーネントでラップ -->
+    <transition name="slide">
+      <div v-if="showMenu" class="nav-list-wrapper" :class="{ open: showMenu }">
+        <!-- 背景画像 -->
+        <img
+          src="~/assets/images/NaviBack.webp"
+          alt="Menu Background"
+          class="background-image"
+        />
+        <!-- メニュー右上にバツ印ボタン -->
+        <img
+          src="~/assets/images/ShrinkButton.webp"
+          alt="Close Menu"
+          class="close-button"
+          @click="toggle"
+        />
+        <nav>
+          <ul class="nav-list">
+            <li>
+              <NuxtLink to="/" class="link" @click="toggle"
+                >TOP
+                <div class="jptxt">トップ</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/news" class="link" @click="toggle"
+                >NEWS
+                <div class="jptxt">最新情報</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/about" class="link" @click="toggle"
+                >ABOUT
+                <div class="jptxt">清陵祭について</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/pamphlet" class="link" @click="toggle"
+                >PAMPHLET
+                <div class="jptxt">パンフレット紹介</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink
+                id="official"
+                to="/official"
+                class="link"
+                @click="toggle"
+                >OFFICIAL-EVENTS
+                <div class="jptxt">本部企画紹介</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/events" class="link" @click="toggle"
+                >EVENTS
+                <div class="jptxt">企画一覧</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/contest" class="link" @click="toggle"
+                >CONTEST
+                <div class="jptxt">企画コンテスト</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/map" class="link" @click="toggle"
+                >MAP
+                <div class="jptxt">キャンパスマップ</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/access" class="link" @click="toggle"
+                >ACCESS
+                <div class="jptxt">大学までのアクセス</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/staff" class="link" @click="toggle"
+                >STAFF
+                <div class="jptxt">お問い合わせ</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/about-us" class="link" @click="toggle"
+                >ABOUT-US
+                <div class="jptxt">大学祭実行委員会について</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/faq" class="link" @click="toggle"
+                >FAQ
+                <div class="jptxt">よくあるご質問</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/sponsor" class="link" @click="toggle"
+                >SPONSOR
+                <div class="jptxt">ご協賛企業一覧</div>
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/connection" class="link" @click="toggle"
+                >CONNECTION
+                <div class="jptxt">他大学の学祭の紹介</div>
+              </NuxtLink>
+            </li>
+          </ul>
+        </nav>
+        <ColorSNS />
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -194,12 +156,27 @@ const toggle = () => {
   transform: scale(1.1);
 }
 
+/* transition 用のクラス */
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.5s ease-out;
+}
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateX(100%);
+}
+.slide-enter-to,
+.slide-leave-from {
+  transform: translateX(0);
+}
+
+/* 既存の nav-list-wrapper のスタイル（v-show 用ではなくなるので、要素が常に DOM にある前提に不要な表示切替は削除） */
 .nav-list-wrapper {
-  position: fixed; /* 固定位置に変更 */
-  top: 0; /* 上部を最上部に固定 */
-  left: 0; /* 左端を固定 */
-  width: 100%; /* 幅を画面幅に対応 */
-  height: 100vh; /* 高さを画面全体に */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
   z-index: 10000;
   display: flex;
   flex-direction: column;
@@ -209,12 +186,12 @@ const toggle = () => {
 /* 背景画像のスタイル */
 .background-image {
   position: absolute;
-  top: 0; /* 上部を画面上端に固定 */
+  top: 0;
   left: 0;
-  width: 100%; /* 幅を画面幅に合わせる */
-  height: 100%; /* 高さを画面全体に合わせる */
-  object-fit: fill; /* デフォルトでは画面幅にぴったり合わせる */
-  z-index: -1; /* 背景として配置 */
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  z-index: -1;
 }
 
 /* 画面幅700px以下で別の背景画像を適用 */
