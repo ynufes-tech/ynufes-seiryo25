@@ -11,13 +11,8 @@ useHead({
 <div class="page-root">
     <div class="page-container">
         <PageTitle :title="'ABOUT'" :sub-title="'清陵祭について'" />
-        <div class="flames">
-            <div class="flame_1">
-                <img class="white-flame" src="/assets/images/white-flame-upper.png">
-            </div>
-            <div class="flame_2">
-                <img class="white-flame" src="/assets/images/white-flame-under.png">
-            </div>
+        <div class="flame_1">
+            <img class="white-flame" src="/assets/images/white-flame-upper.png">
         </div>
         <div class="box">
             <div class="content">
@@ -52,6 +47,9 @@ useHead({
                         <h3>「翠星」</h3>
                     </div>
                 </div>
+            </div>
+            <div class="flame_2">
+                <img class="white-flame" src="/assets/images/white-flame-under.png">
             </div>
         </div>
         <div class="date-box">
@@ -102,17 +100,11 @@ useHead({
 
 .flame_2 img {
     position: absolute;
-    margin: 160vh 80vw;
+    margin: 0 70vw;
     width: 8vw;
     z-index: 900;
-    @include md {
-        margin: 160vh 80vw;
-    }
     @include sm {
-        margin: 175vh 80vw;
-    }
-    @media (max-width: 430px) {
-        margin: 190vh 80vw;
+        margin: 0 65vw;
     }
 }
 
