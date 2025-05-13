@@ -22,10 +22,10 @@ useHead({
           </p>
         </div>
 
-        <h2 class="heading">
+        <div class="heading">
           <img :src="moonLogo" alt="装飾アイコン" class="decor-icon" />
-          広告協賛
-        </h2>
+          <h2>広告協賛</h2>
+        </div>
         <div class="sponsor">
           <div class="left">
             ・JOINUS<br />
@@ -47,10 +47,10 @@ useHead({
             ・横浜国立大学生活協同組合<br />
           </div>
         </div>
-        <h2 class="heading">
+        <div class="heading">
           <img :src="moonLogo" alt="装飾アイコン" class="decor-icon" />
-          物品協賛
-        </h2>
+          <h2>物品協賛</h2>
+        </div>
         <div class="sponsor">
           <div class="left">
             ・HARIO株式会社<br />
@@ -81,18 +81,18 @@ useHead({
             ・横浜ベイシェラトン ホテル＆タワーズ
           </div>
         </div>
-        <h2 class="heading">
+        <div class="heading">
           <img :src="moonLogo" alt="装飾アイコン" class="decor-icon" />
-          ブース協賛
-        </h2>
+          <h2>ブース協賛</h2>
+        </div>
         <div class="sponsor">
           <div class="left">・株式会社アットヨコハマ</div>
           <div class="right">・株式会社ミニミニ 神奈川横浜西口店</div>
         </div>
-        <h2 class="heading">
+        <div class="heading">
           <img :src="moonLogo" alt="装飾アイコン" class="decor-icon" />
-          寄付
-        </h2>
+          <h2>寄付</h2>
+        </div>
         <div class="sponsor">
           <div class="left">
             ・有限会社現代不動産<br />
@@ -176,19 +176,27 @@ p {
 .heading {
   display: flex;
   align-items: center;
-  font-size: 32px;
-  font-weight: bold;
+  margin-top: 5rem;
 
+  h2 {
+    font-weight: lighter;
+  }
+
+  @include sm {
+    h2 {
+      font-size: 26px;
+    }
+  }
   .decor-icon {
-    width: 8em;
+    width: 6em;
     height: auto;
     margin-right: 0.5em;
     @media (max-width: 768px) {
-      width: 5em;
+      width: 4em;
       margin-right: 0.3em;
     }
     @media (max-width: 480px) {
-      width: 4em;
+      width: 3em;
       margin-right: 0.2em;
     }
   }
