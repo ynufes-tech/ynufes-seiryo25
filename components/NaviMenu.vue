@@ -69,7 +69,7 @@ const toggle = () => {
               class="link"
               @click="toggle"
             >PAMPHLET
-              <div class="jptxt">公式パンフレット</div>
+              <div class="jptxt">パンフレット紹介</div>
             </NuxtLink>
           </li>
           <li>
@@ -88,7 +88,7 @@ const toggle = () => {
               class="link"
               @click="toggle"
             >EVENTS
-              <div class="jptxt">企画団体一覧</div>
+              <div class="jptxt">企画一覧</div>
             </NuxtLink>
           </li>
           <li>
@@ -151,7 +151,7 @@ const toggle = () => {
               class="link"
               @click="toggle"
             >SPONSOR
-              <div class="jptxt">協賛企業一覧</div>
+              <div class="jptxt">ご協賛企業一覧</div>
             </NuxtLink>
           </li>
           <li>
