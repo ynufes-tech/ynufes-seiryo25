@@ -146,15 +146,13 @@ useHead({
 
 .sponsor {
   margin-top: 10vh;
-  @include md {
-    margin-top: 8vh;
-  }
   display: flex;
   gap: 2rem;
 
   @include md {
     margin-top: 8vh;
     flex-direction: column;
+    gap: 0 2rem;
   }
 
   .left,
