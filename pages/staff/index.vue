@@ -10,7 +10,7 @@ useHead({
 <template>
 <div class="page-root">
     <div class="page-container">
-        <PageTitle :title="'STAFF'" :sub-title="'大学祭に関するお問い合わせ'" />
+        <PageTitle :title="'STAFF'" :sub-title="'お問い合わせ'" />
         <div class="box">
             <div class="explanation">
                 <p>清陵祭に興味を持っていただきありがとうございます。</p>

@@ -10,7 +10,7 @@ useHead({
     <div class="page-container">
       <PageTitle
         :title="'OFFICIAL'"
-        :sub-title="'本部企画'"
+        :sub-title="'本部企画紹介'"
       />
       <div class="box">
         <div class="category">

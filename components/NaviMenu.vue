@@ -16,6 +16,7 @@ const toggle = () => {
       alt="Menu Button"
       class="menu-button"
       @click="toggle"
+
     />
     <!-- transition コンポーネントでラップ -->
     <transition name="slide">
@@ -56,7 +57,7 @@ const toggle = () => {
             <li>
               <NuxtLink to="/pamphlet" class="link" @click="toggle"
                 >PAMPHLET
-                <div class="jptxt">公式パンフレット</div>
+                <div class="jptxt">パンフレット紹介</div>
               </NuxtLink>
             </li>
             <li>
@@ -72,7 +73,7 @@ const toggle = () => {
             <li>
               <NuxtLink to="/events" class="link" @click="toggle"
                 >EVENTS
-                <div class="jptxt">企画団体一覧</div>
+                <div class="jptxt">企画一覧</div>
               </NuxtLink>
             </li>
             <li>
@@ -114,7 +115,7 @@ const toggle = () => {
             <li>
               <NuxtLink to="/sponsor" class="link" @click="toggle"
                 >SPONSOR
-                <div class="jptxt">協賛企業一覧</div>
+                <div class="jptxt">ご協賛企業一覧</div>
               </NuxtLink>
             </li>
             <li>
