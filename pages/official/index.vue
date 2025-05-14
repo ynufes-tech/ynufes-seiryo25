@@ -23,49 +23,6 @@ useHead({
         <div class="about-events">
           <div class="event-nm">
             <img
-              src="/assets/images/official-events/festival.webp"
-              class="event_icon"
-            >
-            <div class="text-box">
-              <div class="event_name">
-                <h3>横国の森フェスティバル</h3>
-              </div>
-              <div class="detail">
-                <p>
-                  横国の森の中で楽しいフェスティバルが開催される！？<br>3つのサークルがさまざまなパフォーマンスを見せてくれます！
-                </p>
-                <p>5/18(日) 13:00~14:30</p>
-                <p>
-                  野外音楽堂<br>
-                  特設ステージ<br>
-                  <span class="rainy">(雨天時:中央図書館1階メディアホール)</span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="event-re">
-            <img
-              src="/assets/images/official-events/singingshow.webp"
-              class="event_icon"
-            >
-            <div class="text-box">
-              <div class="event_name">
-                <h3>歌いまShow</h3>
-              </div>
-              <div class="detail">
-                <p>
-                  野外音楽堂ステージに歌うま集結！<br>審査員の主観ジャッジも必見の<br>「歌いまShow」！
-                </p>
-                <p>5/17(土) 18:45~19:45</p>
-                <p>
-                  野外音楽堂<br>
-                  <span class="rainy">(雨天時:経営2号館109教室)</span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="event-nm">
-            <img
               src="/assets/images/official-events/clubvs.webp"
               class="event_icon"
             >
@@ -102,6 +59,49 @@ useHead({
                 <p>
                   野外音楽堂<br>
                   <span class="rainy">(雨天時:経営2号館109教室特設ステージ)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="event-nm">
+            <img
+              src="/assets/images/official-events/singingshow.webp"
+              class="event_icon"
+            >
+            <div class="text-box">
+              <div class="event_name">
+                <h3>歌いまShow</h3>
+              </div>
+              <div class="detail">
+                <p>
+                  野外音楽堂ステージに歌うま集結！<br>審査員の主観ジャッジも必見の<br>「歌いまShow」！
+                </p>
+                <p>5/17(土) 18:45~19:45</p>
+                <p>
+                  野外音楽堂<br>
+                  <span class="rainy">(雨天時:経営2号館109教室)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="event-re">
+            <img
+              src="/assets/images/official-events/festival.webp"
+              class="event_icon"
+            >
+            <div class="text-box">
+              <div class="event_name">
+                <h3>横国の森フェスティバル</h3>
+              </div>
+              <div class="detail">
+                <p>
+                  横国の森の中で楽しいフェスティバルが開催される！？<br>3つのサークルがさまざまなパフォーマンスを見せてくれます！
+                </p>
+                <p>5/18(日) 13:00~14:30</p>
+                <p>
+                  野外音楽堂<br>
+                  特設ステージ<br>
+                  <span class="rainy">(雨天時:中央図書館1階メディアホール)</span>
                 </p>
               </div>
             </div>
