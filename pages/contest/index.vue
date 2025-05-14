@@ -231,7 +231,7 @@ useHead({
 
 /* ✅ 画像サイズ（PCで1.7倍） */
 .floating-button img {
-  width: 165px;
+  width: 245px;
   height: auto;
   transition: transform 0.2s ease;
   cursor: pointer;
@@ -245,7 +245,7 @@ useHead({
 /* ✅ スマホ用サイズ制限 */
 @include md {
   .floating-button img {
-    width: 85px;
+    width: 120px;
   }
 }
 </style>
