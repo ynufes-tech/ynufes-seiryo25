@@ -55,7 +55,7 @@ const props = defineProps({
   transition: all 0.4s ease;
   text-decoration: none;
   overflow: hidden;
-  width: fit-content;
+  width: min(25em,100%);//fit-content
   filter: drop-shadow(5px 3px 10px rgba(255, 255, 255, 0.9));
 
   &::before {
