@@ -31,8 +31,8 @@ useHead({
                         class="news-title"
                     /> -->
                     <ColorButton
-                        date="2025.04.21"
-                        text="現在新着情報はありません"
+                        date="2025.05.15"
+                        text="現在のところ通常通り開催予定です"
                         class="news-title"
                     />
                 </div>
