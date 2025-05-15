@@ -61,11 +61,11 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
   }
 }
 .card-title{
-  font-size: 40px;
+  font-size: 38px;
   padding-left: 15px;
   margin-top: 6px;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   color: rgba(237, 235, 169, 0.75);
   @include md{
     font-size: 20px;
@@ -129,7 +129,7 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
 }
 .card-contents{
   position: relative;
-  top: -60px;
+  top: -10.5svh;
   line-height: 1svh;
   padding-left: 5%;
   color: #170634;
