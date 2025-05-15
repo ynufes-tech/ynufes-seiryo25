@@ -23,6 +23,69 @@ useHead({
         <div class="about-events">
           <div class="event-nm">
             <img
+              src="/assets/images/official-events/clubvs.webp"
+              class="event_icon"
+            >
+            <div class="text-box">
+              <div class="event_name">
+                <h3>
+                  横国一のサークルはどこだ⁉<br>サークル対抗ミニゲーム対決
+                </h3>
+              </div>
+              <div class="detail">
+                <p>
+                  サークル対抗戦で白熱バトル！<br>仲間と挑戦し、熱く盛り上がろう！<br>参加者、観覧者含め全員に景品も！！
+                </p>
+                <p>5/17(土) 13:30~14:45</p>
+                <p>
+                  野外音楽堂<br>特設ステージ<br>
+                  <span class="rainy">(雨天時:中央図書館1階メディアホール)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="event-re">
+            <img
+              src="/assets/images/official-events/freshman.webp"
+              class="event_icon"
+            >
+            <div class="text-box">
+              <div class="event_name">
+                <h3>一年生企画</h3>
+              </div>
+              <div class="detail">
+                <p>一年生が0から考えた企画を野外音楽堂で実施！<br>いったいどんな企画になるのか......<br>お楽しみに!!</p>
+                <p>5/17(土) 15:45~17:15</p>
+                <p>
+                  野外音楽堂<br>特設ステージ<br>
+                  <span class="rainy">(雨天時:経営2号館109教室特設ステージ)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="event-nm">
+            <img
+              src="/assets/images/official-events/singingshow.webp"
+              class="event_icon"
+            >
+            <div class="text-box">
+              <div class="event_name">
+                <h3>歌いまShow</h3>
+              </div>
+              <div class="detail">
+                <p>
+                  野外音楽堂ステージに歌うま集結！<br>審査員の主観ジャッジも必見の<br>「歌いまShow」！
+                </p>
+                <p>5/17(土) 18:45~19:45</p>
+                <p>
+                  野外音楽堂<br>特設ステージ<br>
+                  <span class="rainy">(雨天時:経営2号館109教室特設ステージ)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="event-re">
+            <img
               src="/assets/images/official-events/festival.webp"
               class="event_icon"
             >
@@ -43,69 +106,6 @@ useHead({
               </div>
             </div>
           </div>
-          <div class="event-re">
-            <img
-              src="/assets/images/official-events/singingshow.webp"
-              class="event_icon"
-            >
-            <div class="text-box">
-              <div class="event_name">
-                <h3>歌いまShow</h3>
-              </div>
-              <div class="detail">
-                <p>
-                  野外音楽堂ステージに歌うま集結！<br>審査員の主観ジャッジも必見の<br>「歌いまShow」！
-                </p>
-                <p>5/17(土) 18:45~19:45</p>
-                <p>
-                  野外音楽堂<br>
-                  <span class="rainy">(雨天時:経営2号館109教室)</span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="event-nm">
-            <img
-              src="/assets/images/official-events/clubvs.webp"
-              class="event_icon"
-            >
-            <div class="text-box">
-              <div class="event_name">
-                <h3>
-                  横国一のサークルはどこだ⁉<br>サークル対抗ミニゲーム対決
-                </h3>
-              </div>
-              <div class="detail">
-                <p>
-                  サークル対抗戦で白熱バトル！<br>仲間と挑戦し、熱く盛り上がろう！<br>参加者、観覧者含め全員に景品も！！
-                </p>
-                <p>5/17(土) 13:30~14:45</p>
-                <p>
-                  野外音楽堂<br>
-                  <span class="rainy">(雨天時:中央図書館1階メディアホール)</span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="event-re">
-            <img
-              src="/assets/images/official-events/freshman.webp"
-              class="event_icon"
-            >
-            <div class="text-box">
-              <div class="event_name">
-                <h3>一年生企画</h3>
-              </div>
-              <div class="detail">
-                <p>一年生が0から考えた企画を野外音楽堂で実施！<br>いったいどんな企画になるのか......<br>お楽しみに!!</p>
-                <p>5/17(土) 15:45~17:15</p>
-                <p>
-                  野外音楽堂<br>
-                  <span class="rainy">(雨天時:経営2号館109教室特設ステージ)</span>
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <div class="box">
@@ -118,33 +118,6 @@ useHead({
         </div>
         <div class="about-events">
           <div class="event-nm">
-            <img
-              src="/assets/images/official-events/goldfish.webp"
-              class="event_icon"
-            >
-            <div class="text-box">
-              <div class="event_name">
-                <h3>ドキドキ！金魚すくい</h3>
-              </div>
-              <div class="detail">
-                <p>
-                  制限時間内にポイを使って金魚をすくおう！<br>景品GETのチャンスも！？<br>ぜひ遊びに来てください♡
-                </p>
-                <p>
-                  5/17(土) 13:00~16:30
-                  <span class="limit-time">（受付終了時間 16:20）</span>
-                  <br>
-                  5/18(日) 10:00~14:30
-                  <span class="limit-time">（受付終了時間 14:20）</span>
-                </p>
-                <p>
-                  図書館1階<br>
-                  shoca.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="event-re">
             <img
               src="/assets/images/official-events/race.webp"
               class="event_icon"
@@ -165,82 +138,6 @@ useHead({
                 <p>
                   図書館1階<br>
                   shoca.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="event-nm">
-            <img
-              src="/assets/images/official-events/bracelet.webp"
-              class="event_icon"
-            >
-            <div class="text-box">
-              <div class="event_name">
-                <h3>マイ・ハッピー<br>ブレスレット工房</h3>
-              </div>
-              <div class="detail">
-                <p>
-                  ビーズとゴム紐を使って、<br>自分の個性やスタイルをめいっぱい表現したブレスレットを作ろう！
-                </p>
-                <p>
-                  5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:10）</span>
-                  <br>
-                  5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:10）</span>
-                </p>
-                <p>
-                  図書館1階<br>
-                  情報ラウンジ
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="event-re">
-            <img
-              src="/assets/images/official-events/rally.webp"
-              class="event_icon"
-            >
-            <div class="text-box">
-              <div class="event_name">
-                <h3>消えた財宝を探せ！<br>トレジャースタンプラリー</h3>
-              </div>
-              <div class="detail">
-                <p>
-                  この横浜国立大学に眠っているまだ見ぬ財宝を構内をまわって探し出そう！<br>健闘を祈る！
-                </p>
-                <p>
-                  5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:10）</span>
-                  <br>
-                  5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:10）</span>
-                </p>
-                <p>
-                  図書館1階<br>
-                  階段前 <br>
-                  (ゴール受付)
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="event-nm">
-            <img
-              src="/assets/images/official-events/momesen.webp"
-              class="event_icon"
-            >
-            <div class="text-box">
-              <div class="event_name">
-                <h3>かもめ先輩からの<br>挑戦状</h3>
-              </div>
-              <div class="detail">
-                <p>
-                  かもめ先輩から挑戦状が届いた！<br>制限時間内に謎を解いて<br>キーワードを導き脱出しよう！
-                </p>
-                <p>
-                  5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:15）</span>
-                  <br>
-                  5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:15）</span>
-                </p>
-                <p>
-                  図書館1階<br>
-                  メディアブース104
                 </p>
               </div>
             </div>
@@ -272,6 +169,33 @@ useHead({
           </div>
           <div class="event-nm">
             <img
+              src="/assets/images/official-events/goldfish.webp"
+              class="event_icon"
+            >
+            <div class="text-box">
+              <div class="event_name">
+                <h3>ドキドキ！金魚すくい</h3>
+              </div>
+              <div class="detail">
+                <p>
+                  制限時間内にポイを使って金魚をすくおう！<br>景品GETのチャンスも！？<br>ぜひ遊びに来てください♡
+                </p>
+                <p>
+                  5/17(土) 13:00~16:30
+                  <span class="limit-time">（受付終了時間 16:20）</span>
+                  <br>
+                  5/18(日) 10:00~14:30
+                  <span class="limit-time">（受付終了時間 14:20）</span>
+                </p>
+                <p>
+                  図書館1階<br>
+                  shoca.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="event-re">
+            <img
               src="/assets/images/official-events/freethrow.webp/"
               class="event_icon"
             >
@@ -295,7 +219,7 @@ useHead({
               </div>
             </div>
           </div>
-          <div class="event-re">
+          <div class="event-nm">
             <img
               src="/assets/images/official-events/colorfulmsg.webp"
               class="event_icon"
@@ -315,6 +239,83 @@ useHead({
               </div>
             </div>
           </div>
+          <div class="event-re">
+            <img
+              src="/assets/images/official-events/bracelet.webp"
+              class="event_icon"
+            >
+            <div class="text-box">
+              <div class="event_name">
+                <h3>マイ・ハッピー<br>ブレスレット工房</h3>
+              </div>
+              <div class="detail">
+                <p>
+                  ビーズとゴム紐を使って、<br>自分の個性やスタイルをめいっぱい表現したブレスレットを作ろう！
+                </p>
+                <p>
+                  5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:10）</span>
+                  <br>
+                  5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:10）</span>
+                </p>
+                <p>
+                  図書館1階<br>
+                  情報ラウンジ
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="event-nm">
+            <img
+              src="/assets/images/official-events/rally.webp"
+              class="event_icon"
+            >
+            <div class="text-box">
+              <div class="event_name">
+                <h3>消えた財宝を探せ！<br>トレジャースタンプラリー</h3>
+              </div>
+              <div class="detail">
+                <p>
+                  この横浜国立大学に眠っているまだ見ぬ財宝を構内をまわって探し出そう！<br>健闘を祈る！
+                </p>
+                <p>
+                  5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:10）</span>
+                  <br>
+                  5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:10）</span>
+                </p>
+                <p>
+                  図書館1階<br>
+                  階段前 <br>
+                  (ゴール受付)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="event-re">
+            <img
+              src="/assets/images/official-events/momesen.webp"
+              class="event_icon"
+            >
+            <div class="text-box">
+              <div class="event_name">
+                <h3>かもめ先輩からの<br>挑戦状</h3>
+              </div>
+              <div class="detail">
+                <p>
+                  かもめ先輩から挑戦状が届いた！<br>制限時間内に謎を解いて<br>キーワードを導き脱出しよう！
+                </p>
+                <p>
+                  5/17(土) 13:00~16:30<span class="limit-time">（受付終了時間 16:15）</span>
+                  <br>
+                  5/18(日) 10:00~14:30<span class="limit-time">（受付終了時間 14:15）</span>
+                </p>
+                <p>
+                  図書館1階<br>
+                  メディアブース104
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
       <div class="box">
