@@ -12,6 +12,12 @@ useHead({
             <PageTitle :title="'NEWS'" :sub-title="'最新情報'" />
             <div class="box">
                 <div class="pops">
+                    <ColorButton
+                        date="2025.05.16"
+                        text="-5月17日(土)の清陵祭運営について-"
+                        link="/latest-info"
+                        class="news-title"
+                    />
                     <!-- <ColorButton
                         date="2025.00.00"
                         text="ニュース題名ニュース題名ニュース題名"
@@ -23,18 +29,12 @@ useHead({
                         text="ニュース題名ニュース題名ニュース題名"
                         link="/latest-info"
                         class="news-title"
-                    />
-                    <ColorButton
-                        date="2025.00.00"
-                        text="ニュース題名ニュース題名ニュース題名"
-                        link="/latest-info"
-                        class="news-title"
                     /> -->
-                    <ColorButton
+                    <!-- <ColorButton
                         date="2025.05.15"
                         text="現在のところ通常通り開催予定です"
                         class="news-title"
-                    />
+                    /> -->
                 </div>
             </div>
         </div>

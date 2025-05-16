@@ -7,14 +7,18 @@ import BackToButton from '~/components/BackToButton.vue'
       <div class="page-container">
         <div class="pop">
           <div class="date">
-              <p>2025.00.00</p>
+              <p>2025.05.16</p>
           </div>
           <div class="news-title">
-              <p>ニュース題名ニュース題名ニュース題名ニュース題名</p>
+              <p>-5月17日(土)の清陵祭運営について-</p>
           </div>
         </div>
         <div class="detail">
-          <p>ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容ニュース内容</p>
+          <p>明日の5月17日(土)の清陵祭運営は、通常通り開催予定です。</p>
+          <p>
+            なお、これは現時点での判断となります。現時点での判断から変更の可能性もございます。<br/>
+            明日5月17日(土) 6:30の時点で、5月17日(土)の運営方針に関する広報を再度いたしますのでご確認ください。
+          </p>
         </div>
         <BackToButton
           text = "ニュース一覧に戻る"
@@ -68,9 +72,9 @@ import BackToButton from '~/components/BackToButton.vue'
 }
 
 .detail {
+  flex-direction: column;
   position: relative;
   display: inline-flex;
-  align-items: center;
   justify-content: center;
   border-radius: 10px;
   padding: 12px; // 枠線として使う余白
