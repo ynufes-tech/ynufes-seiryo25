@@ -15,13 +15,13 @@ const props = defineProps({
   <div class="page-root">
       <div class="page-container">
           <div class="backto">
-              <a class="circle-text-button" :href="link">
+              <NuxtLink class="circle-text-button" :to="link">
                   <div class="circle">
                     <div class="inner-dot">
                     </div>
                   </div>
                   <span class="text">{{ text }}</span>
-               </a>
+              </NuxtLink>
            </div>
       </div>
   </div>
