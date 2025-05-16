@@ -13,7 +13,7 @@ useHead({
             <div class="box">
                 <div class="pops">
                     <ColorButton
-                        date="2025.05.16"
+                        date="2025.05.17"
                         text="-5月17日(土)の清陵祭運営について-"
                         link="/latest-info"
                         class="news-title"
