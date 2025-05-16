@@ -65,7 +65,7 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
   padding-left: 15px;
   margin-top: 6px;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   color: rgba(237, 235, 169, 0.75);
   @include md{
     font-size: 20px;
