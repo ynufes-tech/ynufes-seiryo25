@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import events from 'public/events.json'
 import EventCard from "~/components/EventCard.vue";
-const CustomOrder = [2, 1, 4, 3, 7, 6, 5, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58];//企画は58個
+const CustomOrder = [30,20,7,15,17,3,24,19,18,36,43,42,46,50,26,52,39,27,1,5,9,21,22,35,32,33,59,55,57,47,28,40,60,12,44,49,37,45,8,10,14,16,48,25,23,38,31,54,4,6,53,2,29,41,51,34,11,13];//企画は58個
 const ordered_events = CustomOrder.map(i => events[i-1])
 </script>
 <template>
