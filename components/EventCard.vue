@@ -98,10 +98,10 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
   }
 }
 .icon-image{
-  width: 200px;
+  width: 15svw;
   height: auto;
-  max-height: 160px;
-  min-height: 160px;
+  max-height: 12svw;
+  min-height: 12svw;
   @include xl{
     width: 160px;
     height: auto;
@@ -129,7 +129,7 @@ const iconURL = `https://storage.googleapis.com/seiryo25-assets/icons/${props.ev
 }
 .card-contents{
   position: relative;
-  top: -10.5svh;
+  top: -5svw;
   line-height: 1svh;
   padding-left: 5%;
   color: #170634;
