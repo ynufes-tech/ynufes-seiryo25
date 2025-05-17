@@ -14,16 +14,22 @@ useHead({
                 <div class="pops">
                   <ColorButton
                       date="2025.05.17"
+                      text="-5月18日(日)の運営について-"
+                      link="/latest-info/raining/"
+                      class="news-title"
+                  />
+                  <ColorButton
+                      date="2025.05.17"
                       text="-花火企画 星華 中止のお知らせ-"
                       link="/latest-info/fireworks/"
                       class="news-title"
                   />
-                    <ColorButton
+                    <!-- <ColorButton
                         date="2025.05.17"
                         text="-5月17日(土)の清陵祭運営について-"
                         link="/latest-info"
                         class="news-title"
-                    />
+                    /> -->
                     <!-- <ColorButton
                         date="2025.00.00"
                         text="ニュース題名ニュース題名ニュース題名"
