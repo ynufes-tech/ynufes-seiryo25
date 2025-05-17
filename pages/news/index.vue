@@ -12,6 +12,12 @@ useHead({
             <PageTitle :title="'NEWS'" :sub-title="'最新情報'" />
             <div class="box">
                 <div class="pops">
+                  <ColorButton
+                      date="2025.05.17"
+                      text="-花火企画 星華 中止のお知らせ-"
+                      link="/latest-info/fireworks/"
+                      class="news-title"
+                  />
                     <ColorButton
                         date="2025.05.17"
                         text="-5月17日(土)の清陵祭運営について-"
