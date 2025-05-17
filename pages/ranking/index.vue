@@ -40,6 +40,9 @@ useHead({
               <img class="moon" src="/assets/images/moon-logo.webp" />
               <ColorBox text="5/17　中間結果発表" class="result-text" />
             </div>
+            <div class="mid-result">
+              <img src="~/assets/images/kikakucon-tyuukan.webp" alt="中間発表" class="mid-photo">
+            </div>
             <div class="cate">
               <img
                 class="star"
@@ -263,6 +266,19 @@ useHead({
   }
 }
 
+.mid-result{
+  text-align: center;
+  width: 5svw;
+
+}
+.mid-photo{
+  width: 80svw;
+  position: relative;
+  top: 5svw;
+  @include md{
+    height: 30svw;
+  }
+}
 .upper-button {
   display: flex;
   gap: 10vw;
