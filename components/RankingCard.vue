@@ -35,8 +35,13 @@ const rankClass = computed(() => {
 <style lang="scss" scoped>
 @use "@/assets/scss/_breakpoint.scss" as *;
 .ranking-card {
+  width: 80%;
   text-align: center;
   position: relative;
+
+  @include md {
+    width: 100%;
+  }
 }
 
 .big-star {

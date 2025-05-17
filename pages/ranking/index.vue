@@ -372,6 +372,7 @@ useHead({
   display: flex;
   justify-content: space-around;
   margin-top: 10vh;
+  max-width: 100%;
   @include md {
     display: flex;
     flex-direction: column;
