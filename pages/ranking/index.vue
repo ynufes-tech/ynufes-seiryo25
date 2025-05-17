@@ -51,21 +51,21 @@ useHead({
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
-                image="2位の画像"
+                id=1
                 votes="???"
                 projectName="Coming soon..."
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
-                image="1位の画像"
+                id=2
                 votes="???"
                 projectName="Coming soon..."
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
-                image="3位の画像"
+                id=3
                 votes="???"
                 projectName="Coming soon..."
                 class="rank3"
@@ -82,21 +82,21 @@ useHead({
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
-                image="2位の画像"
+                id="2位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
-                image="1位の画像"
+                id="1位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
-                image="3位の画像"
+                id="3位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank3"
@@ -113,21 +113,21 @@ useHead({
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
-                image="2位の画像"
+                id="2位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
-                image="1位の画像"
+                id="1位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
-                image="3位の画像"
+                id="3位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank3"
@@ -154,21 +154,21 @@ useHead({
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
-                image="2位の画像"
+                id="2位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
-                image="1位の画像"
+                id="1位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
-                image="3位の画像"
+                id="3位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank3"
@@ -185,21 +185,21 @@ useHead({
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
-                image="2位の画像"
+                id="2位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
-                image="1位の画像"
+                id="1位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
-                image="3位の画像"
+                id="3位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank3"
@@ -216,21 +216,21 @@ useHead({
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
-                image="2位の画像"
+                id="2位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
-                image="1位の画像"
+                id="1位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
-                image="3位の画像"
+                id="3位の画像"
                 votes="???"
                 projectName="Coming soon..."
                 class="rank3"
