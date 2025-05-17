@@ -13,7 +13,7 @@ useHead({
             <div class="box">
                 <div class="pops">
                   <ColorButton
-                      date="2025.05.17"
+                      date="2025.05.18"
                       text="-5月18日(日)の運営について-"
                       link="/latest-info/raining/"
                       class="news-title"
