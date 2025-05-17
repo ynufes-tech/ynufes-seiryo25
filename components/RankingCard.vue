@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const props = defineProps<{
   rank: number;
-  image?: string;
+  id?: number;
   votes?: number | string;
   projectName?: string;
   comingSoon?: boolean;
@@ -25,7 +25,7 @@ const rankClass = computed(() => {
     />
     <div class="rank" :class="rankClass">第{{ props.rank }}位</div>
     <div class="image-area">
-      <img src="/assets/images/comingsoon.webp" alt="企画写真" />
+      <img :src="`https://storage.googleapis.com/seiryo25-assets/icons/${props.id}.webp`" alt="企画写真" />
     </div>
     <div class="votes">{{ props.votes }}票</div>
     <div class="project-name">「{{ props.projectName }}」</div>
@@ -35,8 +35,13 @@ const rankClass = computed(() => {
 <style lang="scss" scoped>
 @use "@/assets/scss/_breakpoint.scss" as *;
 .ranking-card {
+  width: 80%;
   text-align: center;
   position: relative;
+
+  @include md {
+    width: 100%;
+  }
 }
 
 .big-star {
