@@ -82,7 +82,7 @@ useHead({
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
-                id="51"
+                id=51
                 votes="13"
                 projectName="LuckyDipのフレンチトースト屋さん"
                 class="rank2"
@@ -154,23 +154,23 @@ useHead({
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
-                id=100
-                votes="???"
-                projectName="Coming soon..."
+                id=19
+                votes="120"
+                projectName="謎解きゲーム"
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
-                id=100
-                votes="???"
-                projectName="Coming soon..."
+                id=9
+                votes="156"
+                projectName="WHYNUの謎解きゲーム!"
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
-                id=100
-                votes="???"
-                projectName="Coming soon..."
+                id=30
+                votes="96"
+                projectName="Art shop Eyebrows"
                 class="rank3"
               />
             </div>
@@ -185,23 +185,23 @@ useHead({
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
-                id=100
-                votes="???"
-                projectName="Coming soon..."
+                id=37
+                votes="281"
+                projectName="M's Dog"
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
-                id=100
-                votes="???"
-                projectName="Coming soon..."
+                id=44
+                votes="529"
+                projectName="鶏白湯トマト"
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
-                id=100
-                votes="???"
-                projectName="Coming soon..."
+                id=51
+                votes="263"
+                projectName="LuckyDipのフレンチトースト屋さん"
                 class="rank3"
               />
             </div>
@@ -216,23 +216,23 @@ useHead({
             <div class="ranking-holder">
               <RankingCard
                 :rank="2"
-                id=100
-                votes="???"
-                projectName="Coming soon..."
+                id=55
+                votes="206"
+                projectName="Liz2025"
                 class="rank2"
               />
               <RankingCard
                 :rank="1"
-                id=100
-                votes="???"
-                projectName="Coming soon..."
+                id=5
+                votes="354"
+                projectName="お笑いサークルわかばのライブ"
                 class="rank1"
               />
               <RankingCard
                 :rank="3"
-                id=100
-                votes="???"
-                projectName="Coming soon..."
+                id=47
+                votes="25"
+                projectName="YNUSB清陵祭コンサート"
                 class="rank3"
               />
             </div>
