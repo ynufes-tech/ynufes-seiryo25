@@ -161,7 +161,7 @@ useHead({
               />
               <RankingCard
                 :rank="1"
-                id=9
+                id=27
                 votes="156"
                 projectName="WHYNUの謎解きゲーム!"
                 class="rank1"
