@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/google-fonts', '@nuxt/eslint', 'nuxt-gtag'],
   devtools: { enabled: true },
   app: {
-    baseURL: process.env.NUXT_PUBLIC_BASE_URL,
+    baseURL: process.env.NUXT_PUBLIC_BASE_URL ?? '/25/seiryo/',
     head: {
       meta: [
         { charset: 'utf-8' },
