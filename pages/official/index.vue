@@ -196,7 +196,7 @@ useHead({
           </div>
           <div class="event-re">
             <img
-              src="/assets/images/official-events/freethrow.webp/"
+              src="~/assets/images/official-events/freethrow.webp"
               class="event_icon"
             >
             <div class="text-box">
